@@ -1,6 +1,6 @@
-# IISD Infosheets for Data Requests
+# Info Sheets for IISD-ELA Dataset Metadata
 
-Welcome! This is a repository where infosheets for several datasets for the IISD can be found.
+Welcome! This is a repository where info sheets for several datasets for the IISD-ELA can be found.
 
 Clicking on of the links below will bring you to the respective infosheet, otherwise use the directory to navigate on the left.
 
