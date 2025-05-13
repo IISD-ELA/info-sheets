@@ -187,11 +187,7 @@ degree of precision may be more coarse.
 ## Methods 
 ### Site Location
 
-Bathymetry data are collected for a selection of many of the lakes at
-IISD Experimental Lakes Area. The IISD-ELA is located in northwestern
-Ontario, Canada. The research facility buildings are located at about
-49.660, -93.728, and the experimental lakes surround the facility by
-several kilometres.
+Bathymetry data are collected for a selection of many of the lakes at IISD Experimental Lakes Area. The IISD-ELA is located in northwestern Ontario, Canada. The research facility buildings are located at about 49.660, -93.728, and the experimental lakes surround the facility by several kilometres.
 
 ### Sampling Methods
 
