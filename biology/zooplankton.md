@@ -39,14 +39,10 @@ respectively. After 1998, the final protocol change was made to lakes
 sampled with zoonets to eliminate sampling at three depth zones in
 favour of sampling the entire water column at once.*
 
-*Zooplankton taxonomy and counts have been performed by various
-individuals, though considerable efforts have been made to minimize the
-number of different analysts to reduce variability in the long-term
-record. Changes in taxonomic nomenclature and zooplankton identification
-protocols have been tracked and, where necessary, taxonomy has been
-harmonized. The original designations used by different taxonomists are
-also available. The datasets are being transferred from the Microsoft
-Access database to the Postgres master database.*
+*Zooplankton taxonomy and counts have been performed by various individuals, though considerable efforts have been made to minimize the
+number of different analysts to reduce variability in the long-term record. Changes in taxonomic nomenclature and zooplankton identification
+protocols have been tracked and, where necessary, taxonomy has been harmonized. The original designations used by different taxonomists are
+also available. The datasets are being transferred from the Microsoft Access database to the Postgres master database.*
 
 ## Considerations when using the ELA zooplankton data
 
