@@ -95,9 +95,7 @@ Keys are indicated with asterisks (here they are compound keys with more than on
 | activity_end_date | date | N/A | Day field sampling or surveying activity ended. Null or blank values indicate the end date is unknown (probably the same day or within a few days). |
 | activity_start_date | date | N/A | Day field sampling or surveying activity began. |
 | area_cumulative | numeric | metres squared | A bathymetric concept for measuring lake area at a defined depth. The upper depth represents the depth at which the area is calculated for a theoretical 2D plane (horizontal sheet). The lower depth will always be the max depth, and can be ignored. The cumulative area at upper depth 0 will be equivalent to the lake's total surface area. Compare against the concept of "area_interval". See the bathymetry info sheet for visual diagram representation of the concept. Values are calculated to 0.01 metres squared, but the error would be greater than 1 (in most cases the DEM has 1 metre resolution). |
-|  |  |  |  |
 | area_interval | numeric | metres squared | A bathymetric concept for measuring lake area at defined depth ranges. The depth ranges produce a three-dimensional horizontal slice of lake. The area is calculated as the top-down view of the lower surface (floor) of the lake captured within that depth range. Essentially it is a representation of the amount of ground or lake floor present within a depth range. However, it is a planimetric (flat) calculation of the area as it would be represented on a map (in reality, the area is 3D so would be larger). The concept may also be understood as the area filling the space between two contours of a lake on a bathymetric map (concentric "donuts"). Compare against the concept of "area_cumulative". See the bathymetry info sheet for visual diagram representation of the concept. Values are calculated to 0.01 metres squared, but the error would be greater than 1 (in most cases the DEM has 1 metre resolution). |
-|  |  |  |  |
 | area_surface | numeric | metres squared | The surface area of a lake, excluding islands and protruding boulders (where survey methods differentiated). In other words, the area_cumulative when depth_upper is zero. Values are calculated to 0.01 metres squared, but the error would be greater than 1 (in most cases the DEM has 1 metre resolution). |
 | benchmark_id | character varying | N/A | A unique identification to differentiate each benchmark at IISD Experimental Lakes Area. Benchmarks are drilled into bedrock surrounding lakes, to ensure they remain consistent. The ID is an integer and may include a letter (e.g., 58b). The benchmark ID is associated with lake level data for bathymetric surveys, and benchmark metadata such as location and elevation measurements. |
 | dataset_name | character varying | N/A | Name of the dataset - a collection of data to which several individual data records (rows) belong. This is mainly used within IISD-ELA to define groups of data across different research fields, but can also serve as a descriptive contextual definition within and outside of IISD-ELA data users. Internal database users should compare "dataset" against "data type" which is a broader category of classification. |
@@ -108,10 +106,8 @@ Keys are indicated with asterisks (here they are compound keys with more than on
 | gear_type_desc | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). |
 | general_comment | character varying | N/A | Optional additional remarks about the record that are not otherwise captured in existing fields. |
 | lake_level_asl\_ method | character varying | N/A | A description of the method used to calculate lake level in metres above sea level. |
-|  |  |  |  |
 | lake_level_m | numeric | metres | The water level of the lake on the day of survey, as measured in metres against a measuring board surveyed to a benchmark for the lake. Since there are few benchmarks at IISD-ELA that are surveyed relative to elevation above sea level, most benchmarks at ELA have been assigned an arbitrary elevation that is not relative to elevation above sea level, and in most cases are specific only to the watershed in which it is located. |
 | lake_level_m\_ asl_est | numeric | metres | An estimate of the water level of the lake on the day of survey, in metres above sea level. The value is based on a calculation requiring lake level recorded at the arbitrary lake benchmark and a survey of the elevation above sea level for the benchmark. Few benchmarks at IISD-ELA have been accurately surveyed relative to elevation above sea level. A current exception is benchmark 7a at 239 LA, which has been surveyed accurately. Other benchmark elevations were estimated from a hand-held GPS measurement or from a historical survey to the original master benchmark, with unknown accuracy. |
-|  |  |  |  |
 | method_process\_ description | character varying | N/A | A short description of the method used to process the data (from raw to derived, or further derived). |
 | method_process\_ detail | character varying | N/A | A long description of the method used to process the data (from raw to derived, or further derived). |
 | method_sample\_ description | character varying | N/A | A short description of the method used to sample the data (collect the data, in a field or lab environment). |
@@ -196,11 +192,12 @@ Raw xyz coordinate data were processed using ArcGIS geospatial analysis and cart
 
 3.  Contour Lines
     1.  Two sets of contour lines are produced: typically one at 1 m intervals and the other at greater or lesser intervals depending on the max depth of the lake – see below section of code (all numbers are in units of metres).  
-    <img src="./attachments/bathymetry/image3.png" width="250">  
-    2.  Contours are generated using the “Contour” tool from the Spatial Analyst toolset, clipped to the mask of the lake polygon area (using the raster DEM as the input).
-    3.  The lake polygon outline is used to replace the outer contour of 0 m.
-    4.  The associated attribute table is cleaned up to include only the lake name and contour line depth values.
-    5.  The two sets of contour lines are exported as final products.
+    <img src="./attachments/bathymetry/image3.png" width="250">
+
+    3.  Contours are generated using the “Contour” tool from the Spatial Analyst toolset, clipped to the mask of the lake polygon area (using the raster DEM as the input).
+    4.  The lake polygon outline is used to replace the outer contour of 0 m.
+    5.  The associated attribute table is cleaned up to include only the lake name and contour line depth values.
+    6.  The two sets of contour lines are exported as final products.
 
 <!-- -->
 
