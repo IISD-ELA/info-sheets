@@ -2,7 +2,7 @@
 
 Welcome! This is a repository where info sheets for several datasets for the IISD-ELA can be found.
 
-Clicking on of the links below will bring you to the respective infosheet, otherwise use the directory to navigate on the left.
+Clicking on of the links below will bring you to the respective infosheet, otherwise use the directory to navigate.
 
 
 ### Biology
@@ -12,7 +12,7 @@ Clicking on of the links below will bring you to the respective infosheet, other
 - [Phytoplankton](biology/phytoplankton.md)
 
 ### Chemistry
-- [Chemistry](chemistry/chem.md)
+- [Chemistry](chemistry/chemistry.md)
 
 ### Hydrology
 - [Hydrology](hydrology/.....md)
@@ -36,7 +36,7 @@ Clicking on of the links below will bring you to the respective infosheet, other
 - [Wind](meteorology/wind.md)
 
 
-## About
+## Organization structure
 Below shows how the repository is set up, with each info sheet found under its corresponding field.
 
 
@@ -64,7 +64,7 @@ Below shows how the repository is set up, with each info sheet found under its c
     │   ├── solar-radiation.md
     │   ├── snow.md
     │   └── wind.md
-    ├── limnology/
+    └── limnology/
         ├── profiles.md
         ├── ice-phenology.md
         ├── ice-thickness.md
