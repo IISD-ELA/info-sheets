@@ -1,29 +1,12 @@
-# Info Sheets for IISD-ELA Dataset Metadata
+# IISD-ELA Info Sheets
 
-Welcome! This is a repository where info sheets for several datasets for the IISD-ELA can be found.
+Welcome! This repository holds Info Sheets for most IISD-ELA datasets. Info Sheets are our user-friendly way to communicate metadata, to ensure our datasets are well understood and intepreted correctly. Each Info Sheet includes:
+- Background about the datasets
+- Methods (sampling, analysis, and any data processing)
+- Data table structuring and data dictionaries (definitions for each column in the data tables)
+- Additional information and references
 
-Clicking on of the links below will bring you to the respective infosheet, otherwise use the directory to navigate.
-
-
-### Biology
-<!-- - [Fish Recapture](biology/fish-recap.md)
-- [Fish Telemetry](biology/fish-telemtry.md) -->
-- [Zooplankton](biology/zooplankton.md)
-- [Phytoplankton](biology/phytoplankton.md)
-
-### Chemistry
-- [Chemistry](chemistry/chemistry.md)
-
-### Hydrology
-- [Hydrology](hydrology/.....md)
-
-### Limnology
-- [Lake Profiles](limnology/profiles.md)
-- [Ice Phenology](limnology/ice-phenology.md)
-- [Ice Thickness](limnology/ice-thickness.md)
-- [PAR Light Attenuation](limnology/par-light-attenuation.md)
-- [Lake Surface Temperature](limnology/lake-surface-temp.md)
-- [Bathymetry](limnology/bathymetry.md)
+Clicking a link below will bring you to the respective infosheet, otherwise feel free to use the directory to navigate. This repository is in active development, so if you are looking for an info sheet that isn't available here yet, please contact us at eladata@iisd-ela.org.
 
 ### Meteorology
 - [Air Temperature](meteorology/air-temp.md)
@@ -35,26 +18,33 @@ Clicking on of the links below will bring you to the respective infosheet, other
 - [Snow](meteorology/snow.md)
 - [Wind](meteorology/wind.md)
 
+### Physical Limnology
+- [Bathymetry](limnology/bathymetry.md)
+- [Ice Phenology](limnology/ice-phenology.md)
+- [Ice Thickness](limnology/ice-thickness.md)
+- [PAR and Light Attenuation](limnology/par-light-attenuation.md)
+- [Profiles of Lakes](limnology/profiles.md)
+- [Surface Temperature of Lakes](limnology/lake-surface-temp.md)
 
-## Organization structure
+### Hydrology
+- [Hydrology](hydrology/.....md)
+
+### Chemistry
+- [Chemistry](chemistry/chemistry.md)
+
+### Biology
+<!-- - [Fish Recapture](biology/fish-recap.md)
+- [Fish Telemetry](biology/fish-other.md) -->
+- Fish (coming in future)
+- [Zooplankton](biology/zooplankton.md)
+- [Phytoplankton](biology/phytoplankton.md)
+
+
+## Repository structure
 Below shows how the repository is set up, with each info sheet found under its corresponding field.
 
-
 ```
-# this will be a 1:1 migration of existing info sheets, meaning each file you see here has a corresponding docx version
 ./
-    ├── biology/
-    │   ├── fish-recap.md            # TBD
-    │   ├── fish-telemtry.md         # TBD
-    │   ├── zooplankton.md         
-    │   └── phytoplankton.md
-    ├── chemistry/
-    │   └── chem.md                  
-    ├── hydrology/                   # 27 of these atm
-    │   ├── site1.md
-    │   ├── site2.md
-    │   ├── site3.md
-    │   └── siteN.md
     ├── meteorology/
     │   ├── air-temp.md
     │   ├── bright-sunshine.md
@@ -64,13 +54,25 @@ Below shows how the repository is set up, with each info sheet found under its c
     │   ├── solar-radiation.md
     │   ├── snow.md
     │   └── wind.md
-    └── limnology/
-        ├── profiles.md
-        ├── ice-phenology.md
-        ├── ice-thickness.md
-        ├── par-light-attenuation.md
-        ├── lake-surface-temp.md
-        └── bathymetry.md
+    ├── limnology/
+    │   ├── profiles.md
+    │   ├── ice-phenology.md
+    │   ├── ice-thickness.md
+    │   ├── par-light-attenuation.md
+    │   ├── lake-surface-temp.md
+    │   └── bathymetry.md
+    ├── hydrology/                   # 27 to convert
+    │   ├── site1.md
+    │   ├── site2.md
+    │   ├── site3.md
+    │   └── siteN.md
+    ├── chemistry/
+    │   └── chem.md   
+    └── biology/
+        ├── fish-recap-morpho.md     # coming later
+        ├── fish-others...md         # coming later
+        ├── zooplankton.md         
+        └── phytoplankton.md
 
 ```
 

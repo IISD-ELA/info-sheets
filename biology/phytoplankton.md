@@ -1,21 +1,18 @@
 # Phytoplankton Data – Information Sheet
 
-**Authors**: IISD Experimental Lakes Area, Scott Higgins
+**Authors**: IISD Experimental Lakes Area, Scott Higgins  
+**Last Updated**: July 19, 2024  
+**Last Updated By**: Scott Higgins  
 
-**Last Updated**: July 19, 2024
-
-**Last Updated By**: Scott Higgins
-
-- [Phytoplankton Data – Information Sheet](#phytoplankton-data--information-sheet)
-  - [General Background](#general-background)
-  - [Methods](#methods)
-    - [Sampling](#sampling)
-    - [Processing](#processing)
-  - [Data Dictionary](#data-dictionary)
-    - [List of columns by table](#list-of-columns-by-table)
-    - [Column Definitions](#column-definitions)
-  - [References](#references)
-
+## Contents
+- [General Background](#general-background)
+- [Methods](#methods)
+  - [Sampling](#sampling)
+  - [Processing](#processing)
+- [Data Dictionary](#data-dictionary)
+  - [List of columns by table](#list-of-columns-by-table)
+  - [Column Definitions](#column-definitions)
+- [References](#references)
 
 ## General Background
 
@@ -95,33 +92,32 @@ Keys are indicated with asterisks (here they are compound keys with more than on
 
 ### Column Definitions
 
-   
 | **column name (alphabetical)** | **data type** | **unit** | **definition** |
 | --- | --- | --- | --- |
 | area\_catchment | numerical | kilometers squared | Area of the terrestrial catchment associated with the specified monitoring\_location\_name. This is the watershed area, not including the lake itself. |
 | area\_surface | numerical | meters squared | The surface area of the lake associated with the specified monitoring\_location\_name. The area excludes islands and protruding boulders (where survey methods differentiated). Values are calculated to 0.01 metres squared, but the error would be greater than 1 (in most cases the DEM used to calculate the area has 1 metre resolution). The area is calculated from a geospatial polygon produced from a combination of satellite imagery tracing and transects on the lake. |
 | biomass | numerical | milligrams per meter cubed | Phytoplankton biomass concentration for the specified taxon (estimate; wet weight). |
-| chlorophyte\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
-| chrysophyte\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| chlorophyte\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| chrysophyte\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
 | class | text | n/a | taxonomic unit |
-| cryptophyte\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
-| cyanobacteria\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| cryptophyte\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| cyanobacteria\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
 | date\_collected | date | n/a | Sample collection date. |
 | density | numerical | number per meter cubed | Density of individuals present from the taxon (abundance over volume). |
 | depth\_lower | numerical | meters | The lower depth level in consideration of the depth range for the characteristic and value in question. For example, in a depth range of 2.5 to 5.0 metres deep, the lower depth is 5.0. |
 | depth\_max | numerical | meters | The maximum depth of the lake associated with the specified monitoring\_locaiton\_name. That is, the depth at the deepest point on the day of survey. The value is calculated from a GIS raster DEM, produced using sonar data from transects across the lake and using satellite imagery to trace its extent. Values are calculated to 0.01 metres, corresponding in most cases with raw sonar readings provided to 0.01 metres, but the degree of error would be greater. |
 | depth\_mean | numerical | meters | The mean (average) depth of the lake associated with the specified monitoring\_location\_name. The value is calculated from a GIS raster DEM, so is based on the depth values across the entire lake. The DEM was produced using sonar data from transects across the lake, and using satellite imagery to trace its extent. Values are calculated to 0.01 metres, corresponding in most cases with raw sonar readings provided to 0.01 metres, but the degree of error would be greater. |
 | depth\_upper | numerical | meters | The upper depth level in consideration of the depth range for the characteristic and value in question. For example, in a depth range of 2.5 to 5.0 metres deep, the upper depth is 2.5. |
-| diatoms\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
-| dinoflagellate\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
-| euglenophyte\_<br><br>biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| diatoms\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| dinoflagellate\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
+| euglenophyte\_ biomass | numerical | milligram per meter cubed | Biomass of phytoplankton group. |
 | family | text | n/a | taxonomic unit |
 | genus | text | n/a | taxonomic unit |
 | group | categorical | n/a | A non-monophylogenetic group used for practical purposes in phytoplankton research, around division and phylum level of taxonomic resolution. |
 | latitude | numerical | decimal degrees | Latitude part of the coordinates of the specified location. In the context of the lake metadata table, it is the latitude of the lake's centre buoy location, determined using handheld GPS. |
 | longitude | numerical | decimal degrees | Longitude part of the coordinates of the specified location. In the context of the lake metadata table, it is the longitude of the lake's centre buoy location, determined using handheld GPS. |
 | mixing\_status | categorical | n/a | Lakes at the ELA research facility are usually defined as ‘dimictic’ or ‘polymictic’. The vertical water column of dimictic lakes mix partially or completely twice each year (typically in spring after ice-out and in late autumn prior to complete ice formation). |
-| monitoring\_<br><br>location\_name | text | n/a | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. The name consists of: <location> or <location sublocation> or <location sublocation station>. Location is typically the lake number (each lake is named with a number, representing the lake's geographical watershed), sublocation typically specifies LA for "lake" (or a basin, e.g. NB - north basin, or other), and station is usually CB ("centre buoy" - at about the deepest point of the lake). Some names do not have all three parts since a broader area is in question (e.g. for bathymetry, the entire lake, not just the centre buoy). |
+| monitoring\_ location\_name | text | n/a | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. The name consists of: <location> or <location sublocation> or <location sublocation station>. Location is typically the lake number (each lake is named with a number, representing the lake's geographical watershed), sublocation typically specifies LA for "lake" (or a basin, e.g. NB - north basin, or other), and station is usually CB ("centre buoy" - at about the deepest point of the lake). Some names do not have all three parts since a broader area is in question (e.g. for bathymetry, the entire lake, not just the centre buoy). |
 | order | text | n/a | taxonomic unit |
 | order\_lake | categorical | n/a | The position of the lake within the drainage network. First order lakes (lake\_order=1) are headwater lakes, second order lakes (lake\_order= 2) receive surface water inflows from 1 upstream lake, etc. |
 | phylum | text | n/a | taxonomic unit |
@@ -137,13 +133,8 @@ Keys are indicated with asterisks (here they are compound keys with more than on
 
 ## References
 
-Nauwerk. A. 1963. Die Beziechungen Zwischen Zooplankton und
-Phytotoplankton in see Erken. Symb. Bot. Ups. 17: 163p.
+Nauwerk. A. 1963. Die Beziechungen Zwischen Zooplankton und Phytotoplankton in see Erken. Symb. Bot. Ups. 17: 163p.
 
-Shearer, J.A. 1978. Two devices for obtaining water samples from depth.
-Can. J. Fish. Mar. Sewrv. Tech. Rep. 772: 9p.
+Shearer, J.A. 1978. Two devices for obtaining water samples from depth. Can. J. Fish. Mar. Sewrv. Tech. Rep. 772: 9p.
 
-Vollenweider, R.A. 1968. Scientific fundamentals of the eutrophication
-of lakes and flowing waters, with particular reference to nitrogen and
-phosphorus as factors in eutrophication. Tech. Rep. O.E.C.D. Paris
-Das/CS1/68.27: 182 p.
+Vollenweider, R.A. 1968. Scientific fundamentals of the eutrophication of lakes and flowing waters, with particular reference to nitrogen and phosphorus as factors in eutrophication. Tech. Rep. O.E.C.D. Paris Das/CS1/68.27: 182 p.
