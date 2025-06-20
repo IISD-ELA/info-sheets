@@ -1,32 +1,30 @@
 # Ice Phenology Information Sheet
 
-**Authors**: Ken Beaty, Ken Sandilands, Paul Fafard, Chris Hay, Scott Higgins, Delvin So
+**Authors**: Ken Beaty, Ken Sandilands, Paul Fafard, Chris Hay, Scott Higgins, Delvin So  
+**Last Updated**: 2025-06-16  
+**Last Updated By**: Delvin So  
 
-**Last Updated**: 2025-06-16
-
-
-
-- [Ice Phenology Information Sheet](#ice-phenology-information-sheet)
-    - [General Information](#general-information)
-        - [Background of the Dataset](#background-of-the-dataset)
-        - [Lake Size vs. Ice Phenology Relationship](#lake-size-vs-ice-phenology-relationship)
-        - [Significance to IISD-ELA, and Research Applications](#significance-to-iisd-ela-and-research-applications)
-        - [Predicting Ice-on and Ice-off](#predicting-ice-on-and-ice-off)
-    - [Data Dictionary](#data-dictionary)
-        - [List of columns](#list-of-columns)
-            - [Ice Watch](#ice-watch)
-            - [Ice Phenology long](#ice-phenology-long)
-        - [Column Definitions](#column-definitions)
-            - [Ice Watch](#ice-watch)
-            - [Ice Phenology](#ice-phenology)
-        - [Parameter Definitions](#parameter-definitions)
-    - [Methods](#methods)
-        - [Method Codes](#method-codes)
-        - [Ground-based visual observations ICE1](#ground-based-visual-observations-ice1)
-            - [Ice-Off](#ice-off)
-            - [Ice–On](#iceon)
-            - [Vantage Points](#vantage-points)
-        - [Trail cameras and satellite imagery ICE2](#trail-cameras-and-satellite-imagery-ice2)
+## Contents
+- [General Information](#general-information)
+    - [Background of the Dataset](#background-of-the-dataset)
+    - [Lake Size vs. Ice Phenology Relationship](#lake-size-vs-ice-phenology-relationship)
+    - [Significance to IISD-ELA, and Research Applications](#significance-to-iisd-ela-and-research-applications)
+    - [Predicting Ice-on and Ice-off](#predicting-ice-on-and-ice-off)
+- [Data Dictionary](#data-dictionary)
+    - [Tables and Lists of Columns](#list-of-columns)
+        - [Ice Phenology - Table info and columns](#ice-phenology---table-info-and-columns)
+        - [Ice Watch - Table info and columns](#ice-watch---table-info-and-columns)
+    - [Column Definitions](#column-definitions)
+        - [Ice Phenology - Column Definitions](#ice-phenology---column-definitions)
+        - [Ice Watch - Column Definitions](#ice-watch---column-definitions)
+    - [Parameter Definitions](#parameter-definitions)
+- [Methods](#methods)
+    - [Method Codes](#method-codes)
+    - [Ground-based visual observations ICE1](#ground-based-visual-observations-ice1)
+        - [Ice-Off](#ice-off)
+        - [Ice–On](#iceon)
+        - [Vantage Points](#vantage-points)
+    - [Trail cameras and satellite imagery ICE2](#trail-cameras-and-satellite-imagery-ice2)
 - [References](#references)
 
 
@@ -46,9 +44,7 @@ Historically, Lake 239 ice phenology records served as a qualitative index of th
 
 Overall, for lakes with surface areas between 0.2 – 10 km<sup>2</sup> (20 – 1000 ha) the difference in ice-on dates is, on average, 30 to 45 days (i.e. the largest lakes become ice-covered 30-45 days after the smallest lakes). During the spring, the difference is smaller with the ice-off dates for the largest lakes occurring, on average, 10-21 days after ice-off on the smallest lakes. Overall, the difference in the duration of ice-cover is, on average, 22-38 days across the range in lake size.
 
-For information on the size, depth, and volume of Lake 239 and other nearby lakes, please consult the most recent version of our IISD-ELA bathymetry data package: <https://portal.edirepository.org/nis/revisionbrowse?scope=edi&identifier=1276>
-
-(as of writing, IISD Experimental Lakes Area 2023).
+For information on the size, depth, and volume of Lake 239 and other nearby lakes, please consult the most recent version of our IISD-ELA bathymetry data package: <https://portal.edirepository.org/nis/revisionbrowse?scope=edi&identifier=1276> (as of writing, IISD Experimental Lakes Area 2025).
 
 ### Significance to IISD-ELA, and Research Applications
 
@@ -70,99 +66,77 @@ More recently, IISD-ELA have combined long-term ice phenology data with meteorol
 
 ## Data Dictionary
 
-### List of columns
+### Tables and Lists of Columns
 
 Key columns (compound keys) are indicated with asterisks (\*).
 
-#### Ice Watch 
-
-Table: `lim_ice_watch` 
-
--	dataset_code
-
--	record_key*
-
--	date
-
--	time
-
--	observer
-
--	observer_other
-
--	monitoring_location_name
-
--	observation_point
-
--	wind_dir
-
--	weather_condition
-
--	visibility
-
--	ice_cover_type
-
--	ice_cover_pct_est
-
--	notes_ice_edge
-
--	notes_refreeze_rethaw
-
--	season_ice_phen
-
--	comments
-
--	lon_dd
-
--	lat_dd
-
--	photo_name
-
--	photo_direction
-
--	quality_issue_flag
-
--	quality_issue_comment
-
--	update_date
-
--	account
-
--	version
-
-#### Ice Phenology (long)
-
-Table: `lim_ice_dates_obs_annu_manu`
+#### Ice Phenology - Table info and columns
+Table name: `lim_ice_dates_obs_annu_manu`  
+This is the main table with the most important information: ice-on, ice-off, and duration of ice season.
+<p style="margin-bottom:0">List of columns:</p>
 
 - dataset_name
-
 - monitoring_location_name\*
-
 - characteristic_name\*
-
 - activity_start_date\*
-
 - activity_end_date
-
 - result_value
-
 - result_unit
-
 - method_sample_code
-
 - result_comment
-
 - update_date
 
+#### Ice Watch - Table info and columns
+Table name: `lim_ice_watch`  
+This is a newer table (2024 onward) based on a field form used to obtain more detailed "raw" metadata surrounding each ice observation.
+<p style="margin-bottom:0">List of columns:</p>
 
+-	dataset_code
+-	record_key*
+-	date
+-	time
+-	observer
+-	observer_other
+-	monitoring_location_name
+-	observation_point
+-	wind_dir
+-	weather_condition
+-	visibility
+-	ice_cover_type
+-	ice_cover_pct_est
+-	notes_ice_edge
+-	notes_refreeze_rethaw
+-	season_ice_phen
+-	comments
+-	lon_dd
+-	lat_dd
+-	photo_name
+-	photo_direction
+-	quality_issue_flag
+-	quality_issue_comment
+-	update_date
+-	account
+-	version
 
 ### Column Definitions
 
-#### Ice Watch
+#### Ice Phenology - Column Definitions
 
-Table: `lim_ice_watch` 
+ Column name (alphabetical) | data type | unit| definition 
+----------------------------|-------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ activity_end_date  | date      | day | For ice on or ice off rows this is left empty. For ice duration rows this is the associated ice off date.
+ activity_start_date        | date      | day | For ice on or ice off rows this is the associated date. For ice duration rows this is the associated ice on date.   
+ characteristic_name        | character varying | N/A                 | The parameter being measured. For ice phenology, ice on, ice off, or ice duration. 
+ dataset_name       | character varying | N/A                 | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context.     
+ method_sample_ code     | character varying | N/A                 | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected or measured in the field). A key to look up descriptions for codes should be included with the associated Information Sheet for the dataset in question.       
+ monitoring_location_name   | character varying | N/A                 | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. The name consists of: &lt;location&gt; or &lt;location sublocation&gt; or &lt;location sublocation station&gt;. Location is typically the lake number (each lake is named with a number, representing the lake's geographical watershed), sublocation which typically specifies LA for "lake" (or a basin, e.g. NB - north basin, or other), and station which is usually CB ("centre buoy" - at about the deepest point of the lake). Some names do not have all three parts since a broader area is in question (e.g. for bathymetry, the entire lake, not just the centre buoy). 
+ result_comment     | character varying | N/A                 | Remarks about the record or its collection. For ice phenology, this includes information about re-freeze or re-thaw events, which can be used to modify ice on, ice off, and ice duration to fit different definitions.    
+ result_unit        | character varying | N/A                 | Units of measure for the result value, associated with the characteristic name parameter.  
+ result_value       | numeric   | variable - see column "result_unit" | The result value for the characteristic name in question. Basically, this is the meaningful number measured or determined for the parameter in question. This column is usually used for long-form (vs. wide) data tables.        
+ update_date        | date      | day                 | Date the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. Format: YYYY-MM-DD.       
+<br>
 
-
+#### Ice Watch - Column Definitions
 
 | column name               | data type           | unit   | definition |
 |---------------------------|---------------------|--------|------------|
@@ -192,25 +166,7 @@ Table: `lim_ice_watch`
 | update_date               | date                |        | The date the record was inserted or updated in the table. YYYY-MM-DD            |
 | account                   | varchar(30)         |        | The username of the individual responsible for the insert or update.         |
 | version                   | smallint            |        | Defaults to 1, incremented by 1 for each update made thereafter.        |
-
-#### Ice Phenology
-
-Table: `lim_ice_dates_obs_annu_manu`
-
- Column name (alphabetical) | data type         | unit                                | definition                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-----------------------------|-------------------|-------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- activity_end_date          | date              | day                                 | For ice on or ice off rows this is left empty. For ice duration rows this is the associated ice off date.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
- activity_start_date        | date              | day                                 | For ice on or ice off rows this is the associated date. For ice duration rows this is the associated ice on date.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
- characteristic_name        | character varying | N/A                                 | The parameter being measured. For ice phenology, ice on, ice off, or ice duration.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
- dataset_name               | character varying | N/A                                 | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context.                                                                                                                                                                                                                                                                                                                                                                                                                                        
- method_sample_<br>code     | character varying | N/A                                 | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected or measured in the field). A key to look up descriptions for codes should be included with the associated Information Sheet for the dataset in question.                                                                                                                                                                                                                                                                                                                                                                                        
- monitoring_location_name   | character varying | N/A                                 | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. The name consists of: &lt;location&gt; or &lt;location sublocation&gt; or &lt;location sublocation station&gt;. Location is typically the lake number (each lake is named with a number, representing the lake's geographical watershed), sublocation which typically specifies LA for "lake" (or a basin, e.g. NB - north basin, or other), and station which is usually CB ("centre buoy" - at about the deepest point of the lake). Some names do not have all three parts since a broader area is in question (e.g. for bathymetry, the entire lake, not just the centre buoy). 
- result_comment             | character varying | N/A                                 | Remarks about the record or its collection. For ice phenology, this includes information about re-freeze or re-thaw events, which can be used to modify ice on, ice off, and ice duration to fit different definitions.                                                                                                                                                                                                                                                                                                                                                                                                                                                             
- result_unit                | character varying | N/A                                 | Units of measure for the result value, associated with the characteristic name parameter.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
- result_value               | numeric           | variable - see column "result_unit" | The result value for the characteristic name in question. Basically, this is the meaningful number measured or determined for the parameter in question. This column is usually used for long-form (vs. wide) data tables.                                                                                                                                                                                                                                                                                                                                                                                                                                                          
- update_date                | date              | day                                 | Date the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. Format: YYYY-MM-DD.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-
-
+<br>
 
 ### Parameter Definitions
 
@@ -244,7 +200,6 @@ The date of "ice -off" is defined as being the last date on which 80% or more of
 The date of “ice-on” is defined as the first date where the lake is 80% or more ice covered. The precise date for ice-on is generally more difficult to quantify than ice-off, since the formation of thin ice-layers may be subsequently broken up by wind induced turbulence. Considering the original use for the data, it was usually adequate to know when the lake was “effectively ice covered” and was defined as the first date that the ice cover had reached 80% or greater. In most years when applicable, both the 80% and 100% dates were recorded if freezing was gradual, however the 80% frozen date is used as the official date for consistency. The date on which ice first appeared along shorelines and small bays was not normally recorded. Typically, the main body of the lake freezes over all at once in one night. However, in some years, the lake freezes gradually, resulting in a partial ice sheet for a varying number of days before completely freezing over. This was the case in at least two ice-on dates (2009 and 2015) on record. The following field notes illustrate three examples of typical situations.
 
 Field notes: 
-
 - Nov 26, 2009 L.239, no ice
 - Dec 3 \<50% ice cover
 - Dec 4 ~60% ice cover
@@ -269,11 +224,8 @@ The lengthy freeze of the lake in 2015 was due to abnormally warm weather in lat
 #### Vantage Points
 
 Vantage points that have been used to view the ice on Lake 239 include:
-
 - The dock on Lake 239
-
 - The meteorological site
-
 - The top of Lake 303 ridge on the road.
 
 A high vantage point is best. It can be quite difficult to estimate cover from a low vantage point, see example above (Dec 20, 2015). Following the forest fire in 1980, the latter two locations offered a good view of the lake, however in recent years the gradual increase in tree height now obscures the view almost entirely.
@@ -290,7 +242,7 @@ In general, the orientation of cameras is in part practical, but also is intende
 
 A combination of Bushnell, Moultrie, and Reconyx brand cameras were deployed on trees along the shorelines of the lakes (similarly to the Lake 239 camera positions described above). Cameras typically collect hourly photos. For larger lakes where the camera field of view included only a small proportion of lake area (i.e., an embayment), the photos were used to ground truth satellite imagery, which was then used to estimate the ice-on or ice-off date of the lake.
 
-# References
+## References
 
 Higgins, S., Desjardins, C. M., Drouin, H., Hrenchuk, L. E., & Van Der Sanden, J. J. (2021). The Role of Climate and Lake Size in Regulating the Ice Phenology of Boreal Lakes. *Journal of Geophysical Research*, *126*(3), nan. [https://doi.org/https://doi.org/10.1029/2020jg005898](https://doi.org/https:/doi.org/10.1029/2020jg005898)
 
