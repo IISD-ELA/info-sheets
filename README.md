@@ -9,7 +9,7 @@ Welcome! This repository holds Info Sheets for most IISD-ELA datasets. Info Shee
 Clicking a link below will bring you to the respective infosheet, otherwise feel free to use the directory to navigate. This repository is in active development, so if you are looking for an info sheet that isn't available here yet, please contact us at eladata@iisd-ela.org.
 
 ### Meteorology
-- [Air Temperature](meteorology/air-temp.md)
+- [Air Temperature](meteorology/air-temperature.md)
 - [Bright Sunshine](meteorology/bright-sunshine.md)
 - [Evaporation Pan](meteorology/evaporation-pan.md)
 - [Precipitation](meteorology/precipitation.md)
