@@ -23,7 +23,7 @@ Clicking a link below will bring you to the respective infosheet, otherwise feel
 - [Ice Phenology](limnology/ice-phenology.md)
 - [Ice Thickness](limnology/ice-thickness.md)
 - [PAR and Light Attenuation](limnology/par-light-attenuation.md)
-- [Profiles of Lakes](limnology/profiles.md)
+- [Profiles of Lakes from Sondes](limnology/profiles.md)
 - [Surface Temperature of Lakes](limnology/lake-surface-temp.md)
 
 ### Hydrology
