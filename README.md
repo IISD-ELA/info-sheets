@@ -19,12 +19,12 @@ Clicking a link below will bring you to the respective infosheet, otherwise feel
 - [Wind](meteorology/wind.md)
 
 ### Physical Limnology
-- [Bathymetry](limnology/bathymetry.md)
-- [Ice Phenology](limnology/ice-phenology.md)
-- [Ice Thickness](limnology/ice-thickness.md)
-- [PAR and Light Attenuation](limnology/par-light-attenuation.md)
-- [Profiles of Lakes from Sondes](limnology/profiles.md)
-- [Surface Temperature of Lakes](limnology/lake-surface-temp.md)
+- [Bathymetry](physical-limnology/bathymetry.md)
+- [Ice Phenology](physical-limnology/ice-phenology.md)
+- [Ice Thickness](physical-limnology/ice-thickness.md)
+- [PAR and Light Attenuation](physical-limnology/par-kd.md)
+- [Profiles of Lakes from Sondes](physical-limnology/profiles.md)
+- [Surface Temperature of Lakes](physical-limnology/surface-temp.md)
 
 ### Hydrology
 - [Hydrology](hydrology/.....md)
@@ -54,7 +54,7 @@ Below shows how the repository is set up, with each info sheet found under its c
     │   ├── solar-radiation.md
     │   ├── snow.md
     │   └── wind.md
-    ├── limnology/
+    ├── physical-limnology/
     │   ├── profiles.md
     │   ├── ice-phenology.md
     │   ├── ice-thickness.md
