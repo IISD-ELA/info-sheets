@@ -38,41 +38,41 @@ In July, 1979, a weir was installed on a small intermittent stream entering the 
 Photographs</u>
 
 <figure>
-<img src="md\attachments/media/image1.jpeg" />
+<img src="./attachments/L114_img1.png" width = 600>
 <figcaption><p>Figure 1. H-Flume installed at Lake 114 Outflow in 1970 by Water Survey of Canada.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image2.jpeg" />
+<img src="./attachments/L114_img2.png" width = 600>
 <figcaption><p>Figure 2. Lake 114 Outflow weir constructed in October 2000 by ELA Staff.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image3.jpeg" />
+<img src="./attachments/L114_img3.png" width = 600>
 <figcaption><p>Figure 3. Lake 114 lake level station installed October 1980 by Water Survey of Canada.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image4.jpeg" />
+<img src="./attachments/L114_img4.png" width = 600>
 <figcaption><p>Figure 4. Upper area of Lake 114 Inflow terrestrial sub-catchment after scarification in 1979.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image5.jpeg" />
+<img src="./attachments/L114_img5.png" width = 600>
 <figcaption><p>Figure 5. Lower portion of Lake 114 Inflow terrestrial sub-catchment and weir site after scarification in August 1979.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image6.jpeg" />
+<img src="./attachments/L114_img6.png" width = 600>
 <figcaption><p>Figure 6. First weir under construction at lake 114 Inflow in August 1979.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image7.jpeg" />
+<img src="./attachments/L114_img7.png" width = 400>
 <figcaption><p>Figure 7. Second weir at Lake 114 Inflow constructed in 1983 by ELA Staff.</p></figcaption>
 </figure>
 
 <figure>
-<img src="md\attachments/media/image8.jpeg" />
+<img src="./attachments/L114_img8.png" width = 400>
 <figcaption><p>Figure 8. Concrete wing walls to divert storm runoff to weir (1983).</p></figcaption>
 </figure>
