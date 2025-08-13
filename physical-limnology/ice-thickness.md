@@ -33,19 +33,56 @@ As the winter progresses and air temperatures decline, this “slush ice” can 
 It is possible to have a variety of ice conditions ranging from simple to complex over the course of the same winter, depending on factors such as snow thickness and air temperatures. It is even possible for more complex profiles to change to more simple profiles.
 
 Here is a diagram of ice conditions that may be experienced, from simple to more complex profiles:
-|  |  |
-| --- | --- |
-| 1\. Simple<br>&emsp;a = black ice<br>&emsp;b = snow | <img src="./attachments/ice_condition_1.png" width = 457 />|
-| 2\. Complex<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = hidden slush | <img src="./attachments/ice_condition_2.png" width = 457 /> |
-| 3\. More complex:<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = slush<br>&emsp;d = white ice | <img src="./attachments/ice_condition_3.png" width = 457 /> |
-| 4\. More complex:<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = slush<br>&emsp;d = white ice<br>&emsp;e = water or slush | <img src="./attachments/ice_condition_4.png" width = 457 /> |
-| 5\. Most complex:<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = slush<br>&emsp;d1 = white ice (upper)<br>&emsp;d2 = white ice (lower)<br>&emsp;e = water or slush | <img src="./attachments/ice_condition_5.png" width = 457 /> |
+<table>
+  <tr>
+    <td>1. Simple<br>&emsp;a = black ice<br>&emsp;b = snow</td>
+    <td><img src="./attachments/ice_condition_1.png" width="457" /></td>
+  </tr>
+  <tr>
+    <td>2. Complex<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = hidden slush</td>
+    <td><img src="./attachments/ice_condition_2.png" width="457" /></td>
+  </tr>
+  <tr>
+    <td>3. More complex:<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = slush<br>&emsp;d = white ice</td>
+    <td><img src="./attachments/ice_condition_3.png" width="457" /></td>
+  </tr>
+  <tr>
+    <td>4. More complex:<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = slush<br>&emsp;d = white ice<br>&emsp;e = water or slush</td>
+    <td><img src="./attachments/ice_condition_4.png" width="457" /></td>
+  </tr>
+  <tr>
+    <td>5. Most complex:<br>&emsp;a = black ice<br>&emsp;b = snow<br>&emsp;c = slush<br>&emsp;d1 = white ice (upper)<br>&emsp;d2 = white ice (lower)<br>&emsp;e = water or slush</td>
+    <td><img src="./attachments/ice_condition_5.png" width="457" /></td>
+  </tr>
+</table>
+
+
+<!-- 
+Note: The above table is in html, otherwise the markdown version doesn't convert nicely to html when you want to use pandoc to convert md to html, e.g. to have static copies of the info sheet for repository submissions. But I am including the markdown version of the table here too, in case it is useful in future.
+| **column name (alphabetical)** | **data type** | **unit** | **definition** |
+| --- | --- | --- | --- |
+| black\_ice\_thickness | numeric | cm  | The thickness of the black ice layer above the lake water. It is an automatically calculated value based on subtracting the thickness of any white ice layer(s) and slush or water layers between the ice from the total ice thickness. See ‘a’ in diagrams above. |
+| comments | character varying | N/A | Remarks about the record or its collection. |
+| dataset\_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. |
+| depth\_units | character varying | N/A | This column exists for the ice depths dataset only to convey that all the layers are measured in centimetres. All the records in this dataset have thickness of ice, slush, snow, or water measured in centimetres. This column is included to help ensure the data user interprets the units correctly, in case the metadata are not examined, and without having to append "\_cm" to each of the seven thickness column names. |
+| method\_sample\_code | character varying | N/A | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected or measured in the field). A key to codes and descriptions should be included with the associated Information Sheet for the dataset in question. |
+| monitoring\_location\_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. The name consists of: <location> or <location sublocation> or <location sublocation station>. Location is typically the lake number (each lake is named with a number, representing the lake's geographical watershed), sublocation which typically specifies LA for "lake" (or a basin, e.g. NB - north basin, or other), and station which is usually CB ("centre buoy" - at about the deepest point of the lake). Some names do not have all three parts since a broader area is in question (e.g. for bathymetry, the entire lake, not just the centre buoy). |
+| sample\_date | date | day | The day the field sampling or surveying activity was carried out to collect the data in the record. Format: YYYY-MM-DD |
+| sample\_time | character varying | minute | The time the field sampling or surveying activity was carried out to collect the data in the record. Format: HH:MM |
+| slush\_depth\_over\_ice | numeric | cm  | The thickness of the slush layer above the lake ice (if present). It is measured to nearest half centimetre. See ‘c’ in diagrams above. |
+| slush\_present | boolean | N/A | A boolean note for whether slush was present (slush\_present = TRUE) or absent (slush\_present = FALSE). Slush is partially melted or waterlogged snow, with a thick texture. Historically, this was recorded as a parameter when measuring ice thickness, so in some cases it may be TRUE although slush was not measured, or was only noted in the comments. In recent years, it is automatically calculated based on if slush\_depth\_over\_ice is greater than zero (note: it is associated with slush over the ice, not the slush between ice layers, if present). |
+| snow\_depth\_over\_ice | numeric | cm  | The thickness of the snow layer above the lake ice (if present). It is measured to nearest half centimetre. See ‘b’ in diagrams above. |
+| total\_ice\_thickness | numeric | cm  | The total ice thickness over the lake at the measured location, in centimetres (cm). It is measured in the field and includes everything from the top of the upper white ice layer down to the bottom of the black ice layer. That is, it represents the sum of: the upper white ice layer, the slush or water layer between the ice, the lower white ice layer, and the black ice layer (i.e. does not include the upper layers of snow or slush, if present). |
+| update\_date | date | day | Date the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. Format: YYYY-MM-DD. |
+| water\_or\_slush\_layer<br>\_bw\_ice\_thickness | numeric | cm  | The thickness of the water or slush layer between layers of lake ice, if present. It is measured to nearest half centimetre. See ‘e’ in diagrams above. |
+| white\_ice\_lower\_thickness | numeric | cm  | The thickness of the lower white ice layer, if upper and lower white ice layers are present (if there is only one white ice layer, the measurement is noted as the upper white ice layer thickness). It is measured to nearest half centimetre. See ‘d2’ in diagram above. |
+| white\_ice\_upper\_<thickness | numeric | cm  | The thickness of the white ice layer (or upper white ice, if a lower white ice layer is present). It is measured to nearest half centimetre. See ‘d’ and ‘d1’ in diagrams above. |
+-->
 
 # Data Dictionary
 
 ## Column definitions
 
-   
 | **column name (alphabetical)** | **data type** | **unit** | **definition** |
 | --- | --- | --- | --- |
 | black\_ice\_thickness | numeric | cm  | The thickness of the black ice layer above the lake water. It is an automatically calculated value based on subtracting the thickness of any white ice layer(s) and slush or water layers between the ice from the total ice thickness. See ‘a’ in diagrams above. |
