@@ -170,7 +170,7 @@ The result detection limit values (result_detection_quantitation_limit_measure) 
 
 - Initially average detection limits were calculated and applied as annual averages per parameter (characteristic_name), but these were all changed-over to be detection limits per run, by the end of 2024. Given the finer scale of analytical run detection limits, the data user can average per year or summarize whichever way they deem fit.
 
-- Whether a result value is above or below detection is determined at the time of data entry. If the result is below detection, typically the result_value is entered as 0, but sometimes the actual (below detection) value is noted instead. **It is up to the data user to examine the result_value vs. detection limit and decide how they will handle below detection records.**
+- The actual result value is always entered, regardless of whether it was below the detection limit, except when the value is negative or '0'. **It is up to the data user to examine the result_value vs. detection limit and decide how they will handle below detection records.**
 
 - A description of how the detection limit is calculated is described in the third edition of The Chemical Analysis of Freshwater (Havens et al. 2024). It is calculated for each run by using equations 1 through 3:
 
