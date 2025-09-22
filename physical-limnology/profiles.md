@@ -29,13 +29,16 @@ Update History: 2025-04-28
 
 # General
 
-This information sheet is intended as a data-users guide to the limnology profiles data. It includes a data dictionary as well as details on sampling methods, processing methods, and gear/instrumentation. This info sheet is based on a previous info sheet focused more specifically on RBRs. RBR data make up the majority of recent limnology profile data, but sometimes other devices and methods are still used, and historically RBRs were not used at ELA as they were not available. Some sections of this info sheet need some copy/edit work to better fit this broader context (profile data broadly, vs. RBRs specifically).
+This information sheet is intended as a data-users guide to the limnology profiles data. It includes a data dictionary as well as details on sampling methods, processing methods, and gear/instrumentation. This info sheet is based on a previous info sheet focused more specifically on RBRs. RBR data make up the majority of recent limnology profile data. Historically RBRs were not used at ELA as the technology did not yet exist, and in more recent years although RBRs are used, we also sometimes use other instruments as well for additional data collection. Some sections of this info sheet need some copy/edit work to better fit this broader context (profile data broadly, vs. RBRs specifically).
 
 The RBR info sheet (that this info sheet is based on) described the methods for operating the RBR XRX620 CTD+ multi-parameter probes and RBR Maestro<sup>3</sup> multi-channel loggers (RBRs). RBRs are used to collect data on multiple physical limnological parameters, listed under ‘Instrumentation’ below. These instruments are used in concert with Campbell Scientific CR1000 data loggers (for XRX620 CTD+) or Campbell Scientific CR350 (for Maestro<sup>3</sup>), which provide power to the RBRs and storage for the high-resolution data collected. This instrument setup is the standard used for the collection of temperature and oxygen profile data by the ELA HydroLim team. All active lakes (both LTER and experimental) are sampled by the HydroLim team each season.
 
 Data are offloaded from the data loggers using LoggerNet software. Profile data are stored and processed using AQUARIUS software, before being uploaded to the ELA master database.
 
-\*\* These probes are integrated with the RBR.
+<!-- This text was transferred from the original info sheet, maybe someone was starting a paragraph or table and never actually added it? This: \*\* These probes are integrated with the RBR. -->
+
+This dataset of profiles from sondes comes from a variety of sampling programs at IISD-ELA. Most of our profile data comes from regular sampling of reference lakes from our LTER program (Long-Term Ecological Research) and is collected by the hydrolim crew (with RBR sondes in recent years). Since 2017, data have also been collected with a YSI sonde for our BSM program (BroadScale Monitoring), which is conducted by fish crew staff on different, rarely-surveyed lakes each year. The BSM program has a data gap in 2020 and 2021 due to logistical constraints from the COVID pandemic, and the number of records varies year-to-year depending on the number of lakes surveyed and their depth. Prior to 2017, the fish crew also used YSI sondes to survey lakes used for specific projects (e.g. manipulated lakes). Various other survey efforts have been conducted over the years, but hydrolim LTER and fish crew BSM and project-related data are the main three sources of data, at least in recent years (2000 onward). 
+
 
 ## Background
 
