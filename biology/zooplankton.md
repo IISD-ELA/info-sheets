@@ -1,8 +1,8 @@
 # Zooplankton Data – Information Sheet
 
 Authors: IISD Experimental Lakes Area, Michael Paterson, Patrique Bulloch, Chris Hay  
-Last Updated: 2025-06-06  
-Last Updated by: Michael Paterson  
+Last Updated: 2025-10-03  
+Last Updated by: Chris Hay  
 
 ## Contents
 - [General Information](#general-information)
@@ -171,17 +171,211 @@ to do or separate document
 
 # Data Dictionary
 
-## List of columns by table
+## List of tables and views
+There are datasets, each corresponding with one table and one view. These are best summarized with this overview table, based on a few key criteria: level, meta/data type, and taxonomy. From top to bottom roughly corresponds with less to more processed data. Which dataset you use will depend on your needs. For example, do you just want a list of samples and when they were collected,  species-level data for each sample (harmonized into a common taxonomy over time periods/ analyst taonomists), or do you want biomass data summarized into a handful of taxonomic groups?
 
-To-do
+| Dataset Code | Dataset Name                                                    | Table Name                   | View Name | Level                | Meta/data table type         | Taxonomy type                            |
+| ------------ | --------------------------------------------------------------- | ---------------------------- | --------- | -------------------- | ---------------------------- | ---------------------------------------- |
+| Z01          | Zooplankton raw samples metadata                             | bio_zoop_raw_sampling        | …_view    | Raw                  | Metadata on samples          | N/A                                      |
+| Z02          | Zooplankton raw density data                                 | bio_zoop_raw_density         | …_view    | Raw                  | Data - Abundance             | Raw                                      |
+| Z03          | Zooplankton processed data -<br>samples metadata                | bio_zoop_proc_sampling       | …_view    | Processed (taxa/spp) | Metadata on samples          | N/A                                      |
+| Z04          | Zooplankton processed data -<br>abundance and biomass for the<br>original taxonomy | bio_zoop_proc_abd_biom_og    | …_view    | Processed (taxa/spp) | Data - Abundance and Biomass | Original                                 |
+| Z05          | Zooplankton processed data -<br>abundance and biomass for the<br>common (harmonized) taxonomy | bio_zoop_proc_abd_biom_comm  | …_view    | Processed (taxa/spp) | Data - Abundance and Biomass | Common                                   |
+| Z06          | Zooplankton processed data -<br>abundance and biomass at the<br>group level (higher<br>taxonomic level summary) | bio_zoop_proc_biomass_groups | …_view    | Processed (groups)   | Data - Biomass               | Groups (raw vs og vs comm is irrelevant) |
+
+
+## List of columns by view
+The tables below are actually "views" in terms of database terminology. Tables follow rules of normalization, which means they are typically difficult to use for data analysis without first joining together data with metadata, i.e, creating these views. Hence in this case, unlike other info sheets, we do not mark with an asterisk the "keys" between tables (columns on which to join), since joining has already been done. Instead we indicate with a "+" symbol the columns that have been joined-in from other tables (or otherwise were produced). Those columns effectively provide important metadata to better use and understand each of these views.
+
+**bio_zoop_raw_sampling_view**
+- record_key
+- dataset_code
+- dataset_name +
+- sample_key_raw
+- sample_type
+- zone
+- monitoring_location_name
+- region_id
+- year +
+- sample_date
+- sample_time
+- strata_layer_name
+- collector_id
+- start_depth
+- end_depth
+- end_depth_2
+- gear_type_code
+- gear_type_desc +
+- mouth_diameter
+- mesh_size
+- num_hauls
+- strata_volume
+- sample_override
+- vial_id
+- box_number
+- vial_notes
+- sample_volume
+- sample_notes
+- account
+- update_date
+- version
+
+**bio_zoop_raw_density_view**
+- record_key
+- dataset_code
+- dataset_name +
+- sample_key_raw
+- zone +
+- monitoring_location_name +
+- region_id +
+- year +
+- sample_date +
+- sample_time +
+- strata_layer_name +
+- start_depth +
+- end_depth +
+- end_depth_2 +
+- gear_type_code +
+- gear_type_desc +
+- mesh_size +
+- sample_type +
+- initial_volume
+- strata_volume +
+- vial_id +
+- box_number +
+- vial_notes +
+- sample_volume +
+- count_sample
+- sub_sample_vol
+- analyst
+- observations
+- rotifers
+- taxon_code_raw
+- species_name +
+- life_stage_code
+- lifestage_name +
+- sex_code
+- sex +
+- split_multiplier
+- zoo_sample_count
+- total_number
+- num_l_raw
+- account
+- update_date
+- version
+
+**bio_zoop_proc_sampling_view**
+- record_key
+- dataset_code
+- dataset_name +
+- sample_key_proc
+- sample_type
+- zone
+- monitoring_location_name
+- region_id
+- year +
+- sample_date
+- sample_time
+- gear_type_code
+- gear_type_desc +
+- mesh_size
+- account
+- update_date
+- version
+
+**bio_zoop_proc_abd_biom_og_view**
+- record_key
+- dataset_code
+- dataset_name +
+- sample_key_proc
+- zone +
+- monitoring_location_name +
+- region_id +
+- year +
+- sample_date +
+- sample_time +
+- sample_type +
+- gear_type_code +
+- gear_type_desc +
+- mesh_size +
+- rotifers
+- taxon_code_proc
+- num_l
+- tmp_group
+- tmp_taxon_name
+- tmp_graph_name
+- day_size
+- ug_ind_day
+- year_size
+- ug_ind_year
+- sum
+- default_
+- ug_ind_default
+- ug_l_day
+- ug_l_year
+- ug_l_default
+- day_count
+- year_count
+- default_count
+- ug_l
+- account
+- update_date
+- version
+
+**bio_zoop_proc_abd_biom_comm_view**
+- record_key
+- dataset_code
+- dataset_name +
+- sample_key_proc
+- zone +
+- monitoring_location_name +
+- region_id +
+- year +
+- sample_date +
+- sample_time +
+- sample_type +
+- gear_type_code +
+- gear_type_desc +
+- mesh_size +
+- rotifers
+- taxon_code_proc
+- num_l_proc
+- tmp_group
+- tmp_taxon_name
+- tmp_graph_name
+- ug_ind
+- ug_l
+- account
+- update_date
+- version
+
+**bio_zoop_proc_biomass_groups_view**
+- record_key
+- dataset_code
+- dataset_name +
+- sample_key_proc
+- zone +
+- monitoring_location_name +
+- region_id +
+- year +
+- sample_date +
+- sample_time +
+- sample_type +
+- gear_type_code +
+- gear_type_desc +
+- biom_grp_calanoid
+- biom_grp_cladocera
+- biom_grp_cyclopoid
+- biom_grp_rotifer
+- biom_total_copepods
+- account
+- update_date
+- version
+
 
 ## Column Definitions
 
-To-do
-
-## Domains
-
-To-do
+In progress...
 
 # References
 
