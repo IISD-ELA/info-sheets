@@ -86,7 +86,12 @@ Tabular Data – Chemistry of LTER Lakes 
 - activity_end_date 
 - activity_end_time 
 - activity_depth_height_measure 
-- activity_depth_height_unit 
+- activity_depth_height_unit
+- analysis_employee
+- approved_by
+- approved_date
+- entered_by
+- entered_date
 - layer_collection_end_depth 
 - layer_collection_start_depth 
 - characteristic_name 
@@ -107,7 +112,9 @@ Tabular Data – Chemistry of LTER Lakes 
 - laboratory_sample_id 
 - field_comment 
 - analysis_comment 
-- result_comment 
+- result_comment
+- validated_by
+- validated_date
 
 ## Column Definitions
 
