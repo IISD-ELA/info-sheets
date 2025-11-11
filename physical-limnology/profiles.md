@@ -14,15 +14,15 @@ Update History: 2025-04-28
 - [Methods](#methods)
   * [Sampling](#sampling)
   * [Processing](#processing)
-- [Gear / Instrumentation](#gear---instrumentation)
+- [Gear / Instrumentation](#gear--instrumentation)
   * [Temperature Probes](#temperature-probes)
   * [CR1000 logger box](#cr1000-logger-box)
-  * [RBR XRX620 CTD+](#rbr-xrx620-ctd-)
+  * [RBR XRX620 CTD+](#rbr-xrx620-ctd)
   * [Aanderaa Oxygen Optode 4330F](#aanderaa-oxygen-optode-4330f)
   * [Seapoint Chlorophyll Fluoromoeter](#seapoint-chlorophyll-fluoromoeter)
   * [CR350 logger box](#cr350-logger-box)
-  * [RBR Maestro<sup>3</sup>](#rbr-maestro-sup-3--sup-)
-  * [RBRcoda3 ODO (fast) sensor](#rbrcoda3-odo--fast--sensor)
+  * [RBR Maestro<sup>3</sup>](#rbr-maestro3)
+  * [RBRcoda3 ODO (fast) sensor](#rbrcoda3-odo-fast-sensor)
   * [YSI probes](#ysi-probes)
 - [References](#references)
 
@@ -56,7 +56,7 @@ In 2009 and 2010, two RBRs were purchased (SNs 18018 and 18033, respectively) to
 
 One of the goals in upgrading the sampling equipment was to collect high-resolution data on multiple lake quality parameters. For example, sensors like the Aanderaa 4330F optodes allow for more detailed oxygen profiles (i.e. each metre) compared to the previous standard of taking water samples for Winkler titration at pre-determined chemistry profile sampling depths. All sensors on the RBRs record data simultaneously, providing a detailed snapshot of lake quality at each logged interval.
 
-Since September 2010, one RBR has been equipped with a Seapoint Chlorophyll Fluorometer. The other RBR was outfitted with a Turner Cyclops 7 Fluorometer in May of 2019. Both fluorometers were calibrated using rhodamine dye in June 2020, after sampling was completed for the month- prior to this date, neither fluorometers had been calibrated. The Seapoint Fluorometer had experienced intermittent data cable issues over the years. The data prior to July 2020 from these probes should be used with extreme caution. While the Seapoint Fluorometer produces data in µg/l, the Turner Cyclops 7 produces data in volts, which must then be converted into µg/l using an equation determined through lab analysis of water samples.
+Since September 2010, one RBR has been equipped with a Seapoint Chlorophyll Fluorometer. The other RBR was outfitted with a Turner Cyclops 7 Fluorometer in May of 2019. Both fluorometers were calibrated using rhodamine dye in June 2020, after sampling was completed for the month. Prior to this date, neither fluorometers had been calibrated. The Seapoint Fluorometer had experienced intermittent data cable issues over the years. The data prior to July 2020 from these probes should be used with extreme caution, and because of this we have pre-emptively flagged (removed, for most users) those chlorophyll data values (only available with special request). This is also true for RBR2 in 2024, since the sensor was not calibrated. Both of these scenarios are also noted in the "Quality control and issue flagging" section later in this info sheet. While the Seapoint Fluorometer produces data in µg/l, the Turner Cyclops 7 produces data in volts, which must then be converted into µg/l using an equation determined through lab analysis of water samples.
 
 In 2023, two RBR Maestro<sup>3</sup> (SNs 211416 and 211417) were purchased to replace the aging RBR XRX620 CTD+ multiparameter probes. These instruments included underwater PAR sensors, which are used in place of the separate underwater PAR instruments previously used for light profiles. Surface PAR sensors were also used so that the percentage of surface PAR could be calculated in real-time to determine the extent of the photic zone to a finer resolution. More information on PAR can be found in the PAR light attenuation information sheet.
 
@@ -456,7 +456,7 @@ Results from this calculation match oxygen solubility tables such as <http://wat
 
 *<u>Quality control and issue flagging</u>*
 
-Data from recent years (as of writing, 2023 onward) underwent automatic quality control to flag values with issues. This happens behind the scenes, before data users (you) receive data to work with. Internally, in our database table we keep all original values and indicate if there is an issue with each value via flagging column, one for each parameter (e.g., temperature, temperature quality issue flag, dissolved oxygen, dissolved oxygen quality issue flag…). However, externally, for data users, we send the data from a “view” (a type of database table), which is based on the table but converts any flagged parameters to null. You may disagree with our filtering criteria (below) in which case you can specially request the table data without values nullified. Most data users only want “good” data, and a more simplified table to work with, hence our using this system.
+Data from recent years (as of writing, 2023 onward) underwent automatic quality control to flag values with issues. This happens behind the scenes, before data users (you) receive data to work with. Internally, in our database table we keep all original values and indicate if there is an issue with each value via flagging column, one for each parameter (e.g., temperature: temperature quality issue flag, dissolved oxygen: dissolved oxygen quality issue flag…). However, externally, for data users, we send the data from a “view” (a type of database table), which is based on the table but converts any flagged parameters to null. You may disagree with our filtering criteria (below) in which case you can specially request the table data without values nullified. Most data users only want “good” data, and a more simplified table to work with, hence our using this system.
 
 Here is a table of our quality control flagging criteria for each parameter. The ranges indicated are for the acceptable values. Note that square brackets \[ \] are inclusive whereas round brackets ( ) are exclusive. So (0,100\] would mean: 0 \< x ≤ 100 (x must be between 0 and 100, and specifically not zero but can be 100).
 
@@ -469,6 +469,14 @@ Here is a table of our quality control flagging criteria for each parameter. The
 | cond\_us\_cm1 | Range \[1.5,100\] is fine, and (100,530\] is also considered fine, but in the latter case we append to the comment a note "High cond. - maybe near lake bottom". |
 | cond\_spec\_us\_cm1 | Range (0,600\] |
 | chla\_ug\_l1 | Range \[0,500\] |
+
+
+We have also applied quality issue flags on a case-by-case basis given internal knowledge.  Here is an incomplete list, for some of the larger collections of records flagged. Again, if you want the data, we can still send it, but data users must specially request it.
+
+ **Additional flagging scenarios** 
+ * Chla sensors were not calibrated prior to July 2020, so all those records where chla was not null were flagged (done on 2025-11-10).
+ * Chla sensor was not calibrated for RBR2 in 2024, so all those records where chla was not null were flagged (done on 2025-11-10).
+
 
 <u>Reporting of data</u>
 
