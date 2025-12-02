@@ -82,22 +82,27 @@ In late January 2024, the two Maestro<sup>3</sup> units had pH sensors added to 
 | oxygen_mg_l1 | numeric | mg/L | Oxygen concentration in water. |
 | oxygen_saturation_pct | numeric | percent | Oxygen saturation percent in water. |
 | chla_ug_l1 | numeric | µg/L using the Seapoint Fluorometer, volts using the Turner Cyclops 7 | Chlorophyll α concentration in water. |
+| ph | character varying | N/A | A measure of how basic or acidic the water is. The scale ranges from 0 to 14. 7 is neutral, less than 7 is increasingly more acidic, greater than 7 is increasingly more basic. |
 | gear_type_code | character varying | N/A | A three-digit code that refers to a specific gear type, typically starting with two capital letters and ending with one number. |
 | gear_type_desc | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). |
 | optode | numeric | N/A | Serial number of the optode used for limnology profiling |
 | qa_level | character varying | N/A | A code representing a degree of quality control conducted on the data. (Ideally each level is defined in more detail in each Info Sheet, but this is a work in progress.) |
+| collected_by | character varying | N/A | Initials for primary person who collected the sample or data in the field (i.e. who did the field work?), or the name of the crew that collected the data (e.g., 'hydrolim crew') |
+| method_sample_code | character varying | N/A | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected in the field). |
+| method_sample_desc | character varying | N/A | A short description of the method used to sample the data (collect the data, in a field or lab environment). |
+| ph_absdiff | character varying | N/A | The difference in instantaneous pH values measured every 5 seconds. As long as pH measurements remain less than 0.04 different between measurements, pH is considered ‘stable’ and allows the sonde sampling device's ‘stable time’ counter to increment upwards. This could be used as an indicator of whether pH was stable or not when the value was recorded, so could be useful if there are concerns over specific values. |
+| ph_ignored | boolean | N/A | This has to do with how samples are collected by the sonde device in the lake, and implies a level of in/accuracy for the associated pH value. Occasionally this field has '-1', meaning 'true' i.e. pH is ignored, even when the pH is calibrated. When pH is ignored, the program only relies on oxygen to determine when conditions are stable and doesn't wait for pH to be stable before writing data points in the summary table. |
+| ph_calibrated | Whether the pH sensor on the sonde device was calibrated at the time of sampling. TRUE means yes, the sensor was calibrated, and the pH value should be reliable and accurate. FALSE means the pH sensor was not calibrated at the time of sampling, so the pH value is suspect and probably should not be used. Those values are flagged in our master database table and excluded from the view (typically not sent to data users, but available on request). |
+| researcher_code | integer | N/A | A code that refers to a specific researcher (individual person, or group in some cases) associated with the record in question. |
+| researcher_name | text | N/A | Name of a researcher (individual person, or group in some cases) associated with the record in question. |
+| project_code | character varying | N/A | A short and unique code associated with a project (e.g. the FOReSt project has code F01). |
+| project_name | character varying | N/A | A name for a project that the data record is associated with (e.g. FOReSt). |
 | qualifiers | character varying | N/A | Qualifier code(s) conveying specific information about the record. See Info Sheet table for more information. (“Reference tables” section below) |
 | comments | character varying | N/A | Remarks about the record or its collection. |
 | update_date | date | N/A | Date the record in the IISD-ELA Postgres Master Database table was most recently uploaded or modified (YYYY-MM-DD). |
 | account | character varying | N/A | Username of IISD-ELA staff who added or most recently edited the data record in the postgres master database. This may be generated through bulk loads or manually updated as records are edited individually. |
 | version | integer | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. |
-| collected_by | character varying | N/A | Initials for primary person who collected the sample or data in the field (i.e. who did the field work?), or the name of the crew that collected the data (e.g., 'hydrolim crew') |
-| method_sample_code | character varying | N/A | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected in the field). |
-| method_sample_desc | character varying | N/A | A short description of the method used to sample the data (collect the data, in a field or lab environment). |
-| researcher_code | integer | N/A | A code that refers to a specific researcher (individual person, or group in some cases) associated with the record in question. |
-| researcher_name | text | N/A | Name of a researcher (individual person, or group in some cases) associated with the record in question. |
-| project_code | character varying | N/A | A short and unique code associated with a project (e.g. the FOReSt project has code F01). |
-| project_name | character varying | N/A | A name for a project that the data record is associated with (e.g. FOReSt). |
+
 
 ## Additional notes on certain columns
 
