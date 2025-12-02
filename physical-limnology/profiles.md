@@ -1,7 +1,6 @@
 # Limnology Profiles – Information Sheet
 
 Authors: Ken Sandilands; Paul Fafard; Chris Hay  
-Update History: 2025-04-28
 
 ## Contents
 - [General](#general)
