@@ -365,7 +365,7 @@ Round to nearest 1.0 if difference is<br />
 
 | **Qualifier** | **Meaning** |
 |----|----|
-| RBR_AVGdepth_Depth_Diff_Too_Large | In the raw data files, the absolute difference between the average depth and depth values were larger than 0.1 metres. The record was inspected to pick which depth value to use. |
+| RBR_AVGdepth_Depth_Diff_Too_Large | In the raw data files, the absolute difference between the average depth and depth values was larger than 0.1 metres. The record was manually inspected to pick which depth value to use (depth or average depth). |
 | Chla_Maxed | This means that the fluorometer was reading the maximum amount of Chla, so the actual Chla value is likely beyond the range of the sensor. Note that this may also happen when the sensor doesn’t autorange (switch to the proper gain). |
 | Chla_error | Error with the fluorometer (chlorophyll sensor). |
 | ERROR | Some other error which should have a comment also |
@@ -474,7 +474,7 @@ Here is a table of our quality control flagging criteria for each parameter. The
 | cond\_us\_cm1 | Range \[1.5,100\] is fine, and (100,530\] is also considered fine, but in the latter case we append to the comment a note "High cond. - maybe near lake bottom". |
 | cond\_spec\_us\_cm1 | Range (0,600\] |
 | chla\_ug\_l1 | Range \[0,500\] |
-| ph | Range [0, 14]. In addition, records during months of Jan-March, with depth_m < 0.5m, or specified as uncalibrated are given a quality issue flag. |
+| ph | Records with any of these scenarios are given a pH quality issue flag: outside of range [0, 14], collected Jan-March (pH sensor not installed), depth_m < 0.5m (sensor likely in air, not in water), or if specified as uncalibrated. |
 
 
 We have also applied quality issue flags on a case-by-case basis given internal knowledge.  Here is an incomplete list, for some of the larger collections of records flagged. Again, if you want the data, we can still send it, but data users must specially request it.
