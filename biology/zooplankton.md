@@ -1,8 +1,6 @@
 # Zooplankton Data – Information Sheet
 
 Authors: IISD Experimental Lakes Area, Michael Paterson, Patrique Bulloch, Chris Hay  
-Last Updated: 2025-10-03  
-Last Updated by: Chris Hay  
 
 ## Contents
 - [General Information](#general-information)
@@ -135,7 +133,7 @@ Some important variations in counting protocols include:
 
   - AGS identified copepodid stages to c1-c5 by species in all years that he counted.
 
-  - These variations in counting protocols have important implications for data interpretation. Counts of undifferentiated c4-c5 copepods IDed only to group typically drop to zero after 1998/99 and species- level counts of c4-c5 copepods begin to show up in the data set. To obtain comparable data through the entire period of record, it is necessary to combine all the c4-5 species-level data obtained post 1998/99 at the group level.
+  - These variations in counting protocols have important implications for data interpretation. Counts of undifferentiated c4-c5 copepods IDed only to group typically drop to zero after 1998/99 and species- level counts of c4-c5 copepods begin to show up in the data set. To obtain comparable data through the entire period of record, it is necessary to: either (this sentence requires review) "combine all the c4-5 species-level data obtained post 1998/99 at the group level" or "throw out all the c4-5 species-level data obtained post 1998/99 and combine c4-c5 counts at the group level".
 
   - Adult copepods have been identified to species and sex in all samples.
 
@@ -163,7 +161,8 @@ Count data and sample volumes are then used to calculate abundance per litre (es
 
 ### Biomass estimation
 
-to do
+Biomass was estimated by multiplying the taxon densities (numbers per liter) by an estimate of the mass per individual for each taxon.  All estimates of the mass per individual of different taxa and life stages in samples collected from different lakes and dates were determined from length-weight regressions, but the resolution varies considerably among samples. In some lakes and years, zooplankton in each sample were measured and these values are used.  In other lakes and years, measures were completed on composite samples made up from subsamples from each sampling date in each year and represent an annual average length for each taxon. In this case, the annual estimates were used for all dates sampled in that lake in that year.  Finally, if no measures were done in a lake and year, an average derived using all existing data from that lake (if data exist) or for all lakes at ELA was used.  All lengths were converted to masses using length-weight regressions in Malley et al. (1989), Lawrence et al. (1987), Allen et al. (1994), McCauley (1984), Schindler and Noven (1971), and Paterson (unpublished).  If regressions existed for a particular ELA lake, these were used preferentially for that lake.  
+For group biomass estimates, I used the protocols of Dodson (1992) and removed taxa that were littoral (Chydorids except Chydorus, Macrothricids, etc.)  
 
 ### QA/QC checks and method comparisons
 
@@ -387,11 +386,17 @@ Chang, P. S. S., and D. F. Malley. 1987. Zooplankton in Lake 223, Experimental L
 
 Chang, P. S. S., D. F. Malley, W. J. Findlay, G. Mueller, and R. T. Barnes. 1980. Species composition and seasonal abundance of zooplankton in Lake 227, Experimental Lakes Area, northwestern Ontario, 1969-1978. Canadian Data Report of Fisheries and Aquatic Sciences 182.
 
+Dodson, S. 1992. Predicting crustacean zooplankton species richness. Limnology and Oceanography 37: 848-856.	
+
 Gannon, J. E., and S. A. Gannon. 1975. Notes on the narcotization of crustacean zooplankton. Crustaceana 28:220-224.
 
 Johannsson, O. E., M. A. Shaw, N. D. Yan, J.-M. Filion, and D. F. Malley. 1992. A comparison of freshwater zooplankton sampling gear: Nets, traps, and submersible pump. Canadian Technical Report of Fisheries and Aquatic Sciences 1894.
 
+Lawrence, S. G., Df. Malley, W.J. Findlay, M.A. MacIver, and I.L. Delbaere. 1987. Method for estimating dry weight of freshwater planktonic crustaceans from measures of length and shape. Canadian Journal of Fisheries and Aquatic Sciences 44  (Suppl.  1): 264-274.	
+
 Malley, D. F., S. G. Lawrence, M. A. MacIver, and W. J. Findlay. 1989. Range of variation in estimates of dry weight for planktonic Crustacea and Rotifera from temperate North American lakes. Canadian Technical Report of Fisheries and Aquatic Sciences 1666.
+
+McCauley, E. 1984. The estimation of the abundance and biomass of zooplankton in samples. A Manual on Methods for the Assessment of Secondary Productivity in Fresh Waters. J. A. Downing and F. H. Rigler. Oxford, Blackwell Scientific Publishers: 228-265.	
 
 Prepas, E. 1978. Sugar-frosted *Daphnia*: an improved fixation technique for Cladocera. Limnology and Oceanography **23**:557-559.
 
