@@ -469,8 +469,8 @@ Here is a table of our quality control flagging criteria for each parameter. The
 | **Column Name** | **Quality Control** |
 | --- | --- |
 | temp\_c | Range \[-1,32\] |
-| oxygen\_mg\_l1 | Usually \[0,16), with some exceptions:  <br>Eutrophied lakes (227, 303, 304) can be up to 20, but should not be 20 or more, so can be \[0,20).  <br>If RBR1 or 2 were used and the value is exactly 20, it indicates an error code (is converted to null).<br><br>Values less than zero but greater than or equal to -0.5 are rounded to zero. |
-| oxygen\_saturation\_pct | Range \[0,150) which includes supersaturation scenarios |
+| oxygen\_mg\_l1 | Usually \[0,16], with some exceptions:  <br>Eutrophied lakes (227, 303, 304) can be 20 or less, so can be \[0,20].  <br>If RBR1 or 2 were used and the value is exactly 20, it indicates an error code (is converted to null).<br>Values less than zero but greater than or equal to -0.5 are rounded to zero. |
+| oxygen\_saturation\_pct | Range usually [0,150] which includes supersaturation scenarios, but eutrophied lakes (227, 303, 304) can be 200 or less, so [0,200]. |
 | cond\_us\_cm1 | Range \[1.5,100\] is fine, and (100,530\] is also considered fine, but in the latter case we append to the comment a note "High cond. - maybe near lake bottom". |
 | cond\_spec\_us\_cm1 | Range (0,600\] |
 | chla\_ug\_l1 | Range \[0,500\] |
