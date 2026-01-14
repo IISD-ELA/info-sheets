@@ -291,7 +291,7 @@ A heavy weight attached to a rope with regular markings, like a large ruler.
 
 ### References
 
-Hay, C. R. J. 2022. IISD-ELA Bathymetry Data Processing Repository (Version 15.1). DOI: https://doi.org/10.5281/zenodo.7448453 URL: https://github.com/IISD-ELA/bathymetry
+Hay, C. R. J. 2022. IISD-ELA Bathymetry Data Processing Repository (Version 15.2). DOI: https://doi.org/10.5281/zenodo.18237230 URL: https://github.com/IISD-ELA/bathymetry
 
 Milne, S.W. 2017. 2017 IISD-ELA Multibeam Sonar Bathymetry Mapping Report. “2017_IISD-ELA_MBES_Bathymetry_Mapping_Report.pdf”. Internal IISD-ELA document.
 
