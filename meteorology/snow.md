@@ -1,9 +1,20 @@
 # Meteorology – Snow – Information Sheet
+Authors: Ken Beaty, Paul Fafard, Chris Hay  
 
-Author: Ken Beaty, Paul Fafard, Chris Hay  
-Last Update: 2024-08-27
+## Contents
+- [General information](#general-information)
+- [Methods](#methods)
+  * [Site Location](#site-location)
+  * [Daily snow water equivalent](#daily-snow-water-equivalent)
+  * [Depth of fresh snowfall](#depth-of-fresh-snowfall)
+  * [Snowpack](#snowpack)
+  * [Snow depth collection methods](#snow-depth-collection-methods)
+  * [Snow surveys](#snow-surveys)
+- [Data dictionary](#data-dictionary)
+- [Snow depth codes](#snow-depth-codes)
+- [References](#references)
 
-# **General Information**
+## General Information
 
 This information sheet provides an overview of quantitative snow records collected at ELA since June 27, 1969 when the meteorological site was installed and records began. Four types of snowfall records that have been collected since then:
 - Snow water equivalent
@@ -12,47 +23,33 @@ This information sheet provides an overview of quantitative snow records collect
 - Snow surveys
 
 Environment Canada public data for IISD Experimental Lakes Area found below:
-
 Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite>
 
 Measurements of daily water equivalent, fresh fallen snow depth, and snowpack accumulation have been collected at the meteorological site according to Environment Canada protocols. Winter snow surveys were carried out in most years at specific snow courses throughout the Rawson Lake Watershed (393 ha). The snow courses were selected to be representative within the basin at high, medium and low elevations relative to the lake surface. The meteorological site is a medium elevation and exposure site located approximately 0.5 km NW of the field station and about 75 – 100 m off the Pine Road.
 
-# Data Dictionary
-   
-| **Column name (alphabetical)** | **data type** | **unit** | **definition** |
-| --- | --- | --- | --- |
-| comments | character varying | N/A | Remarks about the record or its collection. |
-| dataset\_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each dataset in ref\_dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset\_name is longer and may be changed and refined over time. |
-| dataset\_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. |
-| date | date | N/A | The calendar date (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. For meteorological data, some dates are not calendar dates but meteorological dates (start at 8AM). |
-| method\_sample\_code | character varying | N/A | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected or measured in the field). |
-| method\_sample\_description | character varying | N/A | A short description of the method used to sample the data (collect or measure the data, in a field or lab environment). For more information, see the associated Info Sheet. |
-| monitoring\_location\_name | character varying | N/A | For the snow data, as of writing, all records are from "239 TER MET" which indicates the meteorological station site (which is part of the Lake 239 watershed). The following is a general definition used broadly across IISD-ELA datasets.  <br>Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. The name consists of: <location> or <location sublocation> or <location sublocation station>. Location is typically the lake number (each lake is named with a number, representing the lake's geographical watershed), sublocation which typically specifies LA for "lake" (or a basin, e.g. NB - north basin, or other), and station which is usually CB ("centre buoy" - at about the deepest point of the lake). Some names do not have all three parts since a broader area is in question (e.g. for bathymetry, the entire lake, not just the centre buoy). |
-| qualifiers | character varying | N/A | Qualifier code(s) conveying specific information about the record. See Info Sheet table for more information. |
-| snow\_depth | numeric | cm  | Depth as a vertical measurement from the ground to the surface of the accumulated snow. This may be an average or a single measure, depending on the method used (see method noted in other column and info sheet for more information). |
-| units | character varying | N/A | The units associated with the result value in question. For snow depth, it is always centimetres. |
-| update\_date | date | date as calendar day (YYYY-MM-DD) | Date the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. |
-| version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. |
+## Methods
 
-# Site Location
+### Site Location
 
-The IISD-ELA / ECCC meteorological site is land-based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface.
+The IISD-ELA meteorological station ("METSITE" in the data tables) is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface. Altitude above sea level is 433m.
 
-UTM Coordinates  
-15 U 0447128 5501551 (NAD83)  
-15 U 0447138 5501331 (NAD27)
+UTM Coordinates:
+* 15 U 0447128 5501551 (NAD83)  
+* 15 U 0447138 5501331 (NAD27)  
 
-# Methods
+DMS Coordinates:
+* 49°39′51″ N
+* 93°43′58″ W
 
-<u>Daily snow water equivalent</u>
+### Daily snow water equivalent
 
 A Nipher Shielded Snow Gauge was installed as part of the instrumentation array deployed in June 1969 by the Meteorological Branch of the Department of Transport (now Atmospheric Services, Environment Canada). The same gauge has been in use since that time and all collections have been carried out according to Environment Canada protocol. The gauge consists of an aluminum wind deflector shield and an inner copper collection canister. The gauge has been in service from the late fall until early spring to capture the snow season in every year. Daily service has been carried out each morning in the following manner. On each visit, the site operator inspects the gauge and if precipitation has occurred in the past 24 hours, the canister is removed and exchanged with a clean one. The canister containing sample is melted and measured in a specific graduate calibrated to the collection surface area to read directly as point depth in millimetres similar to how rainfall is measured in a rain gauge. Special attention is given to brush away snow that may have accumulated directly on the rim of the shield. In the case of mixed rain and snow events, the operator has attempted to determine the quantities of each type if possible. This data has been recorded in the original site measurement field notebooks (series “C”), in monthly climatological station reports and is incorporated in the electronic data base as daily precipitation.
 
-<u>Depth of fresh snowfall</u>
+### Depth of fresh snowfall
 
 In most years, the depth of fresh fallen snow has been measured on a snow board located near the Nipher Snow Gauge. The snow board is an elevated table-top platform 0.3 m above the ground and 1.3 m square. It is painted white and equipped with a broom and a snow ruler. Each morning, in conjunction with the Nipher gauge service, the depth of fresh snow is measured, recorded in centimetres and then swept clean. If the accumulation had been affected by wind, the observation is duly noted or disregarded. This data provides an understanding of the ratio of fresh snow to water equivalent for the ELA region and is sometimes useful for estimating water equivalent should the gauge value be corrupted or in question.
 
-<u>Snowpack</u>
+### Snowpack
 
 The accumulation of snow on the ground within the basin is referred to as “snowpack”. In most years, accumulated snow depth, in centimetres, has been measured almost daily and after major snowfalls since November 1969. This data has been recorded in the original site measurement field notebooks (series “C”), in monthly climatological station reports and is incorporated in the ELA electronic data base. This data set is important for defining the “snow season” and the timing and depth of the peak snowpack each year. Notes relevant to this data set are as follows.
 
@@ -62,30 +59,21 @@ The accumulation of snow on the ground within the basin is referred to as “sno
 4)  Generally, snow disappeared from ridge tops, south facing slopes and lake surfaces earlier than other areas.  
 5)  The snow depth observed at the meteorological station may not be indicative of snow depth or density conditions on a frozen lake surface where snow is subject to higher wind and often the presence of water and slush between the snow and ice surfaces. Consult the IISD-ELA ice thickness dataset for lake snow measurements, when available.
 
-<u>Snow depth qualifier codes</u>
 
-| **Qualifier code** | **Qualifier name** | **Definition** |
-|----|----|----|
-| FS | first snow | The annual date of the first recorded precipitation that was snow. This means that there was no snow on the ground prior to this date. |
-| LS | last snow | The annual date of the final recorded precipitation that was snow. Note that this is based on the last occurrence of snowfall in the precipitation gauge in the spring, so there is often still snow remaining on the ground after this date. |
-| P | patchy snow | For when the snow has a patchy distribution, instead of a consistent level, to indicate the presence of snow that is not easily measured. |
-| SS | snow survey | For records that are further supported by a more comprehensive watershed wide snow survey. These surveys are typically conducted each winter around the time of peak snowpack at several locations within the Lake 239 (Rawson Lake) Watershed for determination of snow depth, density and water content. The additional snow survey data are not currently included in this data table, in the IISD-ELA master database. |
-| TS | trace snow | For when there are only trace amounts of snow, meaning there was a presence of snow that was not easily measured due to the small amount. |
-| TS, LS | trace snow and last snow | Both last snow and trace snow (see individual definitions). |
 
-<u>Snow depth collection methods</u>
+### Snow depth collection methods
 
 SR1 - method code; several readings (usually 10) were taken with a snow ruler at random or fixed locations around the meteorological site to the nearest whole centimetre and averaged.
 
 In addition, Environment Canada has operated a Campbell Scientific data logger at the meteorological site to monitor climatological parameters since January 1993. On August 5, 2009, EC upgraded from a CS-21X to a CS-23X logger with the addition of a snow depth sensor. The EC datalogger was upgraded to a CR3000 on November 2, 2011, and the snow sensor upgraded to a SR50-45. While this data only provides a single point location, it is a continuous hourly data set. This data has not been incorporated in the ELA data base.
 
-<u>Snow surveys</u>
+### Snow surveys
 
 Snow Surveys were routinely carried out once or twice each year since the winter of 1969/70. Surveys, however, were less frequent between the years 2010 and 2020 due to staffing and other complicating issues during the period of uncertainty and transition from the Department of Fisheries and Oceans to the International Institute of Sustainable Development (April 2014).
 
 The snow survey provides fundamental hydrologic information used to calculate an estimate of water available for spring runoff prior to the melt. The data from a comprehensive snow survey include snow depth, water content and density for a whole watershed. Together, data for water available, precipitation and stream flow are used to calculate basin runoff yield. Snow surveys at the ELA have primarily been carried out only in the Rawson Lake Watershed and may be extrapolated to other sites when useful. Surveys were generally conducted in late February to mid-March to define the peak snowpack and snow condition before ripening occurred. The data also provides a check on the accumulated Nipher snow gauge values collected over the winter. As winter progresses, the snowpack settles and ages. This process from a fine to a coarse crystalline state is known as ripening (Bruce and Clark 1966). In the ELA region, the density of fresh fallen snow usually ranges from 0.07 to 0.15 with an average of about 0.10. By late February, the snow density is usually fairly consistent in the 0.2 range. The density of a ripe snowpack generally ranges between 0.3 and 0.6. Snow density is the ratio of water equivalent to the depth of the snowpack (cm/cm). The water equivalent of the snowpack is the depth of water that would result from melting and is dependent on the depth and density.
 
-<u>Two survey methods have been used at ELA</u>
+<u>Two survey methods have been used at ELA:</u>
 
 1)  Mount Rose Snow Sampler (MRSS): The MRSS consists of an aluminum coring tube with a cutting edge having an inside diameter of 1.485 inches (3.77 cm), so that a core weighing one ounce (28.35 g) is equivalent to one inch (2.54 cm) of water. This allows for determination of snowpack water equivalents to be made gravimetrically in the field using a portable calibrated spring balance. Usually 7 to 10 sample points were selected randomly in the general area of each snow course used in the overall survey. Several snow course sites are normally used in a survey. For this method three measurements are made for each sample point: depth of the snow, weight of empty tube, and weight of the tube and sample.
 
@@ -162,7 +150,42 @@ Field notes: Snow survey raw field notes and computer spreadsheet files are in t
 | 1993 | Feb 23 |      8       |   2    |     |      |        |          |        |
 | 1994 | Mar 4  |      1       |   2    |     |      |        |          |        |
 
-<u>References</u>
+
+
+
+## Data dictionary
+
+For now, this data dictionary only includes the columns in the snowpack dataset.
+
+ **Column name (alphabetical)** | **data type** | **unit** | **definition** 
+---|---|---|---
+ account | character varying | N/A | Username of the IISD-ELA staffmember who added or most recently edited the data record. This may be generated through bulk loads or manually updated as records are edited individually. 
+ comments | character varying | N/A | Remarks about the record or its collection. 
+ dataset_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each IISD-ELA dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset_name is longer and may be changed and refined over time. 
+ dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. 
+ date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. 
+ method_sample_code | character varying | N/A | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected or measured in the field). 
+ method_sample_desc | character varying | N/A | A short description of the method used to sample the data (collect or measure the data, in a field or lab environment). For more information, see the associated Info Sheet. 
+ monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. 
+ qualifiers | character varying | N/A | Qualifier code(s) conveying specific information about the record. See the associated info sheets for more information. 
+ snow_depth | numeric | cm | Depth as a vertical measurement from the ground to the surface of the accumulated snow. This may be an average or a single measure, depending on the method used (see method noted in other column and info sheet for more information). 
+ update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. 
+ version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. 
+
+
+
+## Snow depth codes
+
+| **Qualifier code** | **Qualifier name** | **Definition** |
+|----|----|----|
+| FS | first snow | The annual date of the first recorded precipitation that was snow. This means that there was no snow on the ground prior to this date. |
+| LS | last snow | The annual date of the final recorded precipitation that was snow. Note that this is based on the last occurrence of snowfall in the precipitation gauge in the spring, so there is often still snow remaining on the ground after this date. |
+| P | patchy snow | For when the snow has a patchy distribution, instead of a consistent level, to indicate the presence of snow that is not easily measured. |
+| SS | snow survey | For records that are further supported by a more comprehensive watershed wide snow survey. These surveys are typically conducted each winter around the time of peak snowpack at several locations within the Lake 239 (Rawson Lake) Watershed for determination of snow depth, density and water content. The additional snow survey data are not currently included in this data table, in the IISD-ELA master database. |
+| TS | trace snow | For when there are only trace amounts of snow, meaning there was a presence of snow that was not easily measured due to the small amount. |
+| TS, LS | trace snow and last snow | Both last snow and trace snow (see individual definitions). |
+
+## References
 
 BEATY, K.G. 1981. Hydrometeorological data for the Experimental Lakes Area, northwestern Ontario, 1969 through 1978 (in three parts). Can. Data Rep. Fish. Aquat. Sci. 285
 

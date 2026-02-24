@@ -1,10 +1,21 @@
-# Precipitation: Hydrometeorology Information Sheet
-
+# Meteorology – Precipitation – Information Sheet
 Authors: Paul Fafard, Ken Sandilands  
-Last update: April 15<sup>th</sup>, 2024 (PF)
 
-# IISD-ELA Database Fields for Precipitation:
+## Contents
+- [General information](#general-information)
+- [Methods](#methods)
+  * [Site Location](#site-location)
+  * [Climatological day](#climatological-day)
+  * [Instrumentation](#instrumentation)
+  * [Detection limits](#detection-limits)
+  * [Outlying rain gauges](#outlying-rain-gauges)
+  * [Sample collection for chemical analysis](#sample-collection-for-chemical-analysis)
+  * [Limitations](#limitations)
+- [Data Dictionary](#data-dictionary)
+- [Trace codes](#trace-codes)
+- [References](#references)
 
+<!-- # IISD-ELA Database Fields for Precipitation:
 Daily (Climatological Day)  
 Location ID, Sublocation, Station ID  
 Measure Date (YYYY-MM-DD)  
@@ -12,28 +23,36 @@ Rain (mm), Snow (mm), Trace (\<0.1 mm)
 Data Set ID = M01
 
 Environment Canada public data for IISD Experimental Lakes Area found below:
+Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite> -->
 
-Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite>
+## General information
 
-# General
-
-**The IISD-ELA dataset for daily precipitation consists of the twice-daily manual readings of the standard rain gauge (parts of spring and fall, summer) and once-daily manual readings of the nipher (parts of spring and fall, winter).**
+The IISD-ELA dataset for daily precipitation consists of the twice-daily manual readings of the standard rain gauge (parts of spring and fall, summer) and once-daily manual readings of the nipher (parts of spring and fall, winter).
 
 Daily precipitation is one of several components measured at the IISD Experimental Lakes Area meteorological site, with the record beginning on June 27, 1969. The meteorological site has received instrumentation and support by Environment Canada since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is at the URL above.
 
-Data that is collected, processed and analysed is utilized by a variety of research projects, scientists and graduate students from both within and outside of IISD-ELA. Many of the data sets are long term (now 40+ years) and provide understanding of natural variability in our ecosystems and will be valuable in future for studies such as climate change. They have proven invaluable in the planning of new experiments.
+Data that is collected, processed and analysed is utilized by a variety of research projects, scientists and graduate students from both within and outside of IISD-ELA. Many of the data sets are long term (now 50+ years) and provide understanding of natural variability in our ecosystems and will be valuable in future for studies such as climate change. They have proven invaluable in the planning of new experiments.
 
-# Site Location
+There are basically three IISD-ELA precipitation datasets:
+* Daily precipitation
+* Hourly precipitation
+* Chemistry of precipitation (this is not included in our data dictionary yet, near the bottom of this info sheet)
 
-The site is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface.
+## Methods
 
-UTM Coordinates  
-15 U 0447128 5501551 (NAD83)  
-15 U 0447138 5501331 (NAD27)
+### Site Location
 
-# Collection Methods
+The IISD-ELA meteorological station ("METSITE" in the data tables) is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface. Altitude above sea level is 433m.
 
-<u>Climatological day</u>
+UTM Coordinates:
+* 15 U 0447128 5501551 (NAD83)  
+* 15 U 0447138 5501331 (NAD27)  
+
+DMS Coordinates:
+* 49°39′51″ N
+* 93°43′58″ W
+
+### Climatological day
 
 All precipitation and air temperature data in the IISD-ELA database is based on the **climatological day** (for ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day:
 
@@ -65,7 +84,7 @@ The data in this table show that August 26 had a daily precipitation of 2.2 mm. 
 
 During winter months, the standard rain gauge (SRG) is discontinued and the nipher gauge is deployed, as it does a better job of catching snow and other freezing precipitation. The nipher cylinder is left out for 24 hours and swapped with a clean nipher cylinder only once per day at the 08:00 CST station check. Any frozen precipitation within the nipher is melted and measured in a calibrated glass graduate. This graduate is calibrated to convert the melted precipitation from the nipher to a water equivalent value to match a standard rain gauge. In this way, snow and other frozen precipitation can be measured in mm, as rainfall is measured in a standard rain gauge. Values recorded from the nipher are daily totals for the previous day’s precipitation.
 
-<u>Instrumentation</u>
+### Instrumentation
 
 The standard instrument for measuring precipitation is the white plastic type B metric rain gauge (SRG) for temperatures above 0 <sup>o</sup>C, and the nipher gauge for temperatures below 0 <sup>o</sup>C. Currently, the meteorological site is equipped with type B metric rain gauge/nipher gauge as well as a tipping bucket rain gauge (TBRG) connected to a data logger. The SRG, nipher, and TBRG are located in the open near the middle of the meteorological site, away from trees and obstructions.
 
@@ -77,7 +96,7 @@ Currently, data loggers at the meteorological site include 1) a Campbell Scienti
 
 Historically, rain was measured in a copper standard gauge until August 1978. This rain gauge (and accompanying nipher graduated cylinder) measured precipitation in inches. Data within the database up to August 1978 have been converted to millimetres.
 
-<u>Outlying rain gauges</u>
+### Outlying rain gauges
 
 Outside of the meteorological site, there are currently four TBRGs and five SRGs located at five distinct locations in the ELA area. These rain gauge stations are referred to as RG3, RG21, RG22, RG24, and RG25. Stations RG24 and RG25 are equipped with a TB-3 and TB-4 TBRG, respectively, while RG3 and RG22 are each equipped with a WS525-R2 TBRG. All sites are also equipped with type B SRGs.
 
@@ -98,7 +117,7 @@ All outlying TBRG event loggers were switched to TinyTag event loggers for the 2
 
 TinyTag event loggers record number of tips per hour.
 
-<u>Sample collection for chemical analysis</u>
+### Sample collection for chemical analysis
 
 As well as an SRG, station RG21 has a precipitation sample collector during the open water season, used to collect bulk precipitation samples for chemical analysis. Bulk precipitation sample collection is relocated to the metsite during the winter months to facilitate collection when ice is unsafe for travel.
 
@@ -108,7 +127,7 @@ Historically, the winter bulk precipitation collector at the metsite consisted o
 
 As of fall 2018, an old CAPMoN automated precipitation collector has been used for winter bulk precipitation sample collection. This collector has a heated moisture sensor which uncovers the collection bag/bucket whenever precipitation is occurring. Once the sensor dries, the hood once again covers the sample to prevent evaporation and reduce contamination. Sample bags are changed after at least 20 mm of water equivalent precipitation has occurred.
 
-<u>Limitations</u>
+### Limitations
 
 The standard type B rain gauge is easy to install, use, and maintain. That said, if precipitation isn’t completely emptied after each check, data for the following reading may be affected. The standard rain gauge is poor at collecting data when temperatures fall below 0 <sup>o</sup>C; if the nipher gauge is not used at or below 0 <sup>o</sup>C, data may be affected.
 
@@ -118,25 +137,29 @@ Both the standard rain gauge and the graduated cylinder for the nipher are accur
 
 Precipitation data collection has its own challenges due to normal weather phenomenon. When it is windy, rain can be blown across the top of collectors such as the standard rain gauge and therefore under-represent the true precipitation value. Alternately, snow from trees may be blown into the nipher on windy days when no new precipitation has occurred.
 
-<u>Database information</u>
+## Data dictionary
 
-In the ELA database, units of measure are as follows:
+ **Column name (alphabetical)** | **data type** | **unit** | **definition** | **dataset(s)** 
+---|---|---|---|---
+ account | character varying | N/A | Username of the IISD-ELA staffmember who added or most recently edited the data record. This may be generated through bulk loads or manually updated as records are edited individually. | daily, hourly 
+ dataset_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each IISD-ELA dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset_name is longer and may be changed and refined over time. | daily, hourly 
+ dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. | daily, hourly 
+ date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. | daily, hourly 
+ gear_type_code | character varying | N/A | A short code that refers to a specific gear type, typically starting with two or three capital letters and ending with one number. | hourly 
+ gear_type_desc | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). | hourly 
+ hour | numeric | N/A | Hour of the day as an integer number, from 0 to 23. Hours are "hour ending", for example, hour 2 is the end of the second hour. | hourly 
+ monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. | daily, hourly 
+ precip_mm | numeric | millimetres | Amount of precipitation as the millimetre reading from the rain gauge. See the info sheet for more information. | hourly 
+ qa_level | character varying | N/A | A code representing a degree of quality control conducted on the data. (Ideally each level is defined in more detail in each Info Sheet, but this is a work in progress.) | hourly 
+ rain | numeric | millimetres | Amount of rain that day, measured in millimetres from a rain gauge. The gauge is checked and emptied, twice per day, and summed for the day. See the precipitation info sheet for more information. | daily 
+ snow | numeric | millimetres | Amount of snow that day, measured in millimetres from a rain gauge. The gauge is checked and emptied, twice per day, and summed for the day. See the precipitation info sheet for more information. | daily 
+ trace_code | character varying | N/A | Codes for the type of trace precipitation observed in the rain gauge (<0.1mm). See the corresponding trace description field or the precipitation info sheet for more information. | daily 
+ trace_description | character varying | N/A | Description for the type of trace precipitation observed in the rain gauge (<0.1mm). Basically, the description for the trace code. | daily 
+ update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. | daily, hourly 
+ version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. | daily, hourly 
 
-- Time is Central Standard Time (CST) (GMT-6)
-- Daily data based on total precipitation of climatological day
-- Precipitation values were recorded in inches from 27 June 1969 to 31 July 1978, and have been converted to millimetres in the IISD-ELA database
 
-Within the database, the meteorological site is identified as 239 AIR MET, where 239 is the lake centered location, AIR is the airshed sub-location of Lake 239, and MET is the station code. These codes are for the IISD-ELA maintained database only.
-
-Each record contains the following data:
-
-MEASURE_DATE is the field that contains the climatological date of each data record
-
-RAIN is the field that contains the daily total precipitation value attributed to rain, in mm.
-
-SNOW is the field that contains the daily total precipitation value attributed to snow, in mm.
-
-TRACE is the field that contains a flag indicating trace values (\<0.1 mm) of precipitation. Use the following codes:
+## Trace codes
 
 | **code** | **name** | **description** |
 |----|----|----|
@@ -151,7 +174,17 @@ TRACE is the field that contains a flag indicating trace values (\<0.1 mm) of pr
 | MIX | mixed precip | Mixed precipitation. This is noted when there is a mix of rain and snow (but can't estimate amounts of each) and total is more than trace. |
 | FR | freezing rain | Freezing rain. This is noted when there is freezing rain that is more than a trace. |
 
-<u>References</u>
+The below notes may be out of date, redundant, or irrelevant (some internal cleanup required here), but they have been left here in case they are useful for any information missing above.
+* Time is Central Standard Time (CST) (GMT-6)
+* Daily data based on total precipitation of climatological day
+* Precipitation values were recorded in inches from 27 June 1969 to 31 July 1978, and have been converted to millimetres in the IISD-ELA database.
+* MEASURE_DATE is the field that contains the climatological date of each data record
+* RAIN is the field that contains the daily total precipitation value attributed to rain, in mm.
+* SNOW is the field that contains the daily total precipitation value attributed to snow, in mm.
+* TRACE is the field that contains a flag indicating trace values (\<0.1 mm) of precipitation. See codes table above.
+
+
+## References
 
 http://publications.gc.ca/collections/collection_2012/ec/En56-238-3-2012-eng.pdf
 

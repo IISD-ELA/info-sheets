@@ -1,9 +1,20 @@
-# Wind: Hydrometeorology Information Sheet
+# Meteorology – Wind – Information Sheet
+Authors: Ken Beaty, Ken Sandilands, Paul Fafard  
 
-Author: Ken Beaty, Ken Sandilands, Paul Fafard  
-Last Update: March 26, 2020 (PF); October 2020 (KS); March 22, 2022 (PF)
+## Contents
+- [General Information](#general-information)
+- [Methods](#methods)
+  * [Site Location](#site-location)
+  * [Units of measure](#units-of-measure)
+  * [Instrumentation](#instrumentation)
+  * [Detection limits](#detection-limits)
+  * [Height of exposure](#height-of-exposure)
+  * [Forest fire history](#forest-fire-history)
+  * [Wind over water](#wind-over-water)
+- [Data Dictionary](#data-dictionary)
+- [References](#references)
 
-# IISD-ELA Database Fields for Wind
+<!-- # IISD-ELA Database Fields for Wind
 
 Location, Sublocation, Station  
 Data Set ID = M07  
@@ -16,25 +27,29 @@ Speed at 10 m (km/h)
 Instrument  
 Tower Height  
 Environment Canada public data for IISD Experimental Lakes Area found below:  
-Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite>
+Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite> -->
 
-# General
+## General Information
 
-Wind data is one of several components measured at the Experimental Lakes Area (ELA) meteorological site with record beginning in June 1969. The site was established by Environment Canada, Meteorological Service (MSC) who provided instrumentation and technical support in all years. Site service and data abstraction have been provided by ELA within the envelope of the Hydrology Program (currently, HydroLim). Data are stored in the ELA database as well as being routinely submitted to the MSC Ontario Climate Centre in Downsview, Ontario under the name “Rawson Lake Station”. For a site description and discussion of components see Beaty and Lyng (1989).
+Wind data is one of several components measured at the Experimental Lakes Area (ELA) meteorological site with records beginning in June 1969. The site was established by Environment Canada, Meteorological Service (MSC) who provided instrumentation and technical support in all years. Site service and data abstraction have been provided by ELA within the envelope of the Hydrology Program (currently, "hydrolim"). Data are stored in the ELA database as well as being routinely submitted to the MSC Ontario Climate Centre in Downsview, Ontario under the name “Rawson Lake Station”. For a site description and discussion of components see Beaty and Lyng (1989).
 
 A second data logger owned by ELA was installed initially to replace a LICOR logger that had been dedicated to PAR solar radiation data. This new logger, a Campbell Scientific model CR-1000, was installed on July 31, 2007 and while initially intended for light data, was gradually expanded to include other sensors that eventually included wind, barometric pressure, temperature, relative humidity, and precipitation. The programing code for wind speed and direction was added on June 24, 2008. An RM Young anemometer was mounted on the communication tower at the MET Site at 10 m above ground. This set-up is owned and maintained by ELA.
 
-# Site Location
+## Methods
 
-The site is land-based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station and 43 m above the lake surface.
+### Site Location
 
-UTM Coordinates  
-15 U 0447128 5501551 (NAD83)  
-15 U 0447138 5501331 (NAD27)
+The IISD-ELA meteorological station ("METSITE" in the data tables) is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface. Altitude above sea level is 433m.
 
-# Collection Methods
+UTM Coordinates:
+* 15 U 0447128 5501551 (NAD83)  
+* 15 U 0447138 5501331 (NAD27)  
 
-<u>Units of measure</u>
+DMS Coordinates:
+* 49°39′51″ N
+* 93°43′58″ W
+
+### Units of measure
 
 In the ELA database, units of measure are as follows:
 - Time is central standard time (CST).
@@ -45,7 +60,7 @@ In the ELA database, units of measure are as follows:
 - Wind direction is the prevailing direction in degrees true north from which the wind is blowing. Instrumentation changed in 1993 and a more thorough discussion is provided under the next two discussion sections.
 - Standard deviation of wind direction calculated using Campbell Scientific's wind speed weighted algorithm.
 
-<u>Instrumentation</u>
+### Instrumentation
 
 The standard instrument for measuring wind is the anemometer. To date, two types of anemometers have been used at ELA: the type 45B anemometer, with analog chart recorder, and the RM Young anemometer, with a digital Campbell Scientific data logger (CS-21X from January 3, 1993 to August 5, 2009; CS-23X from August 5, 2009 to November 2, 2011; CR-3000 from November 2, 2011). This equipment is owned by Environment Canada.
 
@@ -60,31 +75,24 @@ A problem of directional bias in favour of the non-cardinal (NE, NW, SE, SW) win
 
 From January 13, 1993 to present, a RM Young anemometer was installed. The wind speed sensor is a four-blade helicoid propeller with directional vane connected to a Campbell Scientific 21X data logger. The software used is the MSC national program that records several meteorological components and stores the data using Universal Time Standard (UTC) for time, knots for speed and degrees for direction. All data has been corrected to CST, km/h and degrees for the ELA database. The determination of hourly speed and direction for the RM Young is different than for the Type 45B and is discussed more fully below.
 
-<u>Detection limits</u>
+### Detection limits
 
-1)  Prior to January 13, 1993
+* Prior to January 13, 1993:
+    * Prior to January, 1993 wind speed was recorded to the nearest whole mile per hour. Data was converted to kilometres per hour and entered into the Database to the nearest 0.1 km/h. Speed is the total or cumulative amount for the hour ending as indicated (HOUR field). Therefore, an entry of zero means that there was cumulatively 0 miles of wind for the entire hour.  
+    * Direction was recorded as the prevailing direction within the hour to one of the eight cardinal points. For example, during an hour in which 10 miles of wind passed the anemometer, each mile would have a direction assigned to it on completion. If it recorded SW 6 times and NW 4 times, then the prevailing direction was said to be SW at 10 miles per hour. For the Database, these directions were converted to discrete values in degrees, with North being 360<sup>o</sup> (not zero degrees).
 
-> Prior to January, 1993 wind speed was recorded to the nearest whole mile per hour. Data was converted to kilometres per hour and entered into the Database to the nearest 0.1 km/h. Speed is the total or cumulative amount for the hour ending as indicated (HOUR field). Therefore, an entry of zero means that there was cumulatively 0 miles of wind for the entire hour.
->
-> Direction was recorded as the prevailing direction within the hour to one of the eight cardinal points. For example, during an hour in which 10 miles of wind passed the anemometer, each mile would have a direction assigned to it on completion. If it recorded SW 6 times and NW 4 times, then the prevailing direction was said to be SW at 10 miles per hour. For the Database, these directions were converted to discrete values in degrees, with North being 360<sup>o</sup> (not zero degrees).
->
-> b\) January 13, 1993 to present
->
-> The data logger records velocity to the nearest 0.00001 knot. Hourly values reported in the Database were averaged from 5 s readings within the hour, converted from knots and stored to the nearest 0.1 km/h. Therefore, speeds up to 0.04999 are stored as zero.
->
-> Hourly direction values reported in the Database were averaged from 5 s values to the decimal of a degree for the hour. Values were rounded to the nearest 0.1 degree for the Database where 360<sup>o</sup> represents true north (there is no 0<sup>o</sup> direction) and the first reported value for the circle is 0.1 degrees.
+* January 13, 1993 to present:
+    * The data logger records velocity to the nearest 0.00001 knot. Hourly values reported in the Database were averaged from 5 s readings within the hour, converted from knots and stored to the nearest 0.1 km/h. Therefore, speeds up to 0.04999 are stored as zero.  
+    * Hourly direction values reported in the Database were averaged from 5 s values to the decimal of a degree for the hour. Values were rounded to the nearest 0.1 degree for the Database where 360<sup>o</sup> represents true north (there is no 0<sup>o</sup> direction) and the first reported value for the circle is 0.1 degrees.
 
-3)  Consideration for calm periods and directional bias
+* Consideration for calm periods and directional bias:
+    * Due to the inherent differences in the two types of equipment used, users are cautioned as to their treatment of periods of calm or low wind speed as well as the reported precision of direction data.
 
-> Due to the inherent differences in the two types of equipment used, users are cautioned as to their treatment of periods of calm or low wind speed as well as the reported precision of direction data.
->
-> d\) Missing Record:
->
-> In the Database, periods of missing speed or direction were indicated as blank or “null” data. It is important to understand that a wind speed of zero is data but that a blank entry means “missing” or “not available”.
->
-> Digital wind sensing and logging instruments are sensitive to damage from electrical storms and surges that may result in false values being recorded. All attempts have been made to identify and remove erroneous data and store such periods as “null” data.
+* Missing records:
+    * In the database, periods of missing speed or direction were indicated as blank or “null” data. It is important to understand that a wind speed of zero is data but that a blank entry means “missing” or “not available”.  
+    * Digital wind sensing and logging instruments are sensitive to damage from electrical storms and surges that may result in false values being recorded. All attempts have been made to identify and remove erroneous data and store such periods as “null” data.
 
-<u>Height of exposure</u>
+### Height of exposure
 
 Wind anemometers are normally exposed at a height of 10 m. The wind tower erected in 1969 had a height of 12.2 m (40 feet) because of the nature of the forest canopy surrounding the site. On May 20, 1986, the tower was relocated 50 m to the SW and replaced with a 10 m pivoting arm tower to eliminate possible interference with nearby precipitation chemistry and air quality sampling equipment. The tower height since that time has been consistent with the internationally accepted height for exposure of wind instruments.
 
@@ -98,7 +106,7 @@ A method for vertical height correction is provided by Buckler (1969) as follows
 >
 > p = exponent that varies with terrain (0.14 – 0.50); assumed 0.25 for ELA
 
-<u>Forest fire history</u>
+### Forest fire history
 
 Two major forest fires in 1974 and 1980 have severely impacted the forest in the Rawson Lake Watershed and may have influenced the wind record due to altered exposure and terrain roughness. The 1974 fire burned only the eastern half of the watershed, however, the 1980 fire burned almost the entire catchment and the area surrounding the meteorological station. From 1969 until the 1980 fire, the site was surrounded by a mature mixed forest of predominantly pine, spruce, birch and poplar. The fire consumed all needles and most small branches as well as all ground cover. Over the 3-4 year period that followed, most of these trees had fallen down and a thick, young Jack Pine forest was well established. By the fall of 1988, nearly all of the old forest was down. Occasional measurements of tree height were made on the four sides of the site. Averages and the range of measured values are as follows:
 
@@ -116,17 +124,33 @@ Two major forest fires in 1974 and 1980 have severely impacted the forest in the
 >
 > 2020 10m not specifically measured, same height as 10m anemometer
 
-<u>Wind over water</u>
+### Wind over water
 
 It is important to consider that the wind reported in the database is monitored from a land based station and may be unlike that occurring directly over ELA lakes. Solinske (1982, unpublished report) addressed this problem as being the result of variability in fetch, atmospheric stability and topographic roughness. His study investigated the correlation of the wind speed measured at the meteorological station to wind data collected at the centre of three lakes of varying size (L239, L223 and L470). Solinske demonstrated clearly that at ELA, fetch plays an important roll influencing the amount of wind that the lake receives. Moore (1996, unpublished report) expanded this study by developing correlations of wind speed between the meteorological station and lakes 239 and 979. Moore determined that the wind at lakes 239 and 979 were 82% and 70%, respectively, of that recorded at the meteorological station.
 
-<u>Description of the data set in the database</u>
+## Data Dictionary
 
-This data set contains hourly wind speed and hourly prevailing direction as described above.
+ **Column name (alphabetical)** | **data type** | **unit** | **definition** 
+---|---|---|---
+ account | character varying | N/A | Username of the IISD-ELA staffmember who added or most recently edited the data record. This may be generated through bulk loads or manually updated as records are edited individually. 
+ dataset_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each IISD-ELA dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset_name is longer and may be changed and refined over time. 
+ dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. 
+ date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. 
+ direction_degrees | numeric | degrees | Wind direction is the prevailing direction in degrees true north from which the wind is blowing. 
+ gear_type_code_direction | character varying | N/A | A short code that refers to a specific gear type, typically starting with two or three capital letters and ending with one number. This code is for wind direction (as opposed to wind speed, since there are two parameters in this table). 
+ gear_type_code_speed | character varying | N/A | A short code that refers to a specific gear type, typically starting with two or three capital letters and ending with one number. This code is for wind speed (as opposed to wind direction, since there are two parameters in this table). 
+ gear_type_desc_direction | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). This description is for wind direction (as opposed to wind speed, since there are two parameters in this table). 
+ gear_type_desc_speed | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). This description is for wind speed (as opposed to wind direction, since there are two parameters in this table). 
+ hour | numeric | N/A | Hour of the day as an integer number, from 0 to 23. Hours are "hour ending", for example, hour 2 is the end of the second hour. 
+ monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. 
+ speed_at_10m | numeric | kilometres per hour | Wind speed at 10 metres above the ground (as a mean over the hour). For older data, this is a calculated value since speed was actually measured at a higher point (12.2m, to reach above the forest, and about 50m from the current location, pre-May 20, 1986). For newer data (May 20, 1986 and onward) it is the actual measured value with the device at 10m height. See the wind info sheet for more information. 
+ speed_measured | numeric | kilometres per hour | Wind speed measured by the device (as a mean over the hour). The height of the device varied between newer or older data, and this is the raw value at the variable height. Data pre-May 20, 1986 was measured at 12.2m (above the forest, about 50m from the current location) whereas data May 20, 1986 and onward was measured at 10m. For consistent values across time use "speed_at_10m" instead. See the wind info sheet for more information. 
+ tower_height | numeric | metres | The height of the tower (height above the ground where wind was measured). This is important for the "speed_measured" value. 
+ update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. 
+ version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. 
 
-In the ELA database, the site is identified as 239 AIR MET, where L239 is the lake-centred location, AIR refers to airshed sublocation of Lake 239, and MET is the station code.
 
-Each record contains the following data:
+The below notes may be out of date, redundant, or irrelevant (some internal cleanup required here), but they have been left here in case they are useful for any information missing above.
 
 > HOUR is the field for the hour ending (i.e. HOUR = 1 is the period from 1 s after mid-night to 01:00).
 >
@@ -152,7 +176,7 @@ Each record contains the following data:
 >
 > *AQUARIUS Grade Code: 10*
 
-<u>References</u>
+## References
 
 Beaty, K.G., and M.E. Lyng. 1989. Hydrometeorological data for the Experimental lakes Area, northwestern Ontario, 1982 to 1987. Can. Data Rep. Fish. Aquat. Sci. 759: v + 280 p.
 

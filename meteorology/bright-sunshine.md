@@ -1,18 +1,23 @@
-# Bright Sunshine: Hydrometeorology Information Sheet
+# Meteorology – Bright Sunshine – Information Sheet
+Authors: Ken Beaty, Paul Fafard, Ken Sandilands  
 
-Author(s): Ken Beaty, Paul Fafard, Ken Sandilands  
-Date: February 2009  
-Last update: Jan 11, 2023 (KS)
+## Contents
+- [General information](#general-information)
+- [Methods](#methods)
+  * [Site location](#site-location)
+  * [Collection methods](#collection-methods)
+- [Data dictionary](#data-dictionary)
+- [References](#references)
+- [Photos](#photos)
 
-# IISD-ELA Database Fields for Bright Sunshine:
-
+<!-- # IISD-ELA Database Fields for Bright Sunshine:
 \*\*Bright sunshine data is not currently in the database, though the dataset exists from 1969 to present \*\*  
 Date (calendar day)  
 Location ID, Sublocation, Station ID  
 Total hours  
-Data Set ID =
+Data Set ID = -->
 
-# General
+## General information
 
 Bright sunshine record at the Experimental Lakes Area began in July 1969. In all years, data was measured using the same methods and protocol as well as the same instrument in the same location. Based on the 30-year ‘Normal’ for Canada for the period 1941 to 1970, the Experimental Lakes Area can expect to receive approximately 2000 hours of ‘bright sunshine’ each year (Environment Canada). The ‘duration of bright sunshine’ is defined as the duration of sunshine of sufficient intensity to scorch or burn the standard sunshine card installed in the Campbell-Stokes Sunshine Recorder. The duration of bright sunshine does not refer to the period during which the sun is visible to the human eye.
 
@@ -20,15 +25,21 @@ Year-round bright sunshine was recorded up to fall 2017 (the great snowstorm of 
 
 Since April 27, 2018 bright sunshine has been measured and recorded on a Campbell Scientific CR1000 datalogger.
 
-# Site Location
+## Methods
 
-The site is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface.
+### Site Location
 
-UTM Coordinates  
-15 U 0447128 5501551 (NAD83)  
-15 U 0447138 5501331 (NAD27)
+The IISD-ELA meteorological station ("METSITE" in the data tables) is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface. Altitude above sea level is 433m.
 
-# Collection Methods
+UTM Coordinates:
+* 15 U 0447128 5501551 (NAD83)  
+* 15 U 0447138 5501331 (NAD27)  
+
+DMS Coordinates:
+* 49°39′51″ N
+* 93°43′58″ W
+
+### Collection Methods
 
 <u>Campbell-Stokes Bright Sunshine Recorder</u>
 
@@ -65,14 +76,17 @@ Monthly maximum hours possible at the ELA site are provided in the following tab
 
 The Sunshine Hours sensor module is used to calculate the number of sunshine hours based on a site's solar radiation measurement and its location. In this instance, sunshine hours is defined as when the current global radiation is higher than 0.4 times the current potential solar radiation outside the earth's atmosphere. This calculation is done by the CR1000 Campbell Scientific datalogger, and uses the Total Solar Radiation sensor. The potential solar radiation is calculated by the datalogger by using the SolarPosition function which calculates the maximum real time potential solar radiation possible based on the latitude and longitude, elevation, air temperature, and the sun angle.
 
-<u>Reference</u>
+## Data dictionary
+
+Coming soon...
+
+## References
 
 Sunshine – Manual of Standard Procedures For Obtaining Sunshine Data. January 1974. Environment Canada. Atmospheric Environment Service. U.D.C. 551.508.23
 
 Sunshine Hours – Campbell Scientific Short Cut help menu/ user manual.
 
-<u>  
-Photographs</u>
+## Photos
 
 <img src="./attachments/media/image8.png" width="550" alt="Photo of the bright sunshine recorder. It is outdoors at the meteorological station. It is a glass ball about the size of a fist, surrounded by metal bands, sitting atop a metal pole. The surrounding ground is bedrock and some short grass, with other devices and trees in the background." />
 

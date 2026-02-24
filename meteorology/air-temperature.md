@@ -1,38 +1,55 @@
-# Air Temperature: Hydrometeorology Information Sheet
+# Meteorology – Air Temperature – Information Sheet
+Authors: Paul Fafard, Ken Sandilands
 
-Update Date: 28 Jun 2023 (PF, added method code VT5, re-worded some areas)  
-By: Paul Fafard, Ken Sandilands
+## Contents
+- [General Information](#general-information)
+  * [Background of the datasets](#background-of-the-datasets)
+  * [Considerations and applications](#considerations-and-applications)
+- [Methods](#methods)
+  * [Site Location](#site-location)
+  * [Climatological day](#climatological-day)
+  * [Instrumentation](#instrumentation)
+  * [Limitations](#limitations)
+  * [Collection method codes](#collection-method-codes)
+- [Data Dictionary](#data-dictionary)
+- [References](#references)
 
-# IISD-ELA Database Fields for Air Temperature:
+## General Information
 
-Daily (Climatological Day)  
+<!-- Daily (Climatological Day)  
 Location ID, Sublocation, Station ID  
 Mean Date (YYYY-MM-DD)  
 Maximum Temperature, Minimum Temperature (<sup>o</sup>C)  
 Collection Method =VT1, VT4, VT5, AT1, AT2  
 Data Set ID = M03  
 Environment Canada public data for IISD Experimental Lakes Area found below:  
-Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite>
+Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite> -->
 
-# General
+### Background of the datasets
 
-Daily maximum and minimum air temperatures are two of several components measured at the IISD Experimental Lakes Area meteorological site, with the record beginning on June 26, 1969. The meteorological site has received instrumentation and support by Environment Canada since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is at the URL above.
+There are two air temperature datasets available from measurements the IISD Experimental Lakes Area meteorological site: daily minimum and maximum, and hourly mean temperature. The daily min and max dataset has a longer record, beginning on June 26, 1969. The meteorological site has received instrumentation and support by Environment Canada since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is also available, online at [https://tinyurl.com/ELAmetsite](https://tinyurl.com/ELAmetsite). 
 
-Data that is collected, processed and analysed is utilized by a variety of research projects, scientists and graduate students from both within and outside of IISD-ELA. Many of the data sets are long term (now 50+ years) and provide understanding of natural variability in our ecosystems and will be valuable in future for studies such as climate change. They have proven invaluable in the planning of new experiments.
+### Considerations and applications
+
+Data that is collected, processed and analysed is utilized by a variety of research projects, scientists and graduate students from both within and outside of IISD-ELA. Many of the datasets are long term (now 50+ years) and provide understanding of natural variability in our ecosystems and will be valuable in future for studies such as climate change. They have proven invaluable in the planning of new experiments.
 
 The majority of data in the daily maximum/minimum air temperature dataset was collected using manual read thermometers. From 2011-11-02 to 2017-11-20, data from manual thermometers and digital air temperature probes were being collected, and so these dates will have data from both methods. Since 20 November 2017, manual thermometers were discontinued and air temperature data is sourced from digital temperature probes.
 
-# Site Location
+## Methods
 
-The site is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface.
+### Site Location
 
-UTM Coordinates  
-15 U 0447128 5501551 (NAD83)  
-15 U 0447138 5501331 (NAD27)  
+The IISD-ELA meteorological station ("METSITE" in the data tables) is land based and is located 370 m west of Rawson Lake (L239), 400 m northwest of the field station, and 43 m above the lake surface. Altitude above sea level is 433m.
 
-# Collection Methods
+UTM Coordinates:
+* 15 U 0447128 5501551 (NAD83)  
+* 15 U 0447138 5501331 (NAD27)  
 
-<u>Climatological day</u>
+DMS Coordinates:
+* 49°39′51″ N
+* 93°43′58″ W
+
+### Climatological day
 
 All air temperature and precipitation data in the IISD-ELA database is based on the **climatological day** (for ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day:
 
@@ -62,7 +79,7 @@ The data in this table show that August 27 had a maximum temperature of 18.5 <su
 
 From 20 Nov 2017 onwards, CR1000 logger data is used in place of twice-daily manual thermometer checks. Minimum and maximum temperature data from the CR1000 is collected over the same time periods as the manual checks would have been (08:00 and 20:00). During spring, summer, and fall, temperatures are once again collected twice-daily using the thermometers. Data is coded to reflect collection method (see codes below, in Database Information section).
 
-<u>Instrumentation</u>
+### Instrumentation
 
 For many years, the standard instrumentation for measuring air temperature at the ELA were manual read thermometers, housed in a Stevenson screen. The manual read thermometers consisted of two separate thermometers: one daily maximum thermometer and one daily minimum/current temperature thermometer. The maximum air temperature thermometer is a mercury thermometer, where the mercury advances as temperatures rise and will not retreat until it is reset by hand. The minimum/current air temperature thermometer is an alcohol thermometer with a minimum temperature indicator bar (a ‘rider’). The rider is pushed lower when the alcohol retreats as temperatures drop, and is left behind as the alcohol advances when temperatures rise.
 
@@ -76,7 +93,7 @@ Currently, data loggers at the meteorological site include 1) a Campbell Scienti
 
 Historically, temperature has also been recorded using an analog chart recorder, though this data is not in the database at present and does not contribute to the daily maximum and minimum air temperature dataset.
 
-<u>Limitations</u>
+### Limitations
 
 Mercury freezes at -39 <sup>o</sup>C. At this temperature, mercury within the thermometer will not move and will no longer give completely reliable data. Records exist with the ELA database below these temperatures; these records should be used with caution.
 
@@ -86,27 +103,8 @@ Data from the manually read/reset alcohol/mercury thermometers, and so has poten
 
 Data from digital probes is high quality, high resolution data, though potential error exists due to sensor drift between re-calibrations.
 
-<u>Database information</u>
 
-In the ELA database, units of measure are as follows:
-
-- Time is Central Standard Time (CST) (GMT-6)
-
-- Daily data based on maximums and minimums of climatological day
-
-- Temperatures were recorded in <sup>o</sup>F from 26 June 1969 to 31 July 1978, and have been converted to <sup>o</sup>C in the IISD-ELA database
-
-Within the database, the meteorological site is identified as 239 AIR MET, where 239 is the lake centered location, AIR is the airshed sub-location of Lake 239, and MET is the station code. These codes are for the IISD-ELA maintained database only.
-
-Each record contains the following data:
-
-MEAN_DATE is the field that contains the climatological date of each data record
-
-MAX_TEMP is the field that contains the maximum daily temperature, in <sup>o</sup>C
-
-MIN_TEMP is the field that contains the minimum daily temperature, in <sup>o</sup>C
-
-COLLECTION_METHOD is the field that contains the code pertaining to the instrumentation used to collect the data
+### Collection method codes
 
 > VT1: Deployed from 26 June 1969 to 20 Nov 2017; the primary source of air temperature data over this time period. Data was recorded from readings of the maximum (mercury) and minimum (alcohol) thermometers within a Stevenson Screen at the ELA meteorological station (Environment Canada station ‘Rawson Lake’). Data from the thermometers is read to the nearest 0.5 <sup>o</sup>C.
 >
@@ -118,7 +116,34 @@ COLLECTION_METHOD is the field that contains the code pertaining to the instrume
 >
 > AT2: Deployed from January 1993 to present; temperature data recorded from the HMP 45C onto the ECCC owned/operated CR3000 data logger at the ELA metsite. Previous data loggers coupled with the HMP 45C include a CS21X (January 1993 to August 5, 2009), a CS23X (until 2 November 2011). Timestamp for this data is in UTC (GMT-0), converted to CST if used to fill gaps in max/min dataset. Used to fill gaps only when VT4 is unavailable.
 
-<u>References</u>
+## Data Dictionary
+
+In the ELA database, units of measure are as follows:
+
+- Time is Central Standard Time (CST) (GMT-6)
+- Daily data based on maximums and minimums of climatological day
+- Temperatures were recorded in <sup>o</sup>F from 26 June 1969 to 31 July 1978, and have been converted to <sup>o</sup>C
+
+ **Column name (alphabetical)** | **data type** | **unit** | **definition** | **dataset(s)** 
+---|---|---|---|---
+ account | character varying | N/A | Username of the IISD-ELA staffmember who added or most recently edited the data record. This may be generated through bulk loads or manually updated as records are edited individually. | daily min & max, hourly mean 
+ dataset_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each IISD-ELA dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset_name is longer and may be changed and refined over time. | daily min & max, hourly mean 
+ dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. | daily min & max, hourly mean 
+ date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. | daily min & max, hourly mean 
+ gear_type_code | character varying | N/A | A short code that refers to a specific gear type, typically starting with two or three capital letters and ending with one number. | hourly mean 
+ gear_type_desc | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). | hourly mean 
+ hour | numeric | N/A | Hour of the day as an integer number, from 0 to 23. Hours are "hour ending", for example, hour 2 is the end of the second hour. | hourly mean 
+ hourly_temp_measured | numeric | degrees Celsius | Mean measured air temperature over the hour. | hourly mean 
+ max_temp | numeric | degrees Celsius | Maximum air temperature value over the calendar day (during the 24hrs after 8AM on the date of the record). | daily min & max 
+ min_temp | numeric | degrees Celsius | Minimum air temperature value over the calendar day (during the 24hrs after 8AM on the date of the record). | daily min & max 
+ monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. | daily min & max, hourly mean 
+ method_sample_code | character varying | N/A | A short and unique code associated with a description of a method of sampling for data (i.e., how the physical sample was collected or measured in the field). | daily min & max 
+ method_sample_desc | character varying | N/A | A short description of the method used to sample the data (collect or measure the data, in a field or lab environment). For more information, see the associated Info Sheet. | daily min & max 
+ update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. | daily min & max, hourly mean 
+ version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. | daily min & max, hourly mean 
+
+
+## References
 
 <https://www.campbellsci.com/107>; T107C range
 
