@@ -1,2 +1,7 @@
 # File types for git to ignore in this repo
+
+# css styling files when doing file conversions
 *.css
+
+# For if create static html versions of info sheet mds (e.g. for repo data packages)
+*.html
