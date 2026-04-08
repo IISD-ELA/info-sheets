@@ -2,7 +2,7 @@
 
 Author: Ken Beaty, Paul Fafard (updated March 21, 2019)
 
-Last Update: 3 April 2025 (LNT)
+Last Update: 3 April 2025 (LNT) Paul and Lily tutorial (April 8 2026)
 
 **<u>General</u>**
 
