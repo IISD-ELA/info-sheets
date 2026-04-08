@@ -157,4 +157,3 @@ ELA temperature records
 
 <https://tinyurl.com/ydc75ux4> Sigma-Aldrich documentation on mercury
 
-<https://tinyurl.com/ycy62se8> Government of Canada Weather Instruments tour page
