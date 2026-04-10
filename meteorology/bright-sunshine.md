@@ -78,7 +78,21 @@ The Sunshine Hours sensor module is used to calculate the number of sunshine hou
 
 ## Data dictionary
 
-Coming soon...
+ **Column name (alphabetical)** | **data type** | **unit** | **definition** 
+---|---|---|---
+ account | character varying | N/A | Username of the IISD-ELA staffmember who added or most recently edited the data record. This may be generated through bulk loads or manually updated as records are edited individually. 
+ bright_sunshine_hours | numeric | hours | Number of hours of bright sunshine, within the time interval of the data record (e.g. 1 = 1 hour, 0.5 = 30 minutes, 0.25 = 15 minutes). See the info sheet for more information. 
+ comments | character varying | N/A | Remarks about the record or its collection. 
+ dataset_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each IISD-ELA dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset_name is longer and may be changed and refined over time. 
+ dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. Directly associated with dataset_code (each code has a different name). 
+ date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. 
+ gear_type_code | character varying | N/A | A short code that refers to a specific gear type, typically starting with two or three capital letters and ending with one number. 
+ gear_type_desc | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). Corresponds directly to the gear_type_code (one description for each code). 
+ monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. 
+ time | time without time zone | HH:MM:SS | The time the field sampling or surveying activity was carried out to collect the data in the record. 
+ update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. 
+ version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. 
+
 
 ## References
 
