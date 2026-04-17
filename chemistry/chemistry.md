@@ -17,6 +17,7 @@
 - [Data Dictionary ](#data-dictionary)
   - [List of columns by table ](#list-of-columns-by-table)
   - [Column Definitions](#column-definitions)
+  - [Tips for working with the data](#tips-for-working-with-the-data)
 - [References](#references)
 - [Appendices](#appendices)
   - [Result Detection Limits](#result-detection-limits)
@@ -160,6 +161,21 @@ Tabular Data – Chemistry of LTER Lakes 
 | result\_value | numeric | See "result\_unit" | The actual measured number for the parameter: the result. Basically, this is the meaningful number measured or determined for the parameter in question. For the associated unit, see "result\_unit". For more information, read the definition for the "result\_detection\_quantitation\_limit\_measure" column and read in the chem info sheet appendices an important bolded note about below detection scenarios. |
 | validated_by | character varying | N/A | The person who validated the data, after quality assurance was performed on the data. | 
 | validated_date | date | N/A | The date the data was validated (YYYY-MM-DD). | 
+
+## Tips for working with the data
+
+When using our chemistry data before it has been filtered for your specific needs (such as after downloading the full data package from the EDI or DataStream repository), certain columns are more important for initial filtering to target only the records of interest.
+
+**Profiles or integrated layers**
+* Profiles: If you are only interested in profile data, you'll want the records where "activity_depth_height_unit" = 'm' (for metres - i.e., discrete profile depth data) but also probably 'epi'. Epi is for "integrated epilimnion". Sometimes, or maybe mostly or always, when profiles are collected, the integrated epilimnion is collected too, instead of discrete profile depths within the epilimnion... it makes sense if you think about it, since the epi is well mixed. So for example, you might notice there's no 0m, 0m5m, 1m, 1.5m, etc. in the profile series, but instead there's the epi, which would be the same for any of those (depending on the epilimnion depth, which will vary by lake and date of sampling).
+* Epi only: To filter just for the epilimnion data (omit the profile records), filter for where "activity_depth_height_unit" = 'epi'. This is collected after determining the depth range of the epilimnion in the field, by moving the sampling bottle up and down over the range of the layer. More details are in the field sampling info sheet.
+* Other layers (meta, hypo, surface grabs): You can check your filters or select distinct on "activity_depth_height_unit" to see other layers that are sampled. Use of these is more rare, but they may be useful in certain scenarios depending on your project.
+
+**Chemical parameters**
+* Specific chemical parameters: A full list of these is available at the end of this info sheet (e.g., CHLA, DOC, NA, PARTP, PH, TDN, ...). You will want to filter for only those of interest to your work by using the "characteristic_name" or "characteristic_name_long" columns. The short-hand (not "long") is pretty self explanatory (e.g. Chloride = CL), but the long name column directly corresponds and can be used just as well.
+
+**Dissolved oxygen profiles over long time periods**
+* For dissolved oxygen profiles, you will need to use the chem data for earlier years and the "physical limnology" sonde data for more recent years. Basically, dissolved oxygen profile data span two datasets. This is because the collection method changed, so the data records are stored in different datasets accordingly.
 
 # References
 
