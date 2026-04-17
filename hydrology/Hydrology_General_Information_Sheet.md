@@ -1,11 +1,31 @@
-**General Hydrometric Station Information Sheet**
+# Hydrology – Flows and Levels - Information Sheet
+Authors: Ken Beaty, Paul Fafard
 
-Author: Ken Beaty, Paul Fafard (updated March 21, 2019)
+## Contents
+- [General information](#general-information)
+  * [Background](#background)
+  * [The Hydrometric Program](#the-hydrometric-program)
+    * [Water Survey of Canada station numbers](#water-survey-of-canada-station-numbers)
+  * [Hydrometric data](#hydrometric-data)
+- [Data Usage Considerations](#data-usage-considerations)
+  * [Survey Benchmarks](#survey-benchmarks)
+  * [Station UTM Coordinates](#station-utm-coordinates)
+  * [Rating Curve Equations](#rating-curve-equations)
+  * [Raw Data Files](#raw-data-files)
+  * [Station Record](#station-record)
+  * [Human and Natural Disruptions](#human-and-natural-disruptions)
+  * [Surveys, Mapping and Aerial Photography](#surveys-mapping-and-aerial-photography)
+  * [Other Considerations](#other-considerations)
+- [Data Dictionary](#data-dictionary)
+  * [List of columns](#list-of-columns)
+  * [Data dictionary](#data-dictionary)
+  * [Units of measure and accuracy](#units-of-measure-and-accuracy)
+  * [Qualifier codes](#qualifier-codes)
+- [References](#references)
 
-Last Update: 3 April 2025 (LNT) 
+## General Information
 
-**<u>General</u>**
-
+### Background
 Since 1968, there have been several changes in agency structure while the function for key working groups involved have remained the same. For simplicity throughout this discussion, the following acronyms have been used with no attempt to define the chronology of the name changes that occurred to agencies, affiliates or working groups.
 
 > IISD-ELA: International Institute for Sustainable Development - ELA
@@ -30,7 +50,7 @@ Since 1968, there have been several changes in agency structure while the functi
 >
 > U of M: University of Manitoba, Department of Civil Engineering and Department of Geology and Earth Sciences
 
-**<u>The Hydrometric Program</u>**
+### The Hydrometric Program
 
 This discussion is intended to support hydrometric record found in the ELA database. Three previously published data reports provide similar information current to the end of 1987. Users of these data sets are encouraged to read this information sheet in order to gain the proper perspective for the hydrology of the ELA and the specifics of using the data.
 
@@ -38,7 +58,7 @@ Hydrological work began at ELA in the winter of 1968/69 with the planning of the
 
 From 1969 to end of 2018, 1,010 station years of hydrometric record have been collected from 48 hydrometric stations that have been operated in 28 different lake watersheds. A summary of stations and years of record during the 1969 to 2018 period is provided in this document.
 
-<u>Cross reference with Water Survey of Canada station numbers:</u>
+#### Water Survey of Canada station numbers
 
 Hydrometric stations that are included in the Water Survey of Canada data base are identified in the following table. Data for these stations ceased to be included in the WSC database a few years after the withdrawal of their services in 1985.
     
@@ -73,7 +93,7 @@ Hydrometric stations that are included in the Water Survey of Canada data base a
 | 470 | WW  | HQ470 | Lake 470 Outlet Near Kenora | 05PD017 |
 | 661 | WW  | HQ661 | Lake 661 Outlet Near Kenora | 05PD028 |
 
-**<u>Hydrometric data</u>**
+### Hydrometric data
 
 <u>Surface water data:</u> The lake level and discharge data in this report are surface water data. It is important to understand the difference between outflow and surface water data when working with streamflow records, particularly lake outflow data. The true or total outflow from a lake or flow between two lakes may include a groundwater seepage (subsurface flow) component that is not easily detectable in addition to that which is visible on the surface as open channel flow.
 
@@ -91,48 +111,9 @@ In winter, all ELA lakes freeze over and accumulate a snow pack on the ice surfa
 
 Since 1980, efforts have been made to obtain monthly manual measurements of flow during the winter. These winter values are included in the database with a qualifier code to indicate a manual observation. These observations, along with data recorded at heated all-season stations and climate record, provide the basis for winter flow estimates that appear in the ELA database. Similarly, winter estimates have been flagged with a qualifier code to differentiate them from monitored record (see “Qualifier codes”).
 
-<u>Units of measure and accuracy:</u> In Canada, metrification occurred in 1978. Prior to 1979, the unit of measure for discharge was cubic feet per second (f<sup>3</sup>s<sup>-1</sup>) reported to two decimal places. Flow volumes were reported in acre-feet reported to one decimal place. The unit of measure for lake level was feet reported to two decimal places. All data collected and previously reported in English units have been converted for the ELA database for consistency. Hydrological units are as follows:
+## Data Usage Considerations
 
-- Discharge = cubic metres per second (m<sup>3</sup>s<sup>-1</sup>) reported to 4 decimal places
-
-- Flow volume = cubic metres (m<sup>3</sup>) reported to the nearest whole cubic metre
-
-- Lake level (stage) = metres (m) reported to 3 decimal places (1 mm precision).
-
-> <u>Qualifier codes:</u> Letter codes were used to qualify discharge and water level data where necessary. These codes are defined as follows.
->
-> A – manual observation: Mean daily flow or water level were coded “A” to indicate that the value was an estimate based on one or more manual gauge readings or in combination with partial recorded record for that day,
->
-> B - ice conditions: The presence of ice in the channel or structure affected, or may have affected, the stage-discharge relationship. The value reported is a “best estimate” due to the presence of ice,
->
-> C – capacity exceeded: A major or unusual runoff event occurred resulting in flow that exceeded the station capacity for all or part of the day reported. This code indicates that flow for the reported value was in the overflow range of the gauging structure or outside of the range of calibration and should be regarded as a “best estimate”,
->
-> D - beaver activity: Mean daily discharge values were coded “D” when beaver have placed debris or constructed a dam directly in the gauging structure resulting in false recorded stage data. Estimates were made for missing or suspicious data during the period of beaver influence. If estimates were not possible, the entry in the ELA Data Base will be “null”. In either case the entry was coded “D”,
->
-> D1 – beaver activity: Beaver have constructed a dam above or below the gauging structure that may have influenced the “best estimate” reported value,
->
-> D2 – beaver activity: A beaver dam located above the gauging station was opened resulting in an increase in flow not associated with a normal precipitation event but indicated a valid flow value,
->
-> E - estimated value: This indicates a value that was determined by some indirect method such as interpolation, graph of observed readings, discharge measurement, comparison with other stations or by considering meteorological data,
->
-> F- frozen conditions: The hydrometric gauging station was frozen resulting in missing record. Estimates were made when possible.
->
-> H- FLUDEX effect: This code applies to the Lake 239 NW Inflow station only. From 1999 to 2003 inclusive, The Upland Flooding Experiment (FLUDEX) operated a reservoir (Site 2) at the top end of the Northwest Sub-basin of the Lake 239 Watershed. While the reservoir discharged to Roddy Lake, seepage and end-of-season draining resulted in additional water, originating from Roddy Lake, to the NW Sub-basin. This additional water is included in the reported values for those station years of record.
->
-> I – linear interpolation: This indicates a value that was estimated by linear interpolation between two manual observations. In most cases, estimates by interpolation were made to complete data sets during stable low flow periods (i.e. winter) that were not influenced by precipitation events or other hydrologic events in order to provide complete data sets for analyses such as chemical mass balances. Mean daily values that could not be estimated by interpolation resulted in “null” values in the data base that were coded “M”.
->
-> L – leakage: This indicates that leakage or seepage under or around a weir or flume was present and that an adjustment was made to the reported value.
->
-> M - missing record: Mean daily values that could not be reliably estimated were considered “missing record” resulting in a “null” entry in the data base,
->
-> R – regulated flow or water level: This indicates that the reported discharge or water level value was influenced by human regulation for experimental or other purposes. This code is intended for “natural” systems that are not normally regulated and is reserved for situations that last only days or weeks in duration. Stations that were regulated for longer periods (one or more seasons) are noted in station discussions.
->
-> S – unnatural flow or water level: This code indicates a mean daily value that was influenced by unnatural causes resulting water being removed or foreign water being added to the system. Examples have included pumped water for irrigation (NE Sub-basin), pumped water to fill FLUDEX reservoirs (NW Sub-basin), and the siphoning of water from Lake 226.
->
-> U – controlled flow release: This code indicates a value that was influenced by a manual flow release of water such as spilling water impounded by a dam.
-
-<u>  
-Survey Benchmarks</u>:
+### Survey Benchmarks
 
 Where long-term or continuous water level records are to be collected, it is necessary to establish and frequently refer to local survey benchmarks. Since there are no survey benchmarks with an established elevation above mean sea level (MSL) in the ELA area, survey benchmarks at ELA have been assigned arbitrary elevations that are not relative to MSL. Approximate MSL elevations are shown on 1:50,000 scale National Topographic Survey Maps for some lakes and is the reference datum for the land contours provided on those maps. Local survey benchmarks have been established in most ELA watersheds and have been assigned elevations relative to an arbitrary datum that are specific, in most cases, only to that particular watershed. The exception is for benchmarks 1 to 24a, 45 and 46 which are all relative to BM \#1 which was established by WSC on February 25, 1969 with an assigned elevation of 30.480 m (100.00 ft.). BM \#1 is approximately 391 m above MSL.
 
@@ -214,7 +195,7 @@ Notes:
 | 979 | Inflow from L.240 | 45  | 26.821 | Paint mark on top of large boulder, right bank of L.240 stream, near edge of wetland. |
 | 979 | Outflow | 46  | 26.852 | CR with orange paint on BR at 979 outflow, 1 m from dam wall and 4 m from stream |
 
-<u>Station UTM Coordinates:</u>
+### Station UTM Coordinates
 
 This section is under development. Contact the author directly for information on this topic.
 
@@ -269,7 +250,7 @@ Note: UTM coordinates are for Zone 15 U.
 | 979  | Outflow Weir            | 447481  | 5499262  | NAD83 |
 | 979  | Lake Level              | 447482  | 5499271  | NAD83 |
 
-<u>Rating Curve Equations</u>:
+### Rating Curve Equations
 
 This section is under development. Contact the author directly for information on this topic.
 
@@ -332,13 +313,13 @@ Units: where Q is discharge in m<sup>3</sup>/s and H is head in metres.
 | 29  | 661 Outflow |     |     |     |     |
 | 30  | 979 Outflow | Q = 6.3674 H 2.5588 | 4, 01/06/2005 | 3   | 150o v-weir |
 
-<u>Raw Data Files</u>
+### Raw Data Files
 
 Beginning in 1969 and through the 1980’s all original record was on analog charts. From 1969 to April 30, 1985 (except 1974), data was analyzed by WSC, initially by hand-scaling and later by computer digitizer. Record was made available to ELA users and published in EC-WSC data publications in the form of mean daily discharges (initially f<sup>3</sup>s<sup>-1</sup> then m<sup>3</sup>s<sup>-1</sup> after 1982) water levels (initially in ft. then m after 1982). On April 1, 1985, WSC withdrew support and ELA assumed full responsibility for all hydrometric monitoring activities. Software was developed and hardware acquired to digitize water level charts and process data to a standard comparable with the methods and formats used by WSC. By the late 1990’s, data loggers that provided direct digital data were being phased in to replace chart recorders. By 2002, all hydrometric stations at ELA were equipped with data loggers.
 
 The only hydrometric data that have been archived in the ELA database for general use are mean daily discharges and water levels. Raw data files from digitized record or data loggers exist outside of the ELA database. While these files provide the capability to examine flow and level to a greater resolution (i.e. storm hydrograph analysis), this capability has not been fully developed yet.
 
-**<u>Station Record</u>**
+### Station Record
 
 The following table summarizes the station-years of record that are available. To the end of 2024, **1,119** station-years of records have been collected. Some records of low priority may not yet be processed or loaded into the ELA database.
 
@@ -402,7 +383,7 @@ The following table summarizes the station-years of record that are available. T
 | 19 | L 660 | 2000 to 2011 | 12 | discontinued |
 | 20 | L 979 | 1991 to 2009 | 19 | discontinued |
 
-**<u>Human and Natural Disruptions</u>**
+### Human and Natural Disruptions
 
 <u>Logging</u>: This section is under development. Contact the author directly for information on this topic.
 
@@ -434,7 +415,7 @@ From 1968 to 2006, ELA designated watersheds with or without hydrometric install
 >
 > 7\. 2006 – Lakes 383, 265, Winnange, Teggau
 
-**<u>Surveys, Mapping and Aerial Photography</u>**
+### Surveys, Mapping and Aerial Photography
 
 <u>Mapping:</u>
 
@@ -470,7 +451,7 @@ This section is under development. Contact the author directly for information o
 
 <u>Lake ordering:</u> Lake order is a number that we use to describe a watershed in terms of how many lakes are contained within the entire drainage basin. The order number is simply the number of lakes above the outflow including its own lake. For example, Lake 223 is an order 3 system meaning that it has 3 lakes above its outflow while Lake 239 is an order 1 or headwater lake.
 
-**<u>Other considerations</u>**
+### Other considerations
 
 <u>Construction methods and materials:</u> It is possible that factors such as disturbance due to construction, weir relocation, or choice of building materials may be thought responsible for local changes in chemistry or biology. With this in mind, the station discussions that follow provide information including dates of construction or major modification and also the type of materials used i.e.: concrete (sealed or unsealed), lumber containing preservatives, etc. Whether construction was conducted by Water Survey of Canada (WSC) or ELA hydrologic studies personnel has also been indicated. All construction, repairs or changes after October 1984 were carried out by ELA staff due to the withdrawal of WSC support.
 
@@ -478,7 +459,71 @@ This section is under development. Contact the author directly for information o
 
 In some instances, hydrometric stations have been relocated for various reasons. It is therefore important to read the information sheets for the stations to a data analysis. A good example is in the case of Lake 373 Outflow Weir. The first weir was located above the road, some distance below the natural lake outlet. Due to serious ice conditions in most winter and spring periods, the weir was relocated to a better site downstream of the road. This resulted in an increase in the catchment area. This is discussed in full in the information sheet for Lake 373.
 
-**<u>Hydrometric References</u>**
+## Data Dictionary
+
+### List of columns
+Here is a list of columns in the four dataset tables, in the order they appear:
+* dataset_code
+* dataset_name
+* monitoring_location_name
+* date
+* time (only for hourly datasets)
+* mean_daily_discharge / mean_hourly_discharge / mean_daily_level / mean_hourly_level
+* qualifiers
+* level_type (only for level daily)
+* comments
+* account
+* update_date
+* version
+
+### Data dictionary
+ **column name (alphabetical)** | **data type** | **unit** | **definition** | **dataset(s)** 
+---|---|---|---|---
+ account | character varying | N/A | Username of the IISD-ELA staffmember who added or most recently edited the data record. This may be generated through bulk loads or manually updated as records are edited individually. | all four 
+ comments | character varying | N/A | Remarks about the record or its collection. | all four 
+ dataset_code | character varying | N/A | A three character code made up of upper case letters and numbers unique for each IISD-ELA dataset. Should always start with a letter and may or may not end with a number. Used as a short consistent abbreviation for the dataset, whereas dataset_name is longer and may be changed and refined over time. | all four 
+ dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. Directly associated with dataset_code (each code has a different name). | all four 
+ date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. | all four 
+ level_type (only for level daily) | character varying | N/A | <to be defined> | level daily 
+ mean_daily_discharge | numeric | cubic metres per second | <to be defined> | discharge daily 
+ mean_daily_level | numeric | metres | <to be defined> | level daily 
+ mean_hourly_discharge | numeric | cubic metres per second | <to be defined> | discharge hourly 
+ mean_hourly_level | numeric | metres | <to be defined> | level hourly 
+ monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. | all four 
+ qualifiers | character varying | N/A | Qualifier code(s) conveying specific information about the record. See the associated info sheets for more information. | all four 
+ time | character varying / time without time zone | HH:MM:SS | The time the field sampling or surveying activity was carried out to collect the data in the record. | the two hourly datasets 
+ update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. | all four 
+ version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. | all four 
+
+### Units of measure and accuracy
+In Canada, metrification occurred in 1978. Prior to 1979, the unit of measure for discharge was cubic feet per second (f<sup>3</sup>s<sup>-1</sup>) reported to two decimal places. Flow volumes were reported in acre-feet reported to one decimal place. The unit of measure for lake level was feet reported to two decimal places. All data collected and previously reported in English units have been converted for the ELA database for consistency. Hydrological units are as follows:
+
+- Discharge = cubic metres per second (m<sup>3</sup>s<sup>-1</sup>) reported to 4 decimal places
+
+- Flow volume = cubic metres (m<sup>3</sup>) reported to the nearest whole cubic metre
+
+- Lake level (stage) = metres (m) reported to 3 decimal places (1 mm precision).
+
+### Qualifier codes
+
+Letter codes were used to qualify discharge and water level data where necessary. These codes are defined as follows.
+* A – manual observation: Mean daily flow or water level were coded “A” to indicate that the value was an estimate based on one or more manual gauge readings or in combination with partial recorded record for that day,
+* *B - ice conditions: The presence of ice in the channel or structure affected, or may have affected, the stage-discharge relationship. The value reported is a “best estimate” due to the presence of ice,
+* C – capacity exceeded: A major or unusual runoff event occurred resulting in flow that exceeded the station capacity for all or part of the day reported. This code indicates that flow for the reported value was in the overflow range of the gauging structure or outside of the range of calibration and should be regarded as a “best estimate”,
+* D - beaver activity: Mean daily discharge values were coded “D” when beaver have placed debris or constructed a dam directly in the gauging structure resulting in false recorded stage data. Estimates were made for missing or suspicious data during the period of beaver influence. If estimates were not possible, the entry in the ELA Data Base will be “null”. In either case the entry was coded “D”,
+* D1 – beaver activity: Beaver have constructed a dam above or below the gauging structure that may have influenced the “best estimate” reported value,
+* D2 – beaver activity: A beaver dam located above the gauging station was opened resulting in an increase in flow not associated with a normal precipitation event but indicated a valid flow value,
+* E - estimated value: This indicates a value that was determined by some indirect method such as interpolation, graph of observed readings, discharge measurement, comparison with other stations or by considering meteorological data,
+* F- frozen conditions: The hydrometric gauging station was frozen resulting in missing record. Estimates were made when possible.
+* H- FLUDEX effect: This code applies to the Lake 239 NW Inflow station only. From 1999 to 2003 inclusive, The Upland Flooding Experiment (FLUDEX) operated a reservoir (Site 2) at the top end of the Northwest Sub-basin of the Lake 239 Watershed. While the reservoir discharged to Roddy Lake, seepage and end-of-season draining resulted in additional water, originating from Roddy Lake, to the NW Sub-basin. This additional water is included in the reported values for those station years of record.
+* I – linear interpolation: This indicates a value that was estimated by linear interpolation between two manual observations. In most cases, estimates by interpolation were made to complete data sets during stable low flow periods (i.e. winter) that were not influenced by precipitation events or other hydrologic events in order to provide complete data sets for analyses such as chemical mass balances. Mean daily values that could not be estimated by interpolation resulted in “null” values in the data base that were coded “M”.
+* L – leakage: This indicates that leakage or seepage under or around a weir or flume was present and that an adjustment was made to the reported value.
+* M - missing record: Mean daily values that could not be reliably estimated were considered “missing record” resulting in a “null” entry in the data base,
+* R – regulated flow or water level: This indicates that the reported discharge or water level value was influenced by human regulation for experimental or other purposes. This code is intended for “natural” systems that are not normally regulated and is reserved for situations that last only days or weeks in duration. Stations that were regulated for longer periods (one or more seasons) are noted in station discussions.
+* S – unnatural flow or water level: This code indicates a mean daily value that was influenced by unnatural causes resulting water being removed or foreign water being added to the system. Examples have included pumped water for irrigation (NE Sub-basin), pumped water to fill FLUDEX reservoirs (NW Sub-basin), and the siphoning of water from Lake 226.
+* U – controlled flow release: This code indicates a value that was influenced by a manual flow release of water such as spilling water impounded by a dam.
+
+## References
 
 The following reports or papers are referenced in some of the hydrometric station information sheets that follow and are available in the ELA electronic data base.
 
@@ -501,67 +546,35 @@ The following reports or papers are referenced in some of the hydrometric statio
 9.  NEWBURY R.W. and J.A. CHERRY. April 1971. Geohydrology of the Kenora Research Watershed FRB Experimental Lakes Area, northwestern Ontario. (unpublished) Report no. 2. Departments of Civil Engineering and Earth Sciences, University of Manitoba.
 
 **<u>Station Information Sheets:</u>**
-
-Lake 112 Hydrometric Information Sheet
-
-Lake 114 Hydrometric Information Sheet
-
-Lake 120 Hydrometric Information Sheet
-
-Lake 223 Hydrometric Information Sheet
-
-Lake 224 Hydrometric Information Sheet
-
-Lake 225 Hydrometric Information Sheet
-
-Lake 226 Hydrometric Information Sheet
-
-Lake 227 Hydrometric Information Sheet
-
-Lake 230 Hydrometric Information Sheet
-
-Lake 239 Hydrometric Information Sheet
-
-Lake 239 East Sub-basin Hydrometric Information Sheet
-
-Lake 239 East Upper Weir Hydrometric Information Sheet
-
-Lake 239 Northwest Sub-basin Hydrometric Information Sheet
-
-Lake 239 Northeast Sub-basin Hydrometric Information Sheet
-
-Lake 240 Hydrometric Information Sheet
-
-Lake 261 Hydrometric Information Sheet
-
-Lake 265 Hydrometric Information Sheet
-
-Lake 302 Hydrometric Information Sheet
-
-Lake 303 Hydrometric Information Sheet
-
-Lake 304 Hydrometric Information Sheet
-
-Lake 373 Hydrometric Information Sheet
-
-Lake 375 Hydrometric Information Sheet
-
-Lake 382 Hydrometric Information Sheet
-
-Lake 442 Hydrometric Information Sheet
-
-Lake 470 Hydrometric Information Sheet
-
-Lake 626 Hydrometric Information Sheet
-
-Lake 627 Hydrometric Information Sheet
-
-Lake 632 Hydrometric Information Sheet
-
-Lake 658 Hydrometric Information Sheet
-
-Lake 660 Hydrometric Information Sheet
-
-Lake 661 Hydrometric Information Sheet
-
-Lake 979 Hydrometric Information Sheet
+* Lake 112 Hydrometric Information Sheet
+* Lake 114 Hydrometric Information Sheet
+* Lake 120 Hydrometric Information Sheet
+* Lake 223 Hydrometric Information Sheet
+* Lake 224 Hydrometric Information Sheet
+* Lake 225 Hydrometric Information Sheet
+* Lake 226 Hydrometric Information Sheet
+* Lake 227 Hydrometric Information Sheet
+* Lake 230 Hydrometric Information Sheet
+* Lake 239 Hydrometric Information Sheet
+* Lake 239 East Sub-basin Hydrometric Information Sheet
+* Lake 239 East Upper Weir Hydrometric Information Sheet
+* Lake 239 Northwest Sub-basin Hydrometric Information Sheet
+* Lake 239 Northeast Sub-basin Hydrometric Information Sheet
+* Lake 240 Hydrometric Information Sheet
+* Lake 261 Hydrometric Information Sheet
+* Lake 265 Hydrometric Information Sheet
+* Lake 302 Hydrometric Information Sheet
+* Lake 303 Hydrometric Information Sheet
+* Lake 304 Hydrometric Information Sheet
+* Lake 373 Hydrometric Information Sheet
+* Lake 375 Hydrometric Information Sheet
+* Lake 382 Hydrometric Information Sheet
+* Lake 442 Hydrometric Information Sheet
+* Lake 470 Hydrometric Information Sheet
+* Lake 626 Hydrometric Information Sheet
+* Lake 627 Hydrometric Information Sheet
+* Lake 632 Hydrometric Information Sheet
+* Lake 658 Hydrometric Information Sheet
+* Lake 660 Hydrometric Information Sheet
+* Lake 661 Hydrometric Information Sheet
+* Lake 979 Hydrometric Information Sheet
