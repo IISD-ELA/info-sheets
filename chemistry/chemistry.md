@@ -274,6 +274,7 @@ For more information, please refer to DataStream’s learning centre website (Da
 *This list may be incomplete.*
 
 | **characteristic\_name** | **characteristic\_name\_long** | **method\_speciation** | **result\_sample\_fraction** |
+| --- | --- | --- | --- |
 | E2:E3 | Ratio of UV absorbance at 250 nm to 365 nm |  | Dissolved |
 | E2:E4 | Ratio of UV absorbance at 255 nm to 436 nm |  | Dissolved |
 | S275-295 | Log transformed spectral slope of UV absorbance from 275 nm to 295 nm |  | Dissolved |
