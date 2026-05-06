@@ -23,6 +23,7 @@
   - [Result Detection Limits](#result-detection-limits)
   - [Quality Control Levels](#quality-control-levels)
   - [Chemical Parameter Names on EDI and DataStream](#chemical-parameter-names-on-edi-and-datastream)
+  - [Chemical Parameter Names only in the internal IISD-ELA Master Database](#chemical-parameter-names-only-in-the-internal-iisd-ela-master-database)
 <!-- /TOC -->
 
 # General Information 
@@ -268,3 +269,14 @@ For more information, please refer to DataStream’s learning centre website (Da
 | SRSI | Silica, reactive | as Si |     | Silica, reactive | as Si |     |
 | TDN | Total dissolved nitrogen | as N | Filtered | Total Nitrogen, mixed forms | as N | Filtered |
 | TDP | Total dissolved phosphorus | as P | Filtered | Total Phosphorus, mixed forms | as P | Filtered |
+
+## Chemical Parameter Names only in the internal IISD-ELA Master Database
+*This list may be incomplete.*
+
+| **characteristic\_name** | **characteristic\_name\_long** | **method\_speciation** | **result\_sample\_fraction** |
+| E2:E3 | Ratio of UV absorbance at 250 nm to 365 nm |  | Dissolved |
+| E2:E4 | Ratio of UV absorbance at 255 nm to 436 nm |  | Dissolved |
+| S275-295 | Log transformed spectral slope of UV absorbance from 275 nm to 295 nm |  | Dissolved |
+| S350-400 | Log transformed spectral slope of UV absorbance from 350 nm to 400 nm |  | Dissolved |
+| SR | Spectral ratio |  | Dissolved |
+| SUVA | A254 divided by the DOC concentration |  | Dissolved |
