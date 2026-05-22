@@ -62,36 +62,38 @@ From 1969 to end of 2018, 1,010 station years of hydrometric record have been co
 
 Hydrometric stations that are included in the Water Survey of Canada data base are identified in the following table. Data for these stations ceased to be included in the WSC database a few years after the withdrawal of their services in 1985.
     
-| ELA<br><br>Location | ELA<br><br>Sub-location | ELA<br><br>Station | WSC Name | WSC # |
-| --- | --- | --- | --- | --- |
-| 114 | WW  | HQ114 | Lake 114 Outlet Near Kenora | 05PD014 |
-| 114 | LA  | HW114 | Lake 114 Near Kenora | 05PD027 |
-| 120 | WW  | HQ120 | Lake 120 Near Kenora | 05PD016 |
-| 223 | WW  | HQ223 | Lake 223 Near Kenora | 05QD017 |
-| 223 | LA  | HW223 | Lake 223 Near Kenora | 05QD021 |
-| 224 | WW  | HQ224 | Lake 224 Outlet Near Kenora | 05QD018 |
-| 225 | WW  | HQ225 | Lake 225 Outlet Near Kenora | 05QD019 |
-| 226 | WW  | HQ226 | Lake 226 Outlet Near Kenora | 05QD015 |
-| 227 | WW  | HQ227 | Lake 227 Outlet Near Kenora | 05QD008 |
-| 227 | LA  | HW227 | Lake 227 Near Kenora | 05QD009 |
-| 230 | WW  | HQ230 | Lake 230 Outlet Near Kenora | 05QD011 |
-| 239 | WW  | HQ239 | Lake 239 Outlet Near Kenora | 05PD023 |
-| 239 | LA  | HW239 | Lake 239 Near Kenora | 05PD021 |
-| 239 | NWT | HQNW | Northwest Tributary to Lake 239 Near Kenora | 05PD022 |
-| 239 | UET | HQUET | Lake 239, Upper East Inlet, Near Kenora | 05PD025 |
-| 239 | ET  | HQE | Lake 239, Lower East Inlet, Near Kenora | 05PD024 |
-| 239 | NET | HQNE | Lake 239, Northeast Inlet, Near Kenora | 05PD031 |
-| 240 | WW  | HQ240 | Lake 240 Outlet Near Kenora | 05PD015 |
-| 261 | WW  | HQ261 | Lake 261 Outlet Near Kenora | 05QD012 |
-| 265 | WW  | HQ265 | Lake 265 Outlet Near Kenora | 05QD013 |
-| 302 | WW  | HQ302 | Lake 302 Outlet Near Kenora | 05QD023 |
-| 302 | LA  | HW302 | Lake 302 Near Kenora | 05QD022 |
-| 303 | WW  | HQ303 | Lake 303 Outlet Near Kenora | 05PD019 |
-| 303 | LA  | HW303 | Lake 303 Near Kenora | 05PD020 |
-| 304 | LA  | HW304 | Lake 304 Near Kenora | 05PD018 |
-| 305 | LA  | HW305 | Lake 305 Near Kenora | 05QD007 |
-| 470 | WW  | HQ470 | Lake 470 Outlet Near Kenora | 05PD017 |
-| 661 | WW  | HQ661 | Lake 661 Outlet Near Kenora | 05PD028 |
+| **IISD-ELA Current** | **IISD-ELA Legacy** | **WSC Name**                                | **WSC #** |
+|:----------------------|:---------------------|:---------------------------------------------|:-----------|
+| 114 OF               | 114 WW HQ114        | Lake 114 Outlet Near Kenora                 | 05PD014   |
+| 114 LA WL            | 114 LA HW114        | Lake 114 Near Kenora                        | 05PD027   |
+| 120 OF               | 120 WW HQ120        | Lake 120 Near Kenora                        | 05PD016   |
+| 223 OF               | 223 WW HQ223        | Lake 223 Near Kenora                        | 05QD017   |
+| 223 LA WL            | 223 LA HW223        | Lake 223 Near Kenora                        | 05QD021   |
+| 224 OF               | 224 WW HQ224        | Lake 224 Outlet Near Kenora                 | 05QD018   |
+| 225 OF               | 225 WW HQ225        | Lake 225 Outlet Near Kenora                 | 05QD019   |
+| 226 OF               | 226 WW HQ226        | Lake 226 Outlet Near Kenora                 | 05QD015   |
+| 227 OF               | 227 WW HQ227        | Lake 227 Outlet Near Kenora                 | 05QD008   |
+| 227 LA WL            | 227 LA HW227        | Lake 227 Near Kenora                        | 05QD009   |
+| 230 OF               | 230 WW HQ230        | Lake 230 Outlet Near Kenora                 | 05QD011   |
+| 239 OF               | 239 WW HQ239        | Lake 239 Outlet Near Kenora                 | 05PD023   |
+| 239 LA WL            | 239 LA HW239        | Lake 239 Near Kenora                        | 05PD021   |
+| 239 NWIF             | 239 NWT HQNW        | Northwest Tributary to Lake 239 Near Kenora | 05PD022   |
+| 239 UEIF             | 239 UET HQUET       | Lake 239, Upper East Inlet, Near Kenora     | 05PD025   |
+| 239 EIF              | 239 ET HQE          | Lake 239, Lower East Inlet, Near Kenora     | 05PD024   |
+| 239 NEIF             | 239 NET HQNE        | Lake 239, Northeast Inlet, Near Kenora      | 05PD031   |
+| 240 OF               | 240 WW HQ240        | Lake 240 Outlet Near Kenora                 | 05PD015   |
+| 261 OF               | 261 WW HQ261        | Lake 261 Outlet Near Kenora                 | 05QD012   |
+| 265 OF               | 265 WW HQ265        | Lake 265 Outlet Near Kenora                 | 05QD013   |
+| 302 OF               | 302 WW HQ302        | Lake 302 Outlet Near Kenora                 | 05QD023   |
+| 302 LA WL            | 302 LA HW302        | Lake 302 Near Kenora                        | 05QD022   |
+| 303 OF               | 303 WW HQ303        | Lake 303 Outlet Near Kenora                 | 05PD019   |
+| 303 LA WL            | 303 LA HW303        | Lake 303 Near Kenora                        | 05PD020   |
+| 304 LA WL            | 304 LA HW304        | Lake 304 Near Kenora                        | 05PD018   |
+| (DNE in Master DB)   | 305 LA HW305        | Lake 305 Near Kenora                        | 05QD007   |
+| 470 OF               | 470 WW HQ470        | Lake 470 Outlet Near Kenora                 | 05PD017   |
+| 661 OF               | 661 WW HQ661        | Lake 661 Outlet Near Kenora                 | 05PD028   |
+
+Note that the IISD-ELA Master Database has hydrology data records for several locations not listed above, including: 112 LA WL, 114 IF, 223 IF, 224 LA WL, 226 LA WL, 260 LA WL, 302 UIF, 304 OF, 373 LA WL, 373 OF, 375 LA WL, 378 LA WL, 382 OF, 442 LA WL, 442 OF, 626 LA WL, 626 OF, 627 LA WL, 632 LA WL, 632 OF, 658 LA WL, 658 OF, 660 LA WL, 979 LA WL, and 979 OF.
 
 ### Hydrometric data
 
