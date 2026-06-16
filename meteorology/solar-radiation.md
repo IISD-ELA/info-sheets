@@ -1,5 +1,5 @@
 # Meteorology – Solar Radiation – Information Sheet
-Authors: Ken Sandilands, Paul Fafard; Edited by Chris Hay
+Authors: Ken Sandilands, Paul Fafard; Edited by Chris Hay and Idil Yaktubay
 
 ## Contents
 - [General information](#general-information)
@@ -77,7 +77,7 @@ In this instance, sunshine hours is defined as when the current *global* radiati
 
 This modern method was used starting April 27, 2018, overlapping with the historical method (see below section) for comparison during the 2018 open water season, with the historical method being fully replaced with the modern method after that point.
 
-<!--To add: UV A B -->
+**UV AB** (ultraviolet A & B) is measured with an on-site UV sensor, however, details regarding the specific gear or logger used to collect UV AB data are currently unavailable and will be added once provided by the IISD-ELA Hydrolim team.
 
 ### Historical Data Collection
 
@@ -117,7 +117,9 @@ Starting in 1983, it appears that there are true 30min values since the daily pl
 
 It is assumed that the 30 min data starts in 1983 as the peaks are no longer uniform and prior to this, the data are only daily maximums.
 
-<!--To add: UV A B -->
+**UV AB**
+
+There is no other historical method that was used prior to the current method. UV AB data start on 2023-07-14 with the modern method and there are no records prior to this date.
 
 ### Quality Control and Corrections
 
@@ -147,6 +149,10 @@ Prior to 2008 there are parts of the data where it appears that there have been 
 |  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-01-10 07:30:00 | 2003-01-10 16:30:00 | 2023-12-01 09:57:01 | Julie |  |
 |  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-11-22 07:30:00 | 2002-12-02 16:00:00 | 2023-12-01 09:55:18 | Julie |  |
 |  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-10-31 07:00:00 | 2002-11-10 16:30:00 | 2023-12-01 09:54:16 | Julie |  |
+
+**Additional Quality Control Checks**
+
+Total solar radiation, UV AB, and PAR data are quality-checked for flat-line behavior and trend inconsistencies across all three sensors, based on expected patterns derived from existing datasets. In addition, since bright sunshine data is derived from total solar radiation, any flagged total solar radiation values automatically result in corresponding bright sunshine values being flagged for review. All flagged data points are reviewed and manually corrected by the IISD-ELA Hydrolim team as needed, and no flagged values are entered into the database until they have been corrected and approved in the source dataset.
 
 ## Data Dictionary
 
