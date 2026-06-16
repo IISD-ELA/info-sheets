@@ -35,6 +35,8 @@ Wind data is one of several components measured at the Experimental Lakes Area (
 
 A second data logger owned by ELA was installed initially to replace a LICOR logger that had been dedicated to PAR solar radiation data. This new logger, a Campbell Scientific model CR-1000, was installed on July 31, 2007 and while initially intended for light data, was gradually expanded to include other sensors that eventually included wind, barometric pressure, temperature, relative humidity, and precipitation. The programing code for wind speed and direction was added on June 24, 2008. An RM Young anemometer was mounted on the communication tower at the MET Site at 10 m above ground. This set-up is owned and maintained by ELA.
 
+The meteorological site has received instrumentation and support by Environment Canada (ECCC) since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is also available, online at https://tinyurl.com/ELAmetsite. Some records in our dataset originate from the ECCC dataset, as both instruments are maintained at the IISD-ELA metsite, and work well to fill gaps when one or the other is not working. ECCC data are also used for quality control to cross-compare sensors. We acknowledge these contributions to increase the value and usability of our wind dataset, and refer to ECCC's data licence for more information: https://climate.weather.gc.ca/prods_servs/attachment1_e.html.
+
 ## Methods
 
 ### Site Location

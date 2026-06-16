@@ -29,6 +29,8 @@ Relative humidity is the ratio of the amount of moisture in a given space to the
 
 The IISD-ELA database contains logged hourly relative humidity data starting 1 January 2007. Data up to the end of 1987 was published in Beaty 1981, Beaty 1984 and Beaty and Lyng 1989, and is not currently in the IISD-ELA database.
 
+The meteorological site has received instrumentation and support by Environment Canada (ECCC) since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is also available, online at https://tinyurl.com/ELAmetsite. Some records in our dataset originate from the ECCC dataset, as both instruments are maintained at the IISD-ELA metsite, and work well to fill gaps when one or the other is not working. ECCC data are also used for quality control to cross-compare sensors. We acknowledge these contributions to increase the value and usability of our relative humidity dataset, and refer to ECCC's data licence for more information: https://climate.weather.gc.ca/prods_servs/attachment1_e.html.
+
 ## Methods
 
 ### Site Location

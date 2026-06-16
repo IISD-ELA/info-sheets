@@ -27,7 +27,9 @@ Rawson Lake (AUT): <https://tinyurl.com/ELAmetsite> -->
 
 ### Background of the datasets
 
-There are two air temperature datasets available from measurements the IISD Experimental Lakes Area meteorological site: daily minimum and maximum, and hourly mean temperature. The daily min and max dataset has a longer record, beginning on June 26, 1969. The meteorological site has received instrumentation and support by Environment Canada since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is also available, online at [https://tinyurl.com/ELAmetsite](https://tinyurl.com/ELAmetsite). 
+There are two air temperature datasets available from measurements the IISD Experimental Lakes Area meteorological site: daily minimum and maximum, and hourly mean temperature. The daily min and max dataset has a longer record, beginning on June 26, 1969.  
+
+The meteorological site has received instrumentation and support by Environment Canada (ECCC) since it was established. Publicly available data from Environment Canada instrumentation at the IISD-ELA meteorological station (called Rawson Lake (AUT)) is also available, online at [https://tinyurl.com/ELAmetsite](https://tinyurl.com/ELAmetsite). Some records in our dataset originate from the ECCC dataset, as both instruments are maintained at the IISD-ELA metsite, and work well to fill gaps when one or the other is not working. ECCC data are also used for quality control to cross-compare sensors. We acknowledge these contributions to increase the value and usability of our air temperature datasets, and refer to ECCC's data licence for more information: [https://climate.weather.gc.ca/prods_servs/attachment1_e.html](https://climate.weather.gc.ca/prods_servs/attachment1_e.html).   
 
 ### Considerations and applications
 
