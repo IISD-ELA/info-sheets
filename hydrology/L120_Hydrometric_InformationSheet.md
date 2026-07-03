@@ -22,6 +22,8 @@ This lake is meromictic and was the focus of a Masters thesis by P. Campbell (19
 
 1.  Lake 120 Outflow.
 
+A weir was in place between 1972 and 1974, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 The estimates for annual outflow by Campbell were calculated by subtracting surface evaporation from the total input. Values of precipitation, runoff and evaporation from the Rawson (239) watershed were used, and storage was assumed to be zero. The estimates were as follows:
 
 1970. 223,500 m3

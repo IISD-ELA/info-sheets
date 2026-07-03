@@ -22,6 +22,8 @@ Lake 632 is located approximately 5 km west northwest of the ELA field station. 
 
 1.  Lake 632 Outflow (WSC ID 05QD027):
 
+A weir was in place between 1991 and 1997, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 Lake 632 had a gauged outflow between 1991 and 1997. The station consisted of a plywood and plastic lined weir equipped with a 90<sup>o</sup> v-notch and accompanying Stevens A-71 recorder in California-type shelter. The recorder was set to head. This station operated during the open-water season, and manual measurements were taken periodically in the winter months. Site was established June 7 1991. The notch had a capacity of 0.304 m and the weir walls a capacity of 0.305 m.
 
 2.  Lake 632 Water Level (WSC ID 05QD028):

@@ -22,11 +22,12 @@ Lake 382 is located approximately 6 km northeast of the ELA field station. L382 
 
 1.  Lake 382 Outflow (WSC ID 05QD025)
 
+**A weir was installed in October 1986 and remained in place until it was removed in 2015; however, discharge measurements were only collected for the ELA during the period when the station was actively gauged between 1987 and 1997.**
+
 Lake 382 had a gauged outflow between 1986 and 1997. A concrete weir equipped with a 120<sup>o</sup> v-notch and accompanying analog chart recorder were constructed in October 1986. The concrete weir was sealed with a tar foundation coat at the time of construction. The outflow area is bedrock controlled and the occurrence of subsurface seepage appears to be unlikely.
 
 The hydrometric station was equipped with a Leupold and Stevens A-71 float water level recorder was operated during the open water season, while manual measurements were taken periodically in the winter months. In 1987, beaver caused problems by building their dams int eh V-notch. here beaver were accidentally trapped in fish nets that year. Days in which beaver activity affected flow have been assigned the qualifier code “D”.
 
-A standard rain gauge was added in 1987 and was checked weekly during the open water season. Station was dismantled in 2015.
 
 <u>History</u>
 

@@ -30,6 +30,8 @@ A gauge board was installed 30 May 2024, and is intermittently monitored through
 
 Lake 303 had a gauged outflow for the same period of time as the lake level station was in operation. A concrete weir equipped with a 120<sup>o</sup> v-notch and accompanying analog chart recorder were operated during the open water season. Station removed in the fall of 2015, as per the cleanup agreement between DFO and IISD during the transfer of ELA.
 
+**A weir was installed and discharge measurements were collected between 1969 and 1990. Although the weir was present between 1991 until its removal in 2015, no data was collected for the ELA during this period.**
+
 <u>History</u>
 
 Early hydrological investigations were carried out jointly through an arrangement with the U of M and WSC, which included construction services, technical support, instrumentation and determination of mean daily discharge and mean daily lake level record as well as some financial support. The WSC continued to provide the loan of 22 water level recorders after 1985 until they became obsolete and were decommissioned.

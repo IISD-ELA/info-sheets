@@ -323,13 +323,13 @@ The only hydrometric data that have been archived in the ELA database for genera
 
 ### Station Record
 
-The following table summarizes the station-years of record that are available. To the end of 2024, **1,119** station-years of records have been collected. Some records of low priority may not yet be processed or loaded into the ELA database.
+The following table summarizes the station-years that are available. To the end of 2024, **1,119** station-years have been collected. Some records of low priority may not yet be processed or loaded into the ELA database.
 
 **Discharge Stations**: 747 station-years collected to end of 2024.
 
-\*\*Some station-years of record remain unprocessed due to low priority or “unfunded” status.\*\*
+\*\*Some station-years remain unprocessed due to low priority or “unfunded” status.\*\*
 
-| \# | Station Name | Period of record | Record (stn years) | Status |
+| \# | Station Name | Year Start/End | Num. Stn. Years | Status |
 |:--:|:---|:--:|:---|:---|
 | 1 | L 114 Outflow | 1971 to 1994; 2001 to present | 47 | active |
 | 2 | L 114 Inflow | 1984 to 2000 | 17 | discontinued |
@@ -362,7 +362,7 @@ The following table summarizes the station-years of record that are available. T
 
 **Lake Level Stations:** 372 station-years collected to end of 2024
 
-| \# | Lake Level Station | Period of record | Record (stn years) | Status |
+| \# | Lake Level Station | Year Start/End | Num. Stn. Years | Status |
 |:--:|:--:|:---|:---|:---|
 | 1 | L 112 | 2018 to present | 7 | active |
 | 2 | L 114 | 1981 to 1990; 2001 to present | 33 | active |

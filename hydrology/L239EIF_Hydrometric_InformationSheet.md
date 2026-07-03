@@ -10,7 +10,9 @@ Watershed area (ha): 170.28 ha based on 1987 mapping
 
 150.90 ha based on 2017 DEM \*
 
-\* The watershed area of the EIF determined from the 2017 DEM was ground-truthed in fall 2023
+\* The watershed area of the EIF determined from the 2017 DEM was ground-truthed in fall 2023.
+
+A weir has been in place since 1970, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
 
 <u>1971 to 2025</u>
 
