@@ -1,6 +1,6 @@
 # Limnology Profiles – Information Sheet
 
-Authors: Ken Sandilands; Paul Fafard; Chris Hay  
+Authors: Ken Sandilands; Paul; Chris Hay  
 
 ## Contents
 - [General](#general)
@@ -105,15 +105,15 @@ In late January 2024, the two Maestro<sup>3</sup> units had pH sensors added to 
 
 ## Additional notes on certain columns
 
-<u>cond_us_cm1 and cond_spec_us_cm1</u>
+**cond_us_cm1 and cond_spec_us_cm1**
 
 When the device hits the bottom of the lake, it seems conductivity values can go very high. It is suspected that this is because sediments are disturbed and become suspended in the surrounding water, increasing the conductivity.
 
-<u>depth_m and depth_bin_m</u>
+**depth_m and depth_bin_m**
 
 Although field staff try to measure at depths either at the whole metre or quarter metre intervals, it can be difficult to hold the measuring device at a consistent depth while waiting for parameter measurements to stabilize. For this reason, many of the data records are at other depths near the desired depth but not exactly equal. For example, during a windy day on the lake, it may be difficult to hold an RBR at exactly 6.25m, so the reading may be at 6.29 instead.
 
-Since there are many depths that do not match the intended sampling depths exactly, the depth-bin field was created so that depths within 0.1 m (10 cm) of the intended depth are binned into pre-determined depth intervals. For example, a depth of 3.40 m would be put in the 3.5 depth bin, 3.39 would not fall into a depth bin as it is not within 10cm of either 3.25 or 3.50m. Depths bins for less than 10 m are in 0.25m increments, and 1m increments for greater than 10 m. In some cases, the cutoff number is not 10 but some arbitrary number greater than 10, based on the data collector’s best judgement of the lake and data needs.
+Since there are many depths that do not match the intended sampling depths exactly, the **depth-bin** field was created so that depths within 0.1 m (10 cm) of the intended depth are binned into pre-determined depth intervals. For example, a depth of 3.40 m would be put in the 3.5 depth bin, 3.39 would not fall into a depth bin as it is not within 10cm of either 3.25 or 3.50m. Depths bins for less than 10 m are in 0.25m increments, and 1m increments for greater than 10 m. In some cases, the cutoff number is not 10 but some arbitrary number greater than 10, based on the data collector’s best judgement of the lake and data needs.
 
 This table shows examples of the binning rules in effect:
 
@@ -361,7 +361,7 @@ Round to nearest 1.0 if difference is<br />
 
 ## Reference tables
 
-<u>Qualifiers</u>
+### Qualifiers
 
 | **Qualifier** | **Meaning** |
 |----|----|
@@ -386,7 +386,7 @@ Many of the metadata-related columns are derived from internal lookup tables of 
 
 ## Sampling
 
-<u>RBR XRX620 CTD+ and CR1000</u>
+**RBR XRX620 CTD+ and CR1000**
 
 The RBR and CR1000 together allow for the collection and display of real-time data while in the field. A cable from the CR1000 to the RBR provides power to the RBR and allows for the transmission of data from the RBR to the CR1000 datalogger. The CR1000 has a keypad which allows the user to view real-time data. Reading the data in real-time (vs afterwards in the lab) is necessary for determining water sampling depths while in the field (see Lake Sampling & Field Observation Information Sheet).
 
@@ -400,7 +400,7 @@ The stable time counter will only begin counting once all sensors are stable, in
 
 Once the profile is complete, the CR1000 can be turned off. The data collected are saved to the data table and can be offloaded once back in lab.
 
-<u>RBR Maestro<sup>3</sup> and CR350</u>
+**RBR Maestro<sup>3</sup> and CR350**
 
 Methods for using the RBR Maestro<sup>3</sup> and CR350 are very similar to those for the RBR XRX620 CTD+ and CR1000, with a few differences to accommodate the simultaneous collection of PAR data.
 
@@ -410,7 +410,7 @@ The user must adjust the height of the PAR sensor on the Maestro<sup>3</sup> to 
 
 When conducting the profile, the user must record data at each 0.5 m depth increment while in the epilimnion, and each 0.25 m depth increment while in the metalimnion. Once through the metalimnion, if underwater PAR values are still greater than 1% of surface PAR, the user must continue recording data at each 0.5 m increment. Once the underwater PAR value is equal to or less than 1% of surface PAR, the user must record data at the next 0.5 depth increment – this ensures a final whole metre record for the underwater PAR dataset (since the PAR sensor is 0.5 m higher than the depth sensor). The user may then resume recording data at whole meter depth increments for the remainder of the profile.
 
-<u>YSI Probe</u>
+**YSI Probe**
 
 If an RBR is out of service, various models of YSI dissolved oxygen meters have been used to collect temperature and oxygen data. In these cases, no conductivity or chlorophyll data are recorded, and the temperature and oxygen data are instantaneous readings recorded by hand, not logged data.
 
@@ -418,48 +418,48 @@ Older profiles (prior to 2015) collected with ‘YSI’ as the method in field n
 
 ## Processing
 
-<u>Data processing performed by the CR1000 and CR350</u>
+### Data processing performed by the CR1000 and CR350
 
 The RBR sensors read data at 6 Hz (i.e. 6 times per second). The CR1000 and CR350 are programmed to store the raw RBR data each second, as well as one data record for each depth once the sensors have stabilized. Since the Aanderaa Optode is the slowest sensor, the oxygen data is used to determine when the data is stable. The logger compares the current oxygen and depth values to the values 8 seconds previous, and if the absolute difference is less than 0.1 mg/L and 0.1 m, respectively, the data is considered ‘stable’. Once 10 seconds of continuously stable data are collected the average is calculated over the 10 seconds and stored. All data is obtained on the downcast. Any data collected on the upcast is discarded during post-processing.
 
-*<u>Specific conductivity calculation</u>*
+**Specific conductivity calculation**
 
-Specific Conductivity = <u>Conductivity</u>
+>$$
+>\text{Specific Conductivity} = \frac{\text{Conductivity}}{1 + \left(0.0191 \times (\text{Temperature} - 25)\right)}
+>$$
+>
+>Specific conductivity is standardized to 25°C to match the conductivity as measured by the IISD-ELA chemistry lab.
 
-1+(0.0191 \* (Temperature – 25))
+**Depth measurement calculation**
 
-Specific conductivity is standardized to 25°C to match the conductivity as measured by the IISD-ELA chemistry lab.
+>The RBR measures depth with a pressure sensor. Depth is calculated as follows:
+>
+>$$
+>\text{Depth (m)} = \frac{\text{measured pressure} - \text{atmospheric pressure}}{\text{water density} \times 0.980665}
+>$$
+>
+>Where atmospheric pressure is entered in the settings of the RBR Ruskin software, and density of water is 1.0 for freshwater.
+>
+>Since atmospheric pressure is always changing, the depth must be zeroed each time the RBR is used.
+>
+>To do this, the user holds the RBR so that the pressure sensor is out of the water, and uses the keypad to ‘Zero’ the depth sensor and have the CR1000 logger set the atmospheric pressure equal to the current pressure reading. The logger then uses the formula above to calculate depth.
+>
+>Note that because the atmospheric pressure is not set in the software preferences when the RBR logger is started each day, the depths recorded in the raw RBR logger data are incorrect. If you are using the raw 6hz data from the RBR, you must take this into account.
 
-*<u>Depth measurement calculation</u>*
+**Dissolved oxygen saturation calculation**
 
-The RBR measures depth with a pressure sensor. Depth is calculated as follows:
+>Percent saturation of oxygen is calculated using the following formula:
+>
+><img src="./attachments/eqn_oxy_sat_pct.png" width = 500 alt="Oxygen saturation percent equations. See links below." />
+>
+>Where P is 0.95657 atm (ELA is approximately 391m above sea level, which works out to 0.95657 atm)
+>
+>Dissolved oxygen equation from: <http://www.waterontheweb.org/under/waterquality/oxygen.html>
+>
+>Results from this calculation match oxygen solubility tables such as <http://water.usgs.gov/owq/FieldManual/Chapter6/6.2.4.pdf>  
 
-Depth (m) = <u>measured pressure – atmospheric pressure</u>
 
-water density \* 0.980665
-
-Where atmospheric pressure is entered in the settings of the RBR Ruskin software, and density of water is 1.0 for freshwater.
-
-Since atmospheric pressure is always changing, the depth must be zeroed each time the RBR is used.
-
-To do this, the user holds the RBR so that the pressure sensor is out of the water, and uses the keypad to ‘Zero’ the depth sensor and have the CR1000 logger set the atmospheric pressure equal to the current pressure reading. The logger then uses the formula above to calculate depth.
-
-<span class="mark">Note that because the atmospheric pressure is not set in the software preferences when the RBR logger is started each day, the depths recorded in the raw RBR logger data are incorrect. If you are using the raw 6hz data from the RBR, you must take this into account</span>.
-
-*<u>Dissolved oxygen saturation calculation</u>*
-
-Percent saturation of oxygen is calculated using the following formula:
-
-<img src="./attachments/eqn_oxy_sat_pct.png" width = 500 alt="Oxygen saturation percent equations. See links below." />
-<br>
-Where P is 0.95657 atm (ELA is approximately 391m above sea level, which works out to 0.95657 atm)
-<br>
-Dissolved oxygen equation from: <http://www.waterontheweb.org/under/waterquality/oxygen.html>
-<br>
-Results from this calculation match oxygen solubility tables such as <http://water.usgs.gov/owq/FieldManual/Chapter6/6.2.4.pdf>  
-<br><br>
-
-*<u>Quality control and issue flagging</u>*
+### Quality control and issue flagging
 
 Data from recent years (as of writing, 2023 onward) underwent automatic quality control to flag values with issues. This happens behind the scenes, before data users (you) receive data to work with. Internally, in our database table we keep all original values and indicate if there is an issue with each value via flagging column, one for each parameter (e.g., temperature: temperature quality issue flag, dissolved oxygen: dissolved oxygen quality issue flag…). However, externally, for data users, we send the data from a “view” (a type of database table), which is based on the table but converts any flagged parameters to null. You may disagree with our filtering criteria (below) in which case you can specially request the table data without values nullified. Most data users only want “good” data, and a more simplified table to work with, hence our using this system.
 
@@ -484,11 +484,11 @@ We have also applied quality issue flags on a case-by-case basis given internal 
  * Chla sensor was not calibrated for RBR2 in 2024, so all those records where chla was not null were flagged (done on 2025-11-10).
 
 
-<u>Reporting of data</u>
+### Average vs. Instantaneous Values
 
 Data collected by the RBR is an average of 10 seconds worth of readings, however, temperature profile data from the Physical Limnology section of the ELA data retriever are in fact, manual readings from the keypad display written down into the field book once the CR1000 has stored a record (i.e. after a beep). Logged RBR temperature data is an average and so won’t be exactly the same as the temperature profile data, which is an instantaneous reading.
 
-<u>Temperature Profiles</u>
+### Temperature Profiles
 
 Note that this section was copied directly from the lim obs Info Sheet, so needs some editing and updating to fit here. We need to remove references to the “Retriever” (which no longer exists) and to things that are in the field obs / lim obs data (not in the profiles data).
 
@@ -528,7 +528,7 @@ The specifications sheet is on the next page…
 
 Aanderaa Oxygen Optode 4330F Specifications sheet:
 
-<img src="./attachments/specs_aanderaa_oxygen_optode_4330F.PNG" width = 800 />
+<img src="./attachments/specs_aanderaa_oxygen_optode_4330F.png" width = 800 />
 
 ## Seapoint Chlorophyll Fluoromoeter
 

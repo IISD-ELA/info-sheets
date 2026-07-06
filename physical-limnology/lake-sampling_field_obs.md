@@ -1,7 +1,6 @@
 # Lake Sampling and Field Observations: Physical Limnology information Sheet
 
-Author(s): Ken Sandilands; Paul Fafard  
-Last update: 25<sup>th</sup> January, 2023 (KS); 09April2024 (PF); 17March2025(IY)
+Authors: Ken Sandilands; Paul Fafard  
 
 ## Contents
 - [Background](#background)
@@ -21,22 +20,26 @@ Last update: 25<sup>th</sup> January, 2023 (KS); 09April2024 (PF); 17March2025(I
 
 # Background
 
-This information sheet describes the method used to obtain limnological observations and water chemistry, phytoplankton and primary production samples at the Experimental Lakes Area for the regular Lake Sampling program.
+This info sheet describes the methods used at the IISD Experimental Lakes Area (IISD-ELA) for our regular Lake Sampling program to obtain: limnological observations data, and water samples to analyze for: chemistry and phytoplankton. So this info sheet, unlike most of our other info sheets, covers aspects of multiple datasets:
+* **"Field observations" a.k.a. "lim obs"** (secchi depth, water colour, epilimnion depth, and other characteristics) — this is the primary info sheet for details for this dataset. The data dictionary in this info sheet corresponds to the data table for this field obs dataset.
+* **Profiles** (temperature, oxygen, etc. - via sondes like RBRs and YSIs or other methods) — there is a separate primary info sheet for this dataset, but this is collected at the same time and there is a close overlap between the profiles and field observations datasets.Profiles are used to calculate epilimnion, metalimnion, hypolimnion, and thermocline values, which are recorded in the field observations dataset.
+* **PAR profiles and Kd** — PAR profiles are collected at the same time as the field observations, temp/O2/etc profiles, and water samples for chem and phyto, but do not have raw/calculated values connected with the field obs data, like the profiles datasets do, except that PAR profiles determine the sampling range for metalimnion samples. Kd values are calculated from the PAR profiles.
+* **Chemistry** and **Phytoplankton** — water samples to be analyzed for both chem and phyto are collected at the same time as the field observations and other profiles. This info sheet describes the methods used to collect those samples (profiles at discrete depth and "integrated" samples across the epilimnion layer and other layers).
 
-An attempt to describe the sampling methods for the Lake Variation and Climate Change Study (Natural Variability) is provided in the “composite” method below.
+This info sheet also includes an attempt to describe the sampling methods for the Lake Variation and Climate Change Study (Natural Variability), in the “composite” method below.
 
-The ELA data retriever also contains data on the Northwestern Ontario Lake Size Series (NOLSS). Description of the NOLSS methods can be found in Fee et.al. 1992.
+Our internal master database also contains data from the Northwestern Ontario Lake Size Series project (NOLSS). Description of the NOLSS methods can be found in Fee et.al. 1992.
 
 The current method is described first, then an attempt to document method changes over the years is presented as well.
 
-Related information sheets:
-* PAR Light Attenuation Information Sheet
-* Lake Surface Temperature Information Sheet
-* Water Chemistry Information Sheet
-* RBR Information Sheet
-* Zooplankton Abundance Collection Method
+**Related information sheets:**
+* PAR and Light Attenuation (Kd)
+* Lake Surface Temperature
+* Chemistry
+* Profiles (RBR, YSI, etc.)
+* Zooplankton
 
-Lake Sampling managers:
+**Lake Sampling managers:**
 * Ron Reid May 1971 to October 1975
 * Eric Matheson October 1975 to September 1977
 * John Penny 1978 to August 1980
@@ -46,10 +49,12 @@ Lake Sampling managers:
 * Mark Lyng November 1998 to November 2007
 * Ken Sandilands April 2008 to 2013
 * Colin Charles 2014
-* Ken Sandilands 2015 to present
-* Paul Fafard (Technician) Oct 2016 to present
+* Ken Sandilands 2015 to 2025, with Paul Fafard as Technician
+* Paul Fafard 2026 to present
 
 # Data Dictionary
+
+As noted in the background section above, this data dictionary applies only to the **field observations dataset** table, but other aspects of this info sheet apply to other datasets as well.
 
 ## Column Definitions Table
 
@@ -88,8 +93,8 @@ Lake Sampling managers:
 | method_sample_desc | character varying | N/A | A short description of the method used to sample the data (collect the data, in a field or lab environment). |
 | gear_type_code | character varying | N/A | A three-digit code that refers to a specific gear type, typically starting with two capital letters and ending with one number. |
 | gear_type_desc | character varying | N/A | A short description of the type of gear (equipment used for sampling or surveying). |
-| collection_authority_userid | character varying | N/A | The userid of the person who is the authority or manager over the record. Often this is different from who was in the field collecting the data. This is usually similar (though not confirmed directly connected) with the current data owner specified in the ref dataset table. An example of a collection authority: for much of met/hyd/lim data the collection authority used to be Ken Beaty but is now Ken Sandilands for more recent records, so the records authorized to Ken Sandilands have collection_authority_userid = SandilandsK. |
-| collected_by | character varying | N/A | Initials for primary person who collected the sample or data in the field (i.e. who did the field work?), or the name of the crew that collected the data (e.g., 'hydrolim crew'). |
+| collection_authority_userid | character varying | N/A | The userid of the person who is the authority or manager over the record. Often this is different from who was in the field collecting the data. This is usually similar (though not confirmed directly connected) with the current data owner specified in the ref dataset table. An example of a collection authority: for much of hydrolim data the collection authority used to be Ken Beaty but was then Ken Sandilands for more recent records, and now Paul Fafard for the most recent records. The name is typically listed as last name and first initial, e.g., SandilandsK. |
+| collected_by | character varying | N/A | Initials for primary person who collected the sample or data in the field (i.e. who did the field work), or the name of the crew that collected the data (e.g., 'hydrolim crew'). |
 | comments | character varying | N/A | Remarks about the record or its collection. |
 | update_date | date | N/A | Date the record in the IISD-ELA Postgres Master Database table was most recently uploaded or modified. |
 | account | character varying | N/A | Username of IISD-ELA staff who added or most recently edited the data record in the postgres master database. This may be generated through bulk loads or manually updated as records are edited individually. |
@@ -97,32 +102,37 @@ Lake Sampling managers:
 
 ## Additional Notes on Certain Columns
 
-<u>epilimnion_depth</u>
+**epilimnion_depth**
 
-If we look at the temperature change rates with respect to depth for some records, we may find false epilimnions. Once lakes have stratified, an extra layer of warm water develops within the normal epilimnion if it's been hot calm weather. The surface water (perhaps up to a few metres) warms up but doesn't mix with the rest of the epilimnion, and so you get a drop in temp (sometimes more than 1C/m) occurring in the middle of the normal the epilimnion. If you keep going deeper, the temperature stabilizes again, then drops again at the true thermocline within the metalimnion. These false epilimnions can look like the bottom of the epilimnion and could have a drop that appears to be a thermocline, but this is temporary and will disappear the next time it is windy. The values in this column account for false epilimnion cases and are hence all true epilimnions.
+If we look at the temperature change rates with respect to depth for some records, we may find **false epilimnions**. Once lakes have stratified, an extra layer of warm water develops within the normal epilimnion if it's been hot calm weather. The surface water (perhaps up to a few metres) warms up but doesn't mix with the rest of the epilimnion, and so you get a drop in temp (sometimes more than 1C/m) occurring in the middle of the normal the epilimnion. If you keep going deeper, the temperature stabilizes again, then drops again at the true thermocline within the metalimnion. These false epilimnions can look like the bottom of the epilimnion and could have a drop that appears to be a thermocline, but this is temporary and will disappear the next time it is windy. The values in this column account for false epilimnion cases and are hence all true epilimnions.
 
 Epilimnion depth depends on depth resolution. Some instruments may have a depth resolution of every metre or every half metre or more. Although this does not affect how the epilimnion is defined, it does affect the numerical value of the epilimnion depth.
 
-<u>plan_therm_depth</u>
+**plan_therm_depth**
 
 Thermocline depth depends on depth resolution. Some instruments may have a depth resolution of every metre or every half metre or more. Although this does not affect how the thermocline is defined, it does affect the numerical value of the thermocline depth.
 
 # Collection Methods
 
-Field observations have been made using various types of equipment over the years, though the observation variables themselves have remained consistent or have been added to. Below are the field observations and sampling protocols used over the span of the program.
+Field observations have been made using various types of equipment over the years, though the observation variables themselves have remained consistent or have been added-to. Below are the field observations and sampling protocols used over the span of the program.
 
-<u>Field Observations</u>
-* Date and time of sampling
+**Field Observations:**
+* Date and time (of observations and collecting samples)
 * Air temperature (°C)
+* Wind speed upper/lower and direction (km/h and cardinal direction)
 * Cloud cover (tenths of sky)
-* Wind speed and direction (km/h and cardinal direction)
-* Wave height (cm)
+* Wave height upper/lower (cm)
 * Secchi depth (m)
-* Water colour
-* Temperature profile (see RBR Information Sheet)
-* Epilimnion depth (m)
+* Water colour (secondary and dominant)
+* Epilimnion depth (m) - field, calculated, and false (if present)
 * Thermocline depth (m)
-* Photosynthetically active radiation (PAR) profile (see PAR Light Attenuation Information Sheet)
+
+**Sample collection and associated datasets:**
+* **Profiles** from sondes (for temperature, dissolved oxygen, and more)
+* **PAR profiles**
+* **Chemistry** water samples
+* **Phytoplankton** water samples
+
 
 ## Current Sampling Methods (as of 2017)
 
@@ -130,15 +140,15 @@ Field observations have been made using various types of equipment over the year
 
 *<u>Air Temperature</u>*
 
-Air temperature is recorded in º Celsius measured with a Kestrel 2000 anemometer in the same manner as for measuring wind speed.
-
-*<u>Cloud Cover</u>*
-
-Cloud cover is estimated by the observer. The entire sky is surveyed, and cloud cover is estimated from a scale of 0 to 10 (10 being 100% cloud cover). This observation is subjective, especially when thin clouds such as cirrus, cirrostratus, or cirrocumulus are present where some sunlight still penetrates.
+Air temperature is recorded in degrees (º) Celsius measured with a Kestrel 2000 anemometer in the same manner as for measuring wind speed.
 
 *<u>Wind Speed</u>*
 
 Wind speed is measured (in km/h) with a small hand-held Kestrel 2000 anemometer. The observer faces the direction the wind is coming from, holds the anemometer out at arms length, and observes the range of wind speeds over a ~ 30 second period. Wind direction is then determined using a compass (pointing the compass arrow into the wind) and is recorded in relation to the 4 cardinal points (e.g. N, NE, ENE), rather than degrees.
+
+*<u>Cloud Cover</u>*
+
+Cloud cover is estimated by the observer. The entire sky is surveyed, and cloud cover is estimated from a scale of 0 to 10 (10 being 100% cloud cover). This observation is subjective, especially when thin clouds such as cirrus, cirrostratus, or cirrocumulus are present where some sunlight still penetrates.
 
 *<u>Wave Height</u>*
 
@@ -152,13 +162,13 @@ Secchi depth is a measure of water transparency. The Secchi depth is taken by lo
 
 *<u>Water Colour</u>*
 
-The apparent colour of the white quadrants of the Secchi disk at ½ the Secchi depth is recorded as the water colour. Water colour data has two components, the second component is the main colour of the water observed, and the first component either describes the intensity of that colour (light, dark) or describes other colours which are also present (e.g. blue-green is mostly green hue with a hint of blue, vs. green-blue which is mostly blue with a hint of green).
+The apparent colour of the white quadrants of the Secchi disk at ½ the Secchi depth is recorded as the water colour. Water colour data has two components, the second component is the main colour of the water observed, and the first component either describes the intensity of that colour (light, dark) or describes other colours which are also present. For example, "blue-green" is mostly a green hue with a hint of blue, vs. "green-blue" which is mostly blue with a hint of green.
 
 ### Lake profiles
 
 *<u>Temperature Profiles</u>*
 
-We collect temperature and depth data using an RBR XRX-620 CTD + multi-function probe (see RBR Information Sheet). These temperature profiles are used in the field to determine depths of strata to be sampled with the integrated sampler (described below). Surface temperature (0 m depth) is taken by dipping the temperature sensor into the water and allowing it to equilibrate. Temperature is then measured at depths 0.5 m, 1 m, and each 1 metre intervals thereafter until there is a 1 <sup>o</sup>C or more difference between whole metre intervals. Once this temperature change occurs, the probe is brought back to the shallowest whole metre depth where the temperature was stable and from there is lowered by 0.25 m intervals until there is less than 1 <sup>o</sup>C change between whole metre intervals. When temperatures stabilize once again, measurements are made at 1 metre intervals down to the bottom of the lake. The last depth interval that has less than 0.25 <sup>o</sup>C change from the previous 0.25 metre interval represents the bottom of the thermal **epilimnion**.
+We collect temperature and depth data using an RBR XRX-620 CTD + multi-function probe (see Profiles Information Sheet for more information). Temperature profiles are used in the field to determine depths of strata to be sampled with the integrated sampler (described below). Surface temperature (0 m depth) is taken by dipping the temperature sensor into the water and allowing it to equilibrate. Temperature is then measured at depths 0.5 m, 1 m, and each 1 metre intervals thereafter until there is a 1 ºC or more difference between whole metre intervals. Once this temperature change occurs, the probe is brought back to the shallowest whole metre depth where the temperature was stable and from there is lowered by 0.25 m intervals until there is less than 1 ºC change between whole metre intervals. When temperatures stabilize once again, measurements are made at 1 metre intervals down to the bottom of the lake. The last depth interval that has less than 0.25 ºC change from the previous 0.25 metre interval represents the bottom of the thermal **epilimnion**.
 
 The **thermocline** is defined as the plane of maximum rate of decrease of temperature with respect to depth, i.e. the depth at which the greatest rate of temperature decrease occurs in the lake.
 
@@ -166,15 +176,13 @@ The **thermocline** is defined as the plane of maximum rate of decrease of tempe
 
 Temperature profile data is used to determine the appropriate sampling depth for collecting integrated water samples from the **epilimnion** and **metalimnion**.
 
-\*Data from the RBR appear in two places on the ELA data retriever: 1) Physical Limnology – Water Temperature profiles (RBR Collection Method), and 2) Multi-Parameter Field Instruments. These two data sets may not match. Data in the Water Temp Profiles section are **instantaneous** values recorded in the field after the probe has stabilized, however, data under Multi-parameter Field Instruments is the actual logger data, which is an **average** over 10 seconds after the probe stabilized (See RBR Information Sheet).
-
 *<u>PAR Profiles</u>*
 
 PAR profiles are measured using an LI-192 Underwater Quantum Sensor, starting just above the lake surface (in air), then at a depth of 0.5 m and every whole metre interval until the measured PAR is 1% or less of the surface PAR measurement (see PAR Light Attenuation Information Sheet). This data is then used to determine the depth of the **metalimnion** integrated water sample.
 
 <u>Water sampling</u>
 
-Water sampling is done in two ways: 1) only EPI/META integrated water samples are collected with the integrated sampler, or 2) EPI/META integrated water samples are collected in addition to water chemistry profile sampling. Currently, the protocol is to include water chemistry profile sampling every 4 weeks.
+This is about collecting water samples (i.e., bottles of water from specific depths or ranges). There are two kinds of samples, each with their own sampling method and equipment: profiles (from specific, discrete depth points), or integrated samples (across a range of depths within the epilimnion or metalimnion). Currently, the protocol is collect integrated samples every two weeks and profiles every four weeks. So for example, on the first sampling occasion only integrated samples are collected, and then on the next occasion both integrated and profile samples are collected.
 
 *<u>Integrated Water Samples</u>*
 
@@ -182,11 +190,11 @@ Integrated water samples are collected using the integrated sampler (Shearer 197
 
 Integrated epilimnion samples (**EPI**) are collected starting from the lake surface to 0.5 m above the bottom of the thermal epilimnion, or to the depth of 1% of surface PAR when the thermal epilimnion extends beyond this depth by at least 0.5 m.
 
-The thermal epilimnion has stable temperature throughout, with changes in temperature of less than 1 <sup>o</sup>C / 1 m increase in depth. The bottom of the thermal epilimnion is defined as the shallowest depth with a stable temperature, after which a temperature change of ≥ 0.25 <sup>o</sup>C occurs within a 0.25 m increase in depth. An example can be found under ‘Definition of thermal epilimnion’ below.
+The thermal epilimnion has stable temperature throughout, with changes in temperature of less than 1 ºC / 1 m increase in depth. The bottom of the thermal epilimnion is defined as the shallowest depth with a stable temperature, after which a temperature change of ≥ 0.25 ºC occurs within a 0.25 m increase in depth. An example can be found under ‘Definition of thermal epilimnion’ below.
 
 Integrated metalimnion samples (**META**) are collected between the bottom of the thermal epilimnion and the depth at which 1% of surface PAR occurs. When the thermal epilimnion extends beyond the depth of 1% of surface PAR, no integrated metalimnion sample is collected. When taking a META sample, the inlet tube is closed off using the clamping mechanism before entering the water, and later opened via a messenger weight when at the proper depth. In this way, epilimnetic water is not inadvertently sampled as the sampler descends to the proper sampling depth of the metalimnion.
 
-*<u>Water Chemistry Profile Sampling</u>*
+*<u>Profile Sampling</u>*
 
 Water chemistry profile sampling involves taking samples of the water column at pre-determined depths (e.g. Lake 239 depths are 1, 5, 10, 15, 20, 25, 30 m). Water is pumped from depth using a marked sampling line (Kuri Tec KLEARON food grade PVC tubing: 1/4'” inner diameter, 3/8” outer diameter for the marked line and 3/16” inner diameter, 5/16” outer diameter to connect the line to the pump), and a 24v Greylor gear pump (part number: 001-240103 - 24V, HDPE Gears, Heat Sink w/No Holes, Viton Seal). **The pump must not be run dry- the gears will melt and cause the pump to stop working properly.**
 
@@ -218,9 +226,11 @@ All zooplankton abundance samples are preserved with ~25 mL of a sugar-formalin 
 
 ## Method changes
 
+This section describes historical methods and changes over time. For current methods, see the above section.
+
 *<u>Collection Method Codes</u>*
 
-Field observation data in the retriever has the following method codes:
+Field observation data uses the following method codes:
 * X01 - Field observations and procedures until 1990
 * X02 - Field observations and procedures until 1991 and 1992
 * X03 - Field observations and procedures from 1993 onward
@@ -262,7 +272,7 @@ After 1991, the thermal epilimnion depth in the example would be recorded as **2
 
 Using the example above, if sampling occurred before 1991, the metalimnion sample would be taken from 3 m to 1% light depth. However, if sampling occurred after 1991, the metalimnion sample would be from 2 m to 1% light depth, which could incorporate epilimnion water. If the true thermal epilimnion depth had been 2 m, then the metalimnion sample would not contain epilimnetic water.
 
-Since 2009, the definition of the thermal epilimnion depth was changed to be defined as the last depth measured before a temperature change of ≥1 °C/m (i.e. 0.25 <sup>o</sup>C/0.25 m). In the example above, the thermal epilimnion depth would be 2.75 m based on the current definition.
+Since 2009, the definition of the thermal epilimnion depth was changed to be defined as the last depth measured before a temperature change of ≥1 °C/m (i.e. 0.25 ºC/0.25 m). In the example above, the thermal epilimnion depth would be 2.75 m based on the current definition.
 
 *<u>Water Column Sampling Methods</u>*
 
