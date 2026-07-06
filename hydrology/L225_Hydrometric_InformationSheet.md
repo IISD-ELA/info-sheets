@@ -18,6 +18,8 @@ Lake 225 is located approximately 3 km north of the ELA field station. The lake 
 
 1.  Lake 225 Outflow.
 
+A weir was in place between 1975 and 2015, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 Hydrometric work on Lake 225 began in August 1975 when Water Survey of Canada (WSC) constructed a 60<sup>o</sup> sharp crested v-notch concrete weir on the outflow stream. It was instrumented with a Leupold and Stevens A-35 analog float actuated chart water level recorder and staff gauge. The weir was built on bedrock and the presence of seepage or bedrock fractures was not evident. This station was operated from early to mid-April to the end of October each year as a seasonal station (seven-month record) from August 1971 to the end of 1992. From 1982, monthly visits in winter were made to obtain manual flow measurements (see “winter flow”). This weir was treated with a tar foundation sealer at the time of construction.
 
 This station was inactive since it was discontinued (1992). The weir was removed during the 2015 field season as part of the major site decommissioning and cleanup that was a requirement of the transfer of ELA from DFO to IISD-ELA.

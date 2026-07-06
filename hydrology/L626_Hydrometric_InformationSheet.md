@@ -72,6 +72,8 @@ There are two hydrometric stations within the Lake 626 watershed, one is a recor
 
 1.  Lake 626 Outflow:
 
+A weir has been in place since 2008, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 The outflow of Lake 626 is located in the northwest bay at the far end of the lake. It can be accessed either by a short boat ride across the lake or a 15-minute walk by foot trail. A 150<sup>o</sup> sharp crested v-notch weir was constructed approximately 15 m below the lake outlet in October 2008. A stage-discharge relationship has been developed and an OTT Thalimedes data logger provides stage record for the weir from April until the end of October. Periodic manual observations are taken on a monthly basis during the winter. On June 3, 2020, the OTT Thalimedes was replaced with a Sutron SDR-0001-01 shaft-encoder type data logger.
 
 2.  Lake 626 Lake Level:

@@ -28,6 +28,9 @@ Hydrological work began November 16, 1999 with the survey of high-water marks, i
 
 2.  Lake 658 Outflow
 
+
+A hydraulic control was in place between 2001 and 2008, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 Flow measured using Marsh McBirney Flow-Tote flow sensor and dye slug test. Full details of control structure included in appendix at end of this document. Logged data was collected between July 9<sup>th</sup>, 2001 and October 20th, 2008, during the open-water season. Station was removed sometime after 2010. 658Q structure UTM coordinates: 15U 447000, 5509100
 
 3.  Lake 658 Wetland

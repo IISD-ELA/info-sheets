@@ -24,6 +24,8 @@ Hydrological work began May 17, 1969 when Water Survey of Canada (WSC) installed
 
 2.  Lake 227 Outflow
 
+A weir was in place between 1970 and 1998, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 October 27, 1970, a 90<sup>o</sup> v-notch sharp crested weir was constructed on the outflow stream by WSC. Data prior to this construction date was based on open channel measurements related to lake level. This first weir was a temporary plywood and plastic lined structure with stilling well and a Leupold and Stevens A-35 float water level recorder. The original weir was replaced in 1985 with a new 90<sup>o</sup> v-notch sharp crested concrete weir at the same location by ELA personnel. The concrete was not sealed. In winter, monthly streamflow observations were made since 1982. This station was discontinued at the end of the 1998 season.
 
 <u>Clean-up</u>

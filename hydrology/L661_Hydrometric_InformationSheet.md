@@ -22,6 +22,8 @@ Lake 661 is located approximately 800 m west southwest of the ELA field station.
 
 1.  Lake 661 Outflow (WSC ID 05PD028)
 
+A weir was in place between 1983 and 1997, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 Lake 661 had a gauged outflow between January 1, 1983 and December 31, 1997. A concrete weir equipped with a 120<sup>o</sup> v-notch and accompanying Stevens A-35 Analog Chart Recorder were operated during the open water season by the Water Survey of Canada between 1983 and the end of 1995. ELA staff collected and processed data between 1995 and 1997. The weir was in place but not operated or maintained between 1997 and 2015, when it was removed as part of the DFO cleanup.
 
 <u>History</u>

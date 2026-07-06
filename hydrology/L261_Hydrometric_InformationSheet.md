@@ -20,6 +20,8 @@ The Lake 261 watershed was not affected by any of the major forest fires that ha
 
 1.  Lake 261 Outflow
 
+A weir was in place between 1971 and 1980, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
 Hydrometric work on Lake 261 was carried out in the years 1971 to 1980 when Water Survey of Canada operated an outflow weir to obtain seven-month record between April and October each year. A 60<sup>o</sup> v-notch sharp crested weir was constructed on the outflow stream by WSC on October 27, 1970. This was a temporary plywood and plastic lined structure with a stilling well and a Leupold and Stevens A-35 float water level recorder. During the November to March winter period, record does not normally exist, but flows were assumed to be zero or very low. Service of the hydrometric station, and computation of flows, was by WSC in all years with the exception of 1974 when ELA staff operated the station. Hydrometric monitoring was discontinued at the end of the 1980 season.
 
 <u>Clean-up</u>

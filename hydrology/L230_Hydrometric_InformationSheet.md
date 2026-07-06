@@ -22,6 +22,9 @@ The entire Lake 230 watershed was affected by a severe windstorm on July 7, 1973
 
 1.  Lake 230 Outflow
 
+A weir was in place between 1971 and 1980, but this does not necessarily mean data was recorded or is available for that time period. The weir may have been unused, used intermittently, discontinued without removal, or operated for another data program, such as WSC. Sometimes other datasets like stream chemistry have even been collected before a weir was installed, or after a weir was removed, leading to stream data date ranges longer than years of weir presence. Data ranges are best determined by working directly with the data, and contacting us with any questions.
+
+
 November 18, 1970, a 60<sup>o</sup> v-notch sharp crested weir was constructed on the outflow stream by WSC. This was a temporary plywood and plastic lined structure with a stilling well and a Leupold and Stevens A-35 float water level recorder. Record was collected for the seven-month period from April to the end of October. No data exists for the November to early April winter periods, but flows were normally zero to very low. This station was discontinued at the end of the 1980 season.
 
 <u>Clean-up</u>
