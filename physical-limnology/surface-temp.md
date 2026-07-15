@@ -14,7 +14,7 @@ A table of lakes and data collection date ranges for each lake is included below
 
 | **Lake** | **Date range** |
 |----|----|
-| L114 | 2000-2021 (hourly) |
+| L114 | 2000-2026 (hourly) |
 | L224 | 2000-2021 (hourly) |
 | L226 | 1997-1998 (hourly) |
 | L227 | 2008-2015 (hourly) |
