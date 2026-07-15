@@ -17,17 +17,17 @@ A table of lakes and data collection date ranges for each lake is included below
 | L114 | 2000-2026 (hourly) |
 | L224 | 2000-2026 (hourly) |
 | L226 | 1997-1998 (hourly) |
-| L227 | 2008-2015 (hourly) |
+| L227 | 2008-2013, 2022-2026 (hourly) |
 | L239 | 1969-1997 (daily), 1998-2026 (hourly) |
 | L239 streams (NWIF, NEIF, EIF) | 2018-2026 (hourly) |
 | L260 | 1999-2004, 2017-2026 (hourly) |
 | L302 S | 2008 (hourly) |
-| L303 | 2009 (hourly) |
-| L304 | 2009 (hourly) |
+| L303 | 2009-2011, 2023-2026 (hourly) |
+| L304 | 2009-2011, 2023-2026 (hourly) |
 | L373 | 2000 – 2026 (hourly) |
 | L378 | 2020 – 2026 (hourly) |
-| L442 | 2000-2019, 2026 (hourly) |
-| L626 | 2008-2014 (hourly) |
+| L442 | 2000-2019, 2021-2026 (hourly) |
+| L626 | 2008-2013, 2022-2026 (hourly) |
 | L632 | 1992-1995 (daily) |
 | L658 | 2001-2009 (hourly) |
 | L979 | 1992-1993 (daily), 1994 (half-hourly), 1995 (daily), 1997-1998, 2001, 2006 (hourly) |
@@ -36,7 +36,7 @@ A table of lakes and data collection date ranges for each lake is included below
 
 ### Lake Surface Temperature Instrumentation
 
-Over the years lake surface temperature has been collected by one of 3 basic methods. Records in the data set are coded with the following codes: VPT (manual thermometer readings), LS1 (floating analog temp logger), and LS2 (floating digital temp logger).
+Over the years lake surface temperature has been collected by one of 3 basic methods. Records in the data set are coded with the following codes: VPT (manual thermometer readings), LS1 (floating analog temp logger), and LS2 (floating digital temp logger). As of 2023, stream temperature data are logged digitally using a combined water level and temperature data logger (LS3).
 
 #### *VPT – manual thermometer readings*
 
@@ -55,6 +55,10 @@ From 1998 to 2007 HOBO Onset Optic Stow Away temp loggers were used. These logge
 From 2008 to 2021 HOBO Water Temp Pro v2 loggers were used. These loggers have an accuracy of 0.2 °C. In addition to the HOBO Water Temp Pro v2 loggers, HOBO MX2201 temperature loggers were deployed in 2019, and have an accuracy of 0.5 ºC. In 2021, TinyTag Aquatic 2 TG-4100 temperature loggers were trialed. The Aquatic 2 loggers replaced HOBO loggers starting in the 2022 field season. TinyTag Aquatic 2 loggers have an accuracy of 0.5 ºC.
 
 These floating digital temp loggers are deployed during the ice-free period. Loggers are attached to the centre buoy and downloaded periodically throughout the season. Depending on the method of attachment, and style of logger, these loggers are situated ~10-15 cm below the lake surface.
+
+#### *LS3 – water level and temperature loggers*
+
+This method was used from 2023 onwards, for stream temperature datasets. Solinst Levelogger 5 (model 3001) water level and temperature loggers are deployed on streambeds housed in perforated white PVS tubes that shield the logger from direct light but allows unimpeded flow of water past sensor. Accuracy of 0.05°C.
 
 ### Stream and Temperature String Instrumentation
 
