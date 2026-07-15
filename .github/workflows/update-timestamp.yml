@@ -1,0 +1,52 @@
+name: Auto-update Last Updated Date and Author
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'chemistry/chemistry.md'
+      # To trigger on additional specific files, add them here, e.g.:
+      # - 'biology/biology.md'
+      # - 'docs/protocols.md'
+      #
+      # To trigger on ANY markdown file in the entire repo, replace the
+      # paths block above with:
+      # paths:
+      #   - '**/*.md'
+
+jobs:
+  update-timestamp:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Auto-update timestamp and author in info sheet(s)
+        run: |
+          sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "chemistry/chemistry.md"
+
+          # To update additional specific files, add more sed lines here, e.g.:
+          # sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "biology/phytoplankton.md"
+          # sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "hydrology/Hydrology_General_Information_Sheet.md"
+
+          # To update ALL markdown files in the repo that contain the
+          # "Last updated" line, replace the sed line above with this loop:
+          # find . -name "*.md" | while read file; do
+          #   sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "$file"
+          # done
+
+      - name: Commit updated file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "chemistry/chemistry.md"
+          # To stage additional specific files, add more git add lines here, e.g.:
+          # git add "biology/phytoplankton.md"
+          # git add "hydrology/Hydrology_General_Information_Sheet.md"
+          #
+          # If using the loop above to update ALL markdown files, replace
+          # the git add line(s) with this to stage everything at once:
+          # git add "**/*.md"
+          git diff --cached --quiet || git commit -m "chore: update last updated date and author"
+          git push
