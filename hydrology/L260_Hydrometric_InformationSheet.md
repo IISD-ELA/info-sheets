@@ -1,6 +1,6 @@
 # Lake 260: Hydrometric Station Information Sheet
 **Author:** Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Coordinates of water level gauge (UTM, WGS 84): 15U \#######E \#######N
 

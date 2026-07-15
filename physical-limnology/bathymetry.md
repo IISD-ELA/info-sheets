@@ -1,6 +1,6 @@
 # Bathymetry Data - Information Sheet
 **Authors**: Chris Hay, Lee Hrenchuk  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 ## Contents
 - [Bathymetry Data - Information Sheet](#bathymetry-data---information-sheet)

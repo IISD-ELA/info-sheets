@@ -1,6 +1,6 @@
 # Meteorology – Precipitation – Information Sheet
 **Authors:** Paul Fafard, Ken Sandilands  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 ## Contents
 - [General information](#general-information)

@@ -1,6 +1,6 @@
 # Lake 239: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Coordinates of control structure (UTM, WGS 84): 15U 0447564E 5500960N
 

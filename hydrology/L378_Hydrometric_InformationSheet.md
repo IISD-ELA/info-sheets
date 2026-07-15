@@ -1,6 +1,6 @@
 # Lake 378: Hydrometric Station Information Sheet
 **Author:** Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 444274E 5506812N
 

@@ -1,6 +1,6 @@
 # Lake 632: Hydrometric Station Information Sheet
 **Author:** Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Watershed area (ha): 40.2 ha based on 1978(?) mapping
 

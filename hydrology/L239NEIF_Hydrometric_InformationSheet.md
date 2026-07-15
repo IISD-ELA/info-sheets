@@ -1,6 +1,6 @@
 # Northeast Inflow to Lake 239: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Coordinates of control structure (UTM, WGS 84): 15 U 448245 E, 5501810 N
 

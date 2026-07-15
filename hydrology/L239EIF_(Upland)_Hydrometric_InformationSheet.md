@@ -1,6 +1,6 @@
 # Lake 239 East Upper Weir: Hydrometric Station Information Sheet
 **Author:** Ken Beaty  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 <u>The Watershed</u>
 

@@ -1,6 +1,6 @@
 # Lake 660: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Watershed area (ha): 11489 ha based on 1984 MNR mapping 20864.5 ha based on OFAT\*
 

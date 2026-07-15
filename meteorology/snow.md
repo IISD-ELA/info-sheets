@@ -1,6 +1,6 @@
 # Meteorology – Snow – Information Sheet
 **Authors:** Ken Beaty, Paul Fafard, Chris Hay  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 ## Contents
 - [General information](#general-information)

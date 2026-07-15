@@ -1,6 +1,6 @@
 # Fish morphometrics mark-recapture data dictionary
 
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 A full info sheet is in progress but not yet available. Meanwhile this data dictionary can help to properly interpret the data.
 

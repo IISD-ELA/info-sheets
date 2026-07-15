@@ -1,6 +1,6 @@
 # Lake 265: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Watershed area (ha): 71.0 ha based on 1976 mapping
 

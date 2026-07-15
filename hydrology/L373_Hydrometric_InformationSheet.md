@@ -1,6 +1,6 @@
 # Lake 373: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Coordinates of control structure (to Nov 1, 2002; UTM, WGS 84): 15U 442939E 5510663N
 

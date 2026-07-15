@@ -1,6 +1,6 @@
 # Lake 661: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Watershed area (ha): 125.4 ha based on 1985 mapping
 

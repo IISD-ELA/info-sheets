@@ -1,6 +1,6 @@
 # Lake 230: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 Watershed area (ha): 8.89 ha based on 1976 mapping
 

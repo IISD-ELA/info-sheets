@@ -1,6 +1,6 @@
 # PAR and Light Attenuation (Kd) Information Sheet
 **Authors:** Ken Sandilands, Paul Fafard  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 ## General
 
