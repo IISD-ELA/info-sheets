@@ -56,7 +56,7 @@ From 2008 to 2021 HOBO Water Temp Pro v2 loggers were used. These loggers have a
 
 These floating digital temp loggers are deployed during the ice-free period. Loggers are attached to the centre buoy and downloaded periodically throughout the season. Depending on the method of attachment, and style of logger, these loggers are situated ~10-15 cm below the lake surface.
 
-#### *LS3 – water level and temperature loggers*
+#### *LS3 – digital water level and temperature loggers*
 
 This method was used from 2023 onwards, for stream temperature datasets. Solinst Levelogger 5 (model 3001) water level and temperature loggers are deployed on streambeds housed in perforated white PVS tubes that shield the logger from direct light but allows unimpeded flow of water past sensor. Accuracy of 0.05°C.
 
