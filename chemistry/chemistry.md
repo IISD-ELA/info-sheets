@@ -1,7 +1,7 @@
 # IISD-ELA Chemistry Info Sheet
 
 **Authors:** IISD Experimental Lakes Area, Sonya Havens, Chris Hay, Ken Sandilands, Paul Fafard, Idil Yaktubay  
-**Last Updated:**  
+**Last Updated:**  2026-07-15 by chaydata
 
 ## Contents 
 <!-- TOC -->
