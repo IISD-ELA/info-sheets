@@ -1,6 +1,6 @@
 # Lake Surface Temperature: Physical Limnology Information Sheet
 **Authors:** Ken Beaty; Ken Sandilands; Paul Fafard  
-**Last Updated:**  2026-07-15 by chaydata
+**Last Updated:**  2026-07-15 by PaulF-IISD-ELA
 
 ## General
 
