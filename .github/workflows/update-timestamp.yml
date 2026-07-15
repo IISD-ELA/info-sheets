@@ -14,16 +14,26 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
 
-      - name: Auto-update timestamp and author in info sheet(s)
+      - name: Auto-update timestamp and author in changed info sheet(s)
         run: |
-          find . -name "*.md" | while read file; do
+          changed_files=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- '*.md' || true)
+
+          if [ -z "$changed_files" ]; then
+            echo "No Markdown files changed in this push."
+            exit 0
+          fi
+
+          while IFS= read -r file; do
+            [ -n "$file" ] || continue
+            [ -f "$file" ] || continue
+
             sed -i "s/\*\*Last Updated:\*\*.*/\*\*Last Updated:\*\*  $(date +'%Y-%m-%d') by ${{ github.actor }}/" "$file"
-          done
+            git add -- "$file"
+          done <<< "$changed_files"
 
       - name: Commit updated file
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "**/*.md"
           git diff --cached --quiet || git commit -m "chore: update last updated date and author"
           git push
