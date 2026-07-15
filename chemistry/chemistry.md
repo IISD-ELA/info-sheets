@@ -3,7 +3,7 @@
 **Authors:** IISD Experimental Lakes Area, Sonya Havens, Chris Hay, Ken Sandilands, Paul Fafard, Idil Yaktubay  
 **Last Updated:**  
 
-## Contents
+## Contents 
 <!-- TOC -->
 - [General Information ](#general-information)
 - [Methods ](#methods)
