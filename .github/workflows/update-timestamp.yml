@@ -14,6 +14,8 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
+          # fetch-depth: 0 is required — without it, the full git history is not
+          # available, and the diff commands below won't work correctly
           fetch-depth: 0
 
       - name: Auto-update timestamp and author in changed info sheet(s)
@@ -21,9 +23,15 @@ jobs:
           before="${{ github.event.before }}"
           after="${{ github.sha }}"
 
+          # Handle the edge case of a brand new repo or first push to a branch,
+          # where "before" is all zeros (no previous commit exists to diff against).
+          # In that case, we list files changed in just this single commit instead.
           if [ "$before" = "0000000000000000000000000000000000000000" ]; then
             changed_files=$(git diff-tree --no-commit-id --name-only -r "$after" -- '*.md' '**/*.md' || true)
           else
+            # Compare the full state before and after the push. If someone pushes
+            # multiple commits at once, this captures all .md files changed across
+            # any of those commits, which is the desired behaviour.
             changed_files=$(git diff --name-only "$before" "$after" -- '*.md' '**/*.md' || true)
           fi
 
@@ -34,8 +42,15 @@ jobs:
 
           while IFS= read -r file; do
             [ -n "$file" ] || continue
+
+            # Skip files that no longer exist (e.g. deleted in this commit)
             [ -f "$file" ] || continue
 
+            # Update the "Last Updated" line in the file.
+            # If the line doesn't exist in a particular file, sed silently does
+            # nothing — the file will still be staged below, but the diff check
+            # before the final commit will catch that nothing actually changed
+            # and skip the commit, so this is harmless.
             sed -i "s/\*\*Last Updated:\*\*.*/\*\*Last Updated:\*\*  $(date +'%Y-%m-%d') by ${{ github.actor }}/" "$file"
             git add -- "$file"
           done <<< "$changed_files"
@@ -44,5 +59,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          # Only commit if something actually changed. This guards against cases
+          # where no "Last Updated" line existed in any of the changed files,
+          # which would otherwise result in an empty commit.
           git diff --cached --quiet || git commit -m "chore: update last updated date and author"
           git push
