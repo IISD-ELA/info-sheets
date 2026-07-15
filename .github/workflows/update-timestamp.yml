@@ -13,10 +13,19 @@ jobs:
     steps:
       - name: Checkout repo
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Auto-update timestamp and author in changed info sheet(s)
         run: |
-          changed_files=$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" -- '*.md' || true)
+          before="${{ github.event.before }}"
+          after="${{ github.sha }}"
+
+          if [ "$before" = "0000000000000000000000000000000000000000" ]; then
+            changed_files=$(git diff-tree --no-commit-id --name-only -r "$after" -- '*.md' '**/*.md' || true)
+          else
+            changed_files=$(git diff --name-only "$before" "$after" -- '*.md' '**/*.md' || true)
+          fi
 
           if [ -z "$changed_files" ]; then
             echo "No Markdown files changed in this push."
