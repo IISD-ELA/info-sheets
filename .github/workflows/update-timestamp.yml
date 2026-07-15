@@ -7,8 +7,8 @@ on:
     paths:
       - 'chemistry/chemistry.md'
       # To trigger on additional specific files, add them here, e.g.:
-      # - 'biology/biology.md'
-      # - 'docs/protocols.md'
+      # - 'biology/phytoplankton.md'
+      # - 'hydrology/Hydrology_General_Information_Sheet.md'
       #
       # To trigger on ANY markdown file in the entire repo, replace the
       # paths block above with:
@@ -24,16 +24,16 @@ jobs:
 
       - name: Auto-update timestamp and author in info sheet(s)
         run: |
-          sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "chemistry/chemistry.md"
+          sed -i "s/\*\*Last Updated:\*\*.*/\*\*Last Updated:\*\*  $(date +'%Y-%m-%d') by ${{ github.actor }}/" "chemistry/chemistry.md"
 
           # To update additional specific files, add more sed lines here, e.g.:
-          # sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "biology/phytoplankton.md"
-          # sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "hydrology/Hydrology_General_Information_Sheet.md"
+          # sed -i "s/\*\*Last Updated:\*\*.*/\*\*Last Updated:\*\*  $(date +'%Y-%m-%d') by ${{ github.actor }}/" "biology/phytoplankton.md"
+          # sed -i "s/\*\*Last Updated:\*\*.*/\*\*Last Updated:\*\*  $(date +'%Y-%m-%d') by ${{ github.actor }}/" "hydrology/Hydrology_General_Information_Sheet.md"
 
           # To update ALL markdown files in the repo that contain the
           # "Last updated" line, replace the sed line above with this loop:
           # find . -name "*.md" | while read file; do
-          #   sed -i "s/_Last updated: .*/_Last updated: $(date +'%Y-%m-%d') by ${{ github.actor }}_/" "$file"
+          #   sed -i "s/\*\*Last Updated:\*\*.*/\*\*Last Updated:\*\*  $(date +'%Y-%m-%d') by ${{ github.actor }}/" "$file"
           # done
 
       - name: Commit updated file
