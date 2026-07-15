@@ -15,18 +15,18 @@ A table of lakes and data collection date ranges for each lake is included below
 | **Lake** | **Date range** |
 |----|----|
 | L114 | 2000-2026 (hourly) |
-| L224 | 2000-2021 (hourly) |
+| L224 | 2000-2026 (hourly) |
 | L226 | 1997-1998 (hourly) |
 | L227 | 2008-2015 (hourly) |
-| L239 | 1969-1997 (daily), 1998-2021 (hourly) |
-| L239 streams (NWIF, NEIF, EIF) | 2018-2021 (hourly) |
-| L260 | 1999-2004, 2017-2021 (hourly) |
+| L239 | 1969-1997 (daily), 1998-2026 (hourly) |
+| L239 streams (NWIF, NEIF, EIF) | 2018-2026 (hourly) |
+| L260 | 1999-2004, 2017-2026 (hourly) |
 | L302 S | 2008 (hourly) |
 | L303 | 2009 (hourly) |
 | L304 | 2009 (hourly) |
-| L373 | 2000 – 2021 (hourly) |
-| L378 | 2020 – 2021 (hourly) |
-| L442 | 2000-2019, 2021 (hourly) |
+| L373 | 2000 – 2026 (hourly) |
+| L378 | 2020 – 2026 (hourly) |
+| L442 | 2000-2019, 2026 (hourly) |
 | L626 | 2008-2014 (hourly) |
 | L632 | 1992-1995 (daily) |
 | L658 | 2001-2009 (hourly) |
@@ -52,7 +52,7 @@ From 1989 to 1997 Richard Branker XL-800 temperature loggers were used to provid
 
 From 1998 to 2007 HOBO Onset Optic Stow Away temp loggers were used. These loggers have an accuracy of 0.1°C. Hourly mean temperatures provide a timestamp for each record. Means are from measurements taken from the hour previous to the recorded time (e.g. 08:00 data record is from measurements between 07:00 and 08:00).
 
-From 2008 to 2021 HOBO Water Temp Pro v2 loggers were used. These loggers have an accuracy of 0.2 °C. In addition to the HOBO Water Temp Pro v2 loggers, HOBO MX2201 temperature loggers were deployed in 2019, and have an accuracy of 0.5 ºC. In 2021, TinyTag Aquatic 2 TG-4100 temperature loggers were trialed and will replace HOBO loggers going forward. TinyTag Aquatic 2 loggers have an accuracy of 0.5 ºC.
+From 2008 to 2021 HOBO Water Temp Pro v2 loggers were used. These loggers have an accuracy of 0.2 °C. In addition to the HOBO Water Temp Pro v2 loggers, HOBO MX2201 temperature loggers were deployed in 2019, and have an accuracy of 0.5 ºC. In 2021, TinyTag Aquatic 2 TG-4100 temperature loggers were trialed and replaced HOBO loggers starting in the 2022 field season. TinyTag Aquatic 2 loggers have an accuracy of 0.5 ºC.
 
 These floating digital temp loggers are deployed during the ice-free period. Loggers are attached to the centre buoy and downloaded periodically throughout the season. Depending on the method of attachment, and style of logger, these loggers are situated ~10-15 cm below the lake surface.
 
