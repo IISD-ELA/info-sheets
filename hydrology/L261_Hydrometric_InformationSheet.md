@@ -1,8 +1,6 @@
-**Lake 261: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: July 20, 2020 (PF)
+# Lake 261: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 47.58 ha based on 1976 mapping
 

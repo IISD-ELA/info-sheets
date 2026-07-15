@@ -1,8 +1,6 @@
-**Lake 230: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: September 18, 2019 (PF)
+# Lake 230: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 8.89 ha based on 1976 mapping
 

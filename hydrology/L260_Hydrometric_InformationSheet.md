@@ -1,8 +1,6 @@
-**Lake 260: Hydrometric Station Information Sheet**
-
-Author: Paul Fafard
-
-Last update: July 13, 2020 (PF), April 6, 2023 (PF), 1 April 2025 (LNT)
+# Lake 260: Hydrometric Station Information Sheet
+**Author:** Paul Fafard  
+**Last Updated:**  
 
 Coordinates of water level gauge (UTM, WGS 84): 15U \#######E \#######N
 

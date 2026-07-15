@@ -1,8 +1,6 @@
-**Lake 626: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last updated: July 20, 2020 (PF); 2 April 2025 (LNT)
+# Lake 626: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of control structure (UTM, WGS 84): 15U 442373E 5511650N
 

@@ -1,8 +1,6 @@
-**Lake 373: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last updated: July 20, 2020 (PF), 01 June 2023 (PF); 2 April 2025 (LNT)
+# Lake 373: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of control structure (to Nov 1, 2002; UTM, WGS 84): 15U 442939E 5510663N
 

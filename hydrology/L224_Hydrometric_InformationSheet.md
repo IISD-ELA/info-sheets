@@ -1,8 +1,6 @@
-**Lake 224: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: April 1, 2025 (LNT)
+# Lake 224: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 0447881E 5504278N
 

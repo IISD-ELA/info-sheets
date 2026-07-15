@@ -1,8 +1,6 @@
-**Lake 239: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: 04 April 2023 (PF); 15 April 2024 (PF); 1 April 2025 (LNT)
+# Lake 239: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of control structure (UTM, WGS 84): 15U 0447564E 5500960N
 

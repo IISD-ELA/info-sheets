@@ -1,5 +1,6 @@
 # Meteorology – Snow – Information Sheet
-Authors: Ken Beaty, Paul Fafard, Chris Hay  
+**Authors:** Ken Beaty, Paul Fafard, Chris Hay  
+**Last Updated:**  
 
 ## Contents
 - [General information](#general-information)

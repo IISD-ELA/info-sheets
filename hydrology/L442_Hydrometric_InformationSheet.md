@@ -1,8 +1,6 @@
-**Lake 442: Hydrometric Station Information Sheet**
-
-Author: Paul Fafard
-
-Last update: November 19, 2018; 2 April 2025 (LNT)
+# Lake 442: Hydrometric Station Information Sheet
+**Author:** Paul Fafard  
+**Last Updated:**  
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 441244E 5513815N
 

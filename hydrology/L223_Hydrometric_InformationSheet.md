@@ -1,8 +1,6 @@
-**Lake 223: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: September 13, 2019 (PF)
+# Lake 223: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 259.96 ha based on 1972 mapping
 

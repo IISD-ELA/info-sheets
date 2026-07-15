@@ -1,8 +1,6 @@
-**Lake 304: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: July 20, 2020 (PF); 2 April 2025 (LNT)
+# Lake 304: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 26.42 ha based on 1970 mapping
 

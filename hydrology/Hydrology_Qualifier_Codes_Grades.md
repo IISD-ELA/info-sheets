@@ -1,10 +1,6 @@
-**Hydrology Qualifier Codes**
-
-*Date: 21 April 2017*
-
-*Last previous revision: 28 Jan 2010*
-
-*By: Ken Beaty, Aquarius Grades added by K. Sandilands*
+# Hydrology Qualifier Codes
+**Authors:** Ken Beaty, Aquarius Grades added by K. Sandilands  
+**Last Updated:**  
 
 Note: The short letter codes are used in the ELA Database. Aquarius Grade# is the number assigned by Aquarius. These need to be converted to letter codes during import into ELA database (applies to data processed after 2015 by Aquarius).
 

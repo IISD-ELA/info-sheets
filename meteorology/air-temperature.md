@@ -1,5 +1,6 @@
 # Meteorology – Air Temperature – Information Sheet
-Authors: Paul Fafard, Ken Sandilands
+**Authors:** Paul Fafard, Ken Sandilands  
+**Last Updated:**  
 
 ## Contents
 - [General Information](#general-information)

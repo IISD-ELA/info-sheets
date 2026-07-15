@@ -1,8 +1,6 @@
-**Lake 382: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: July 14, 2020 (PF)
+# Lake 382: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 203.27 ha based on 1976 mapping
 

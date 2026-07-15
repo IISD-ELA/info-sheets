@@ -1,8 +1,6 @@
-**Lake 226: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last updated: September 13, 2019 (PF)
+# Lake 226: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 97.17 ha based on 1972 mapping
 

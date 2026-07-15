@@ -1,8 +1,6 @@
-**Lake 470: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: July 20, 2020 (PF); 2 April 2024 (LNT)
+# Lake 470: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of control structure (UTM, WGS 84): 15U 447134E 5500838N
 

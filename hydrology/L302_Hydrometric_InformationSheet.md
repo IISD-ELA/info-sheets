@@ -1,8 +1,6 @@
-**Lake 302: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last updated: July 20, 2020 (PF); 15 April 2024 (PF); 1 April 2025 (LNT)
+# Lake 302: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 102.5 ha based on 1972 mapping
 

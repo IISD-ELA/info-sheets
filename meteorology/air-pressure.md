@@ -1,5 +1,6 @@
 # Meteorology – Air Pressure – Information Sheet
-Authors: Chris Hay
+**Authors:** Chris Hay  
+**Last Updated:**  
 
 ## Contents
 - [General Information](#general-information)

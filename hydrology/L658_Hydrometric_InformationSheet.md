@@ -1,8 +1,6 @@
-**Lake 658: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: July 14, 2020 (PF); 2 April 2025 (LNT)
+# Lake 658: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of water level gauge and outflow structure (UTM, WGS 84): 15U 447000E 5509100N
 

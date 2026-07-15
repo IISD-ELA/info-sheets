@@ -1,8 +1,6 @@
-**Northeast Inflow to Lake 239: Hydrometric Station Information Sheet**
-
-Authors: Ken Beaty, Paul Fafard
-
-Last Updated: September 05, 2019 (PF), March 10, 2021 (PF), 15 April 2024 (PF); 1 April 2025 (LNT)
+# Northeast Inflow to Lake 239: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Coordinates of control structure (UTM, WGS 84): 15 U 448245 E, 5501810 N
 

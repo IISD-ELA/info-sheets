@@ -1,8 +1,6 @@
 # Ice Phenology Information Sheet
-
-**Authors**: Ken Beaty, Ken Sandilands, Paul Fafard, Chris Hay, Scott Higgins, Delvin So  
-**Last Updated**: 2025-06-16  
-**Last Updated By**: Delvin So  
+**Authors**: Ken Beaty, Ken Sandilands, Paul Fafard, Chris Hay, Scott Higgins; with additional editing by Delvin So  
+**Last Updated:**  
 
 ## Contents
 - [General Information](#general-information)

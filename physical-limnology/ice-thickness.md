@@ -1,7 +1,6 @@
 # Limnology – Ice Thickness Data – Information Sheet
-
-Authors: Ken Beaty, Ken Sandilands, Paul Fafard, Chris Hay  
-Last Updated: 2024-10-21
+**Authors:** Ken Beaty, Ken Sandilands, Paul Fafard; with additional edits by Chris Hay  
+**Last Updated:**  
 
 ## Contents
 - [General Information](#general-information)

@@ -1,6 +1,6 @@
 # Lake Sampling and Field Observations: Physical Limnology information Sheet
-
-Authors: Ken Sandilands; Paul Fafard  
+**Authors:** Ken Sandilands; Paul Fafard  
+**Last Updated:**  
 
 ## Contents
 - [Background](#background)
@@ -15,7 +15,6 @@ Authors: Ken Sandilands; Paul Fafard
   * [Method changes](#method-changes)
 - [References](#references)
 - [Appendix](#appendix)
-
 
 
 # Background

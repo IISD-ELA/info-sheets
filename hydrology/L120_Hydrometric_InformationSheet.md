@@ -1,8 +1,6 @@
-**Lake 120: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: September 13, 2019 (PF)
+# Lake 120: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 69.7 ha based on 1972 mapping
 

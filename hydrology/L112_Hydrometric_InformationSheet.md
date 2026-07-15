@@ -1,8 +1,6 @@
-**Lake 112: Hydrometric Station Information Sheet**
-
-Author: Paul Fafard
-
-Last update: July 13, 2020 (PF)
+# Lake 112: Hydrometric Station Information Sheet
+**Author:** Paul Fafard  
+**Last Updated:**  
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 445360E, 5505104N
 

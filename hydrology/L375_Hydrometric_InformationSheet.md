@@ -1,8 +1,6 @@
-**Lake 375: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last Updated: July 14, 2020 (PF), February 8, 2022 (PF); 2 April 2025 (LNT)
+# Lake 375: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 219.3 ha based on 1985 mapping
 

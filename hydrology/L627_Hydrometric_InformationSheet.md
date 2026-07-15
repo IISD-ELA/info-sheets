@@ -1,8 +1,6 @@
-**Lake 627: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last Updated: July 20, 2020 (PF); 2 April 2025 (LNT)
+# Lake 627: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 303.4 ha based on 1985 mapping
 

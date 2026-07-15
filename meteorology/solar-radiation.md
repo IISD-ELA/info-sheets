@@ -1,5 +1,6 @@
 # Meteorology – Solar Radiation – Information Sheet
-Authors: Ken Sandilands, Paul Fafard; Edited by Chris Hay and Idil Yaktubay
+**Authors:** Ken Sandilands, Paul Fafard; Edited by Chris Hay and Idil Yaktubay  
+**Last Updated:**  
 
 ## Contents
 - [General information](#general-information)

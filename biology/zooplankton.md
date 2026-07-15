@@ -1,6 +1,7 @@
 # Zooplankton Data – Information Sheet
 
-Authors: IISD Experimental Lakes Area, Michael Paterson, Patrique Bulloch, Chris Hay  
+**Authors:** IISD Experimental Lakes Area, Michael Paterson, Patrique Bulloch, Chris Hay  
+**Last Updated:**  
 
 ## Contents
 - [General Information](#general-information)

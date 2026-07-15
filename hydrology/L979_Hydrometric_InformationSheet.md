@@ -1,8 +1,6 @@
-**Lake 979: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last updated: July 14, 2020 (PF)
+# Lake 979: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 821 ha based on 1991 mapping
 

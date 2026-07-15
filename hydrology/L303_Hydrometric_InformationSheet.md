@@ -1,8 +1,6 @@
-**Lake 303: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: July 20, 2020 (PF); 1 April 2025 (LNT)
+# Lake 303: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 54.14 ha based on 1970 mapping
 

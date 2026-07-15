@@ -1,8 +1,6 @@
-**Lake 225: Hydrometric Station Information Sheet**
-
-Author: Ken Beaty, Paul Fafard
-
-Last update: 13 September 2019
+# Lake 225: Hydrometric Station Information Sheet
+**Authors:** Ken Beaty, Paul Fafard  
+**Last Updated:**  
 
 Watershed area (ha): 30.5 ha based on 1972 mapping
 

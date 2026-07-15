@@ -2,7 +2,6 @@
 
 **Authors**: IISD Experimental Lakes Area, Scott Higgins  
 **Last Updated**: July 19, 2024  
-**Last Updated By**: Scott Higgins  
 
 ## Contents
 - [General Background](#general-background)
