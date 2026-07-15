@@ -1,6 +1,6 @@
 # Meteorology – Air Temperature – Information Sheet
 **Authors:** Paul Fafard, Ken Sandilands  
-**Last Updated:**  2026-07-15 by chaydata - test
+**Last Updated:**  2026-07-15 by iisd-ela-data
 
 ## Contents
 - [General Information](#general-information)
