@@ -52,7 +52,7 @@ From 1989 to 1997 Richard Branker XL-800 temperature loggers were used to provid
 
 From 1998 to 2007 HOBO Onset Optic Stow Away temp loggers were used. These loggers have an accuracy of 0.1°C. Hourly mean temperatures provide a timestamp for each record. Means are from measurements taken from the hour previous to the recorded time (e.g. 08:00 data record is from measurements between 07:00 and 08:00).
 
-From 2008 to 2021 HOBO Water Temp Pro v2 loggers were used. These loggers have an accuracy of 0.2 °C. In addition to the HOBO Water Temp Pro v2 loggers, HOBO MX2201 temperature loggers were deployed in 2019, and have an accuracy of 0.5 ºC. In 2021, TinyTag Aquatic 2 TG-4100 temperature loggers were trialed and replaced HOBO loggers starting in the 2022 field season. TinyTag Aquatic 2 loggers have an accuracy of 0.5 ºC.
+From 2008 to 2021 HOBO Water Temp Pro v2 loggers were used. These loggers have an accuracy of 0.2 °C. In addition to the HOBO Water Temp Pro v2 loggers, HOBO MX2201 temperature loggers were deployed in 2019, and have an accuracy of 0.5 ºC. In 2021, TinyTag Aquatic 2 TG-4100 temperature loggers were trialed. The Aquatic 2 loggers replaced HOBO loggers starting in the 2022 field season. TinyTag Aquatic 2 loggers have an accuracy of 0.5 ºC.
 
 These floating digital temp loggers are deployed during the ice-free period. Loggers are attached to the centre buoy and downloaded periodically throughout the season. Depending on the method of attachment, and style of logger, these loggers are situated ~10-15 cm below the lake surface.
 
@@ -61,6 +61,8 @@ These floating digital temp loggers are deployed during the ice-free period. Log
 Stream temperature and temperature string data have been collected using HOBO Pendant UA-001 or UA-002 data loggers. These loggers have an accuracy of 0.53 ºC.
 
 Temperature loggers in streams have typically been anchored in place using a small weight, and were deployed in within easy reach for downloading. No shielding was used to protect loggers from direct sunlight.
+
+Solinst Levelogger 5 (model 3001) water level and temperature loggers have been in use since 2023 for all streams. The Solinst Levelogger 5 (model 3001) have an accuracy of 0.05 ºC.
 
 ## References
 
