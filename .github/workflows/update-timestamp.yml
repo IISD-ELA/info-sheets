@@ -1,4 +1,5 @@
 name: Auto-update Last Updated Date and Author
+# created via Claude Code AI Sonnet 4.6
 
 on:
   push:
