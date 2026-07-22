@@ -21,7 +21,6 @@
   * [List of columns](#list-of-columns)
   * [Data dictionary](#data-dictionary)
   * [Units of measure and accuracy](#units-of-measure-and-accuracy)
-  * [Qualifier codes](#qualifier-codes)
 - [References](#references)
 
 ## General Information
@@ -112,7 +111,7 @@ In the years that followed, other studies that included groundwater investigatio
 
 In winter, all ELA lakes freeze over and accumulate a snow pack on the ice surface. As winter progresses, inflow from the terrestrial area surrounding the lake diminish to zero or near zero due to freezing temperatures and an accumulating snow cover that does not melt until April. ELA does not experience mid-winter melt-runoff events. Because small hydrometric stations are difficult to service and impractical to operate in winter, most of the stations were operated from late March to early November for complete April to October (seven months) record. However, it became apparent that, in some cases, it was possible for winter flow to be a substantial portion of the annual flow. Analysis of the first 18 years of Lake 239 record showed that 19% of the total annual flow occurred in the November to March five-month winter period. Whole lake water budgets calculated for Lake 226 for the years 1973 to 1980 suggested the same average winter flow rate as for Lake 239 for the same period. Observations indicate that small winter flows often exist from ELA lakes. This flow is caused and sustained in a couple of ways. First, if a lake level is controlled by a beaver dam located at its outlet, flow will likely occur as seepage through or under the dam even in winter as has been the case in many years on lakes 223, 224, 226, 227, 302, 303, 373, 470 and 661. And secondly, as winter progresses, a winter snow pack accumulates on the ice surface that exerts downward pressure that causes the displacement of lake water from beneath the ice sheet that is forced out of the outflow. The stream channel, once iced over, often develops a deep insulating snow cover which allows flow to occur beneath even at air temperatures below -30 <sup>o</sup>C.
 
-Since 1980, efforts have been made to obtain monthly manual measurements of flow during the winter. These winter values are included in the database with a qualifier code to indicate a manual observation. These observations, along with data recorded at heated all-season stations and climate record, provide the basis for winter flow estimates that appear in the ELA database. Similarly, winter estimates have been flagged with a qualifier code to differentiate them from monitored record (see “Qualifier codes”).
+Since 1980, efforts have been made to obtain monthly manual measurements of flow during the winter. These winter values are included in the database with a qualifier to indicate a manual observation. These observations, along with data recorded at heated all-season stations and climate record, provide the basis for winter flow estimates that appear in the ELA database. Similarly, winter estimates have been flagged with a qualifier to differentiate them from monitored record (see “Qualifiers”).
 
 ## Data Usage Considerations
 
@@ -493,7 +492,7 @@ Here is a list of columns in the four dataset tables, in the order they appear:
  mean_hourly_discharge | numeric | cubic metres per second | <to be defined> | discharge hourly 
  mean_hourly_level | numeric | metres | <to be defined> | level hourly 
  monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. | all four 
- qualifiers | character varying | N/A | Qualifier code(s) conveying specific information about the record. See the associated info sheets for more information. | all four 
+ qualifiers | character varying | N/A | Qualifiers conveying specific information about the record.. | all four 
  time | character varying / time without time zone | HH:MM:SS | The time the field sampling or surveying activity was carried out to collect the data in the record. | the two hourly datasets 
  update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. | all four 
  version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. | all four 
@@ -507,24 +506,24 @@ In Canada, metrification occurred in 1978. Prior to 1979, the unit of measure fo
 
 - Lake level (stage) = metres (m) reported to 3 decimal places (1 mm precision).
 
-### Qualifier codes
+### Qualifiers
 
-Letter codes were used to qualify discharge and water level data where necessary. These codes are defined as follows.
-* A – manual observation: Mean daily flow or water level were coded “A” to indicate that the value was an estimate based on one or more manual gauge readings or in combination with partial recorded record for that day,
-* *B - ice conditions: The presence of ice in the channel or structure affected, or may have affected, the stage-discharge relationship. The value reported is a “best estimate” due to the presence of ice,
-* C – capacity exceeded: A major or unusual runoff event occurred resulting in flow that exceeded the station capacity for all or part of the day reported. This code indicates that flow for the reported value was in the overflow range of the gauging structure or outside of the range of calibration and should be regarded as a “best estimate”,
-* D - beaver activity: Mean daily discharge values were coded “D” when beaver have placed debris or constructed a dam directly in the gauging structure resulting in false recorded stage data. Estimates were made for missing or suspicious data during the period of beaver influence. If estimates were not possible, the entry in the ELA Data Base will be “null”. In either case the entry was coded “D”,
-* D1 – beaver activity: Beaver have constructed a dam above or below the gauging structure that may have influenced the “best estimate” reported value,
-* D2 – beaver activity: A beaver dam located above the gauging station was opened resulting in an increase in flow not associated with a normal precipitation event but indicated a valid flow value,
-* E - estimated value: This indicates a value that was determined by some indirect method such as interpolation, graph of observed readings, discharge measurement, comparison with other stations or by considering meteorological data,
-* F- frozen conditions: The hydrometric gauging station was frozen resulting in missing record. Estimates were made when possible.
-* H- FLUDEX effect: This code applies to the Lake 239 NW Inflow station only. From 1999 to 2003 inclusive, The Upland Flooding Experiment (FLUDEX) operated a reservoir (Site 2) at the top end of the Northwest Sub-basin of the Lake 239 Watershed. While the reservoir discharged to Roddy Lake, seepage and end-of-season draining resulted in additional water, originating from Roddy Lake, to the NW Sub-basin. This additional water is included in the reported values for those station years of record.
-* I – linear interpolation: This indicates a value that was estimated by linear interpolation between two manual observations. In most cases, estimates by interpolation were made to complete data sets during stable low flow periods (i.e. winter) that were not influenced by precipitation events or other hydrologic events in order to provide complete data sets for analyses such as chemical mass balances. Mean daily values that could not be estimated by interpolation resulted in “null” values in the data base that were coded “M”.
-* L – leakage: This indicates that leakage or seepage under or around a weir or flume was present and that an adjustment was made to the reported value.
-* M - missing record: Mean daily values that could not be reliably estimated were considered “missing record” resulting in a “null” entry in the data base,
-* R – regulated flow or water level: This indicates that the reported discharge or water level value was influenced by human regulation for experimental or other purposes. This code is intended for “natural” systems that are not normally regulated and is reserved for situations that last only days or weeks in duration. Stations that were regulated for longer periods (one or more seasons) are noted in station discussions.
-* S – unnatural flow or water level: This code indicates a mean daily value that was influenced by unnatural causes resulting water being removed or foreign water being added to the system. Examples have included pumped water for irrigation (NE Sub-basin), pumped water to fill FLUDEX reservoirs (NW Sub-basin), and the siphoning of water from Lake 226.
-* U – controlled flow release: This code indicates a value that was influenced by a manual flow release of water such as spilling water impounded by a dam.
+Historically, internally, letter codes were used to qualify discharge and water level data where necessary. Now we no longer provide the *codes* in public data, just the qualifier *names*, corresponding to descriptions here. Please take note of these, as they are often important caveats to consider when using the data! That said, this section of the info sheet may need some cleanup.
+* manual observation: Mean daily flow or water level were coded “A” to indicate that the value was an estimate based on one or more manual gauge readings or in combination with partial recorded record for that day,
+* ice conditions: The presence of ice in the channel or structure affected, or may have affected, the stage-discharge relationship. The value reported is a “best estimate” due to the presence of ice,
+* capacity exceeded: A major or unusual runoff event occurred resulting in flow that exceeded the station capacity for all or part of the day reported. This code indicates that flow for the reported value was in the overflow range of the gauging structure or outside of the range of calibration and should be regarded as a “best estimate”,
+* beaver activity: Mean daily discharge values were coded “D” when beaver have placed debris or constructed a dam directly in the gauging structure resulting in false recorded stage data. Estimates were made for missing or suspicious data during the period of beaver influence. If estimates were not possible, the entry in the ELA Data Base will be “null”. In either case the entry was coded “D”,
+* beaver activity: Beaver have constructed a dam above or below the gauging structure that may have influenced the “best estimate” reported value,
+* beaver activity: A beaver dam located above the gauging station was opened resulting in an increase in flow not associated with a normal precipitation event but indicated a valid flow value,
+* estimated value: This indicates a value that was determined by some indirect method such as interpolation, graph of observed readings, discharge measurement, comparison with other stations or by considering meteorological data,
+* frozen conditions: The hydrometric gauging station was frozen resulting in missing record. Estimates were made when possible.
+* FLUDEX effect: This code applies to the Lake 239 NW Inflow station only. From 1999 to 2003 inclusive, The Upland Flooding Experiment (FLUDEX) operated a reservoir (Site 2) at the top end of the Northwest Sub-basin of the Lake 239 Watershed. While the reservoir discharged to Roddy Lake, seepage and end-of-season draining resulted in additional water, originating from Roddy Lake, to the NW Sub-basin. This additional water is included in the reported values for those station years of record.
+* linear interpolation: This indicates a value that was estimated by linear interpolation between two manual observations. In most cases, estimates by interpolation were made to complete data sets during stable low flow periods (i.e. winter) that were not influenced by precipitation events or other hydrologic events in order to provide complete data sets for analyses such as chemical mass balances. Mean daily values that could not be estimated by interpolation resulted in “null” values in the data base that were coded “M”.
+* leakage: This indicates that leakage or seepage under or around a weir or flume was present and that an adjustment was made to the reported value.
+* missing record: Mean daily values that could not be reliably estimated were considered “missing record” resulting in a “null” entry in the data base,
+* regulated flow or water level: This indicates that the reported discharge or water level value was influenced by human regulation for experimental or other purposes. This code is intended for “natural” systems that are not normally regulated and is reserved for situations that last only days or weeks in duration. Stations that were regulated for longer periods (one or more seasons) are noted in station discussions.
+* unnatural flow or water level: This code indicates a mean daily value that was influenced by unnatural causes resulting water being removed or foreign water being added to the system. Examples have included pumped water for irrigation (NE Sub-basin), pumped water to fill FLUDEX reservoirs (NW Sub-basin), and the siphoning of water from Lake 226.
+* controlled flow release: This code indicates a value that was influenced by a manual flow release of water such as spilling water impounded by a dam.
 
 ## References
 
