@@ -1,6 +1,6 @@
 # Hydrology – Flows and Levels - Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-07-22 by chaydata
+**Last Updated:**  2026-07-22 by iisd-ela-data
 
 ## Contents
 - [General information](#general-information)
