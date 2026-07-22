@@ -492,7 +492,7 @@ Here is a list of columns in the four dataset tables, in the order they appear:
  mean_hourly_discharge | numeric | cubic metres per second | <to be defined> | discharge hourly 
  mean_hourly_level | numeric | metres | <to be defined> | level hourly 
  monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. | all four 
- qualifiers | character varying | N/A | Qualifiers conveying specific information about the record.. | all four 
+ qualifiers | character varying | N/A | Qualifiers conveying specific information about the record. | all four 
  time | character varying / time without time zone | HH:MM:SS | The time the field sampling or surveying activity was carried out to collect the data in the record. | the two hourly datasets 
  update_date | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. | all four 
  version | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. | all four 
