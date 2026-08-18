@@ -37,35 +37,29 @@ In 1987, Airquest Resource Surveys was contracted to take new aerial photographs
 
 In addition to this weir, there are also a number of very small (\<1 ha) “mini-catchments” with very small weirs that were later developed along the Lake 302 western ridge adjacent the 302 Upland Watershed. These small experimental sites were developed initially by graduate student, Craig Allan, in the late 1980’s and then were continued by Sebastein Lamontagne, also a graduate student. These sites are not part of the ELA Hydrology network.
 
-<u>  
-Photographs</u>
+<u>Photographs</u>
 
-<figure>
-<img src="md\attachments/media/image1.png" />
-<figcaption><p>Figure 1. Aerial photograph of Lake 320 looking south. The Lake 302 Upland Terrestrial Watershed and weir are on the ridge to the right and the outflow weir from the lake is to the bottom with Roddy Lake in the foreground.</p></figcaption>
-</figure>
+<img src="./attachments/L302_img1.png" style="width:35%;">
 
-<figure>
-<img src="md\attachments/media/image2.jpeg" />
-<figcaption><p>Figure 2. Lake 302 60<sup>o</sup> v-notch weir at outlet with beaver dam in the background.</p></figcaption>
-</figure>
+Figure 1. Aerial photograph of Lake 320 looking south. The Lake 302 Upland Terrestrial Watershed and weir are on the ridge to the right and the outflow weir from the lake is to the bottom with Roddy Lake in the foreground.
 
-<figure>
-<img src="md\attachments/media/image3.jpeg" />
-<figcaption><p>Figure 3. Typical winter conditions at the Lake 302 60<sup>o</sup> v-notch weir at the outlet (Ken Beaty, January 3, 2007).</p></figcaption>
-</figure>
+<img src="./attachments/L302_img2.png" style="width:35%;">
 
-<figure>
-<img src="md\attachments/media/image4.jpeg" />
-<figcaption><p>Figure 4. Beaver dam at Lake 302 outlet above the outflow weir.</p></figcaption>
-</figure>
+Figure 2. Lake 302 60<sup>o</sup> v-notch weir at outlet with beaver dam in the background.
 
-<figure>
-<img src="md\attachments/media/image5.jpeg" />
-<figcaption><p>Figure 5. Lake 302 lake level station installed October 1980 by Water Survey of Canada.</p></figcaption>
-</figure>
+<img src="./attachments/L302_img3.png" style="width:35%;">
 
-<figure>
-<img src="md\attachments/media/image6.jpeg" />
-<figcaption><p>Figure 6. Concrete 90<sup>o</sup> v-notch weir constructed in August 1986 at the Lake 302 Upland Terrestrial Watershed.</p></figcaption>
-</figure>
+Figure 3. Typical winter conditions at the Lake 302 60<sup>o</sup> v-notch weir at the outlet (Ken Beaty, January 3, 2007).
+
+<img src="./attachments/L302_img4.png" style="width:35%;">
+
+Figure 4. Beaver dam at Lake 302 outlet above the outflow weir.
+
+<img src="./attachments/L302_img5.png" style="width:35%;">
+
+Figure 5. Lake 302 lake level station installed October 1980 by Water Survey of Canada.
+
+
+<img src="./attachments/L302_img6.png" style="width:35%;">
+
+Figure 6. Concrete 90<sup>o</sup> v-notch weir constructed in August 1986 at the Lake 302 Upland Terrestrial Watershed.

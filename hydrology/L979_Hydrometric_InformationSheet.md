@@ -65,12 +65,10 @@ As a requirement of the transfer of the ELA from DFO to IISD-ELA, a major clean-
 
 <u>Photographs</u>
 
-<figure>
-<img src="md\attachments/media/image1.jpeg" />
-<figcaption><p>Figure 1. Lake 979 Outflow Weir located below Lake 979 Dam.</p></figcaption>
-</figure>
+<img src="./attachments/L979_img1.png" style="width:40%;">
 
-<figure>
-<img src="md\attachments/media/image2.jpeg" />
-<figcaption><p>Figure 2. Lake 979 Outflow, stilling well, instrument shelter, and gauge board in weir stilling pond below Lake 979 Dam.</p></figcaption>
-</figure>
+Figure 1. Lake 979 Outflow Weir located below Lake 979 Dam.
+
+<img src="./attachments/L979_img2.png" style="width:40%;">
+
+Figure 2. Lake 979 Outflow, stilling well, instrument shelter, and gauge board in weir stilling pond below Lake 979 Dam.

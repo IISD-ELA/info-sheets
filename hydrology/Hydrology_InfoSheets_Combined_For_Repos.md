@@ -938,61 +938,45 @@ In 2003, a small seepage inflow site was located on the east shore of Lake 240. 
 
 <u>Photographs</u>
 
-<img src="md\attachments/media/image1.jpeg" style="width:3.57222in;height:4.75in" alt="P1010004" />
+<img src="./attachments/L240_img1.png" style="width:3.57222in;height:4.75in">
 
 Figure 1. Location of groundwater seepage into L240.
 
-<figure>
-<img src="md\attachments/media/image2.jpeg" style="width:6in;height:4in" alt="240Q Apr 1974" />
-<figcaption><p>Figure 2. Lake 240 outflow weir at high flow in April 1974.</p></figcaption>
-</figure>
+<img src="./attachments/L240_img2.png" style="width:6in;height:4in">
 
-<figure>
-<img src="md\attachments/media/image3.jpeg" style="width:6in;height:4in" alt="240Q Spring Peak" />
-<figcaption><p>Figure 3. Lake 240 outflow weir at very high stage.</p></figcaption>
-</figure>
+Figure 2. Lake 240 outflow weir at high flow in April 1974.
 
-<img src="md\attachments/media/image4.jpeg" style="width:3.62153in;height:4.4625in" alt="240q3_2002" />
+<img src="./attachments/L240_img3.png" style="width:6in;height:4in">
 
-Lake 240 Outflow
+Figure 3. Lake 240 outflow weir at very high stage.
 
-2003
+<img src="./attachments/L240_img4.png" style="width:3.62153in;height:4.4625in">
 
 Figure 4. Lake 240 outflow weir at low stage in 2003.
 
-<img src="md\attachments/media/image5.jpeg" style="width:4.75625in;height:3.38681in" alt="240q2_2002" />
-
-L240 Weir
-
-2003
-
-At low stage
+<img src="./attachments/L240_img5.png" style="width:4.75625in;height:3.38681in">
 
 Figure 5. Lake 240 outflow weir at low stage in 2003.
 
-<img src="md\attachments/media/image6.jpeg" style="width:5.74792in;height:4.30278in" alt="240q_2002" />
-
-OTT Thalimedes
-
-Data Logger (2004)
+<img src="./attachments/L240_img6.png" style="width:5.74792in;height:4.30278in">
 
 Figure 6. OTT Thalamedes data logger installation (2004).
 
 **<u>Weir repair 2018</u>**
 
-<img src="md\attachments/media/image7.jpeg" style="width:5.60417in;height:4.20507in" alt="IMG_20180823_100340" />
+<img src="./attachments/L240_img7.png" style="width:5.60417in;height:4.20507in">
 
 Figure 7. Condition of weir during a dry period prior to repair in 2018.
 
-<img src="md\attachments/media/image8.jpeg" style="width:4.93438in;height:3.7025in" alt="IMG_20180920_114151" />
+<img src="./attachments/L240_img8.png" style="width:40%">
 
 Figure 8. After demolishing all the bad concrete where the v-notch had been, forms were used to pour a new concrete edge to hold the new v-notch section that would be made of 4x4 treated timbers.
 
-<img src="md\attachments/media/image9.jpeg" style="width:5.1875in;height:3.89423in" alt="240Q_InConstruction_Upstream" />
+<img src="./attachments/L240_img9.png" style="width:40%">
 
 Figure 9. Upstream view of almost complete v- notch section in 2018. A layer of plywood was attached on the upstream side for support.
 
-<img src="md\attachments/media/image10.jpeg" style="width:4.49583in;height:5.99167in" alt="IMG_20181010_163643" />
+<img src="./attachments/L240_img10.png" style="width:40%">
 
 Figure 10. Downstream view of completed weir in October 2018.
 </details>
@@ -1034,7 +1018,6 @@ In early May 2017, a staff gauge and Sutron Stage-Discharge Recorder were instal
 
 The presence of subsurface flow or groundwater seepage from ELA lakes has generally been assumed to not exist or, at least, be insignificant to the annual water budget. This is likely not the case for L260, as the watershed, shoreline, lake outlet and outflowing stream consist primarily of jumbled boulders above and below water level. The best location for a control structure is a culvert at the end of a wetland downstream of the lake, however seepage has been observed through the road in which the culvert is embedded. No seepage estimates have been carried out.
 
-<u>Photographs</u>
 </details>
 
 ### Lake 261
@@ -1131,38 +1114,32 @@ In 1987, Airquest Resource Surveys was contracted to take new aerial photographs
 
 In addition to this weir, there are also a number of very small (\<1 ha) “mini-catchments” with very small weirs that were later developed along the Lake 302 western ridge adjacent the 302 Upland Watershed. These small experimental sites were developed initially by graduate student, Craig Allan, in the late 1980’s and then were continued by Sebastein Lamontagne, also a graduate student. These sites are not part of the ELA Hydrology network.
 
-<u>  
-Photographs</u>
+<u>Photographs</u>
 
-<figure>
-<img src="md\attachments/media/image1.png" />
-<figcaption><p>Figure 1. Aerial photograph of Lake 320 looking south. The Lake 302 Upland Terrestrial Watershed and weir are on the ridge to the right and the outflow weir from the lake is to the bottom with Roddy Lake in the foreground.</p></figcaption>
-</figure>
+<img src="./attachments/L302_img1.png" style="width:35%;">
 
-<figure>
-<img src="md\attachments/media/image2.jpeg" />
-<figcaption><p>Figure 2. Lake 302 60<sup>o</sup> v-notch weir at outlet with beaver dam in the background.</p></figcaption>
-</figure>
+Figure 1. Aerial photograph of Lake 320 looking south. The Lake 302 Upland Terrestrial Watershed and weir are on the ridge to the right and the outflow weir from the lake is to the bottom with Roddy Lake in the foreground.
 
-<figure>
-<img src="md\attachments/media/image3.jpeg" />
-<figcaption><p>Figure 3. Typical winter conditions at the Lake 302 60<sup>o</sup> v-notch weir at the outlet (Ken Beaty, January 3, 2007).</p></figcaption>
-</figure>
+<img src="./attachments/L302_img2.png" style="width:35%;">
 
-<figure>
-<img src="md\attachments/media/image4.jpeg" />
-<figcaption><p>Figure 4. Beaver dam at Lake 302 outlet above the outflow weir.</p></figcaption>
-</figure>
+Figure 2. Lake 302 60<sup>o</sup> v-notch weir at outlet with beaver dam in the background.
 
-<figure>
-<img src="md\attachments/media/image5.jpeg" />
-<figcaption><p>Figure 5. Lake 302 lake level station installed October 1980 by Water Survey of Canada.</p></figcaption>
-</figure>
+<img src="./attachments/L302_img3.png" style="width:35%;">
 
-<figure>
-<img src="md\attachments/media/image6.jpeg" />
-<figcaption><p>Figure 6. Concrete 90<sup>o</sup> v-notch weir constructed in August 1986 at the Lake 302 Upland Terrestrial Watershed.</p></figcaption>
-</figure>
+Figure 3. Typical winter conditions at the Lake 302 60<sup>o</sup> v-notch weir at the outlet (Ken Beaty, January 3, 2007).
+
+<img src="./attachments/L302_img4.png" style="width:35%;">
+
+Figure 4. Beaver dam at Lake 302 outlet above the outflow weir.
+
+<img src="./attachments/L302_img5.png" style="width:35%;">
+
+Figure 5. Lake 302 lake level station installed October 1980 by Water Survey of Canada.
+
+
+<img src="./attachments/L302_img6.png" style="width:35%;">
+
+Figure 6. Concrete 90<sup>o</sup> v-notch weir constructed in August 1986 at the Lake 302 Upland Terrestrial Watershed.
 </details>
 
 ### Lake 303
@@ -1322,10 +1299,10 @@ In 1991, a staff gauge and a survey benchmark were installed on Lake 375. From 1
 
 <u>Photographs</u>
 
-<figure>
-<img src="md\attachments/media/image1.jpeg" />
-<figcaption><p>Figure 1. Lake 375 recording lake level station installed June 4, 2002.</p></figcaption>
-</figure>
+<img src="./attachments/L375_img1.png" style="width:40%;">
+
+Figure 1. Lake 375 recording lake level station installed June 4, 2002.
+
 </details>
 
 ### Lake 378
@@ -1476,7 +1453,8 @@ Construction on the weir occurred during October 2011 to repair leakage that was
 
 Beaty, K.G., and M.E. Lyng. 1989. Hydrometeorological data for the Experimental Lakes Area, northwestern Ontario, 1982 to 1987. Can. Data Rep. Fish. Aquatic. Sci. 759: v + 280 p.
 
-<img src="md\attachments/media/image1.jpeg" style="width:6in;height:8.36806in" />
+<img src="./attachments/L470_img1.png" style="width:40%;">
+
 </details>
 
 ### Lake 626
@@ -1637,7 +1615,7 @@ There are two upstream lakes tributary to Lake 627. Lakes 429 and 628 flow into 
 
 On November 23, 2010, the water diversion began by damming off the three lakes at the outlet of Lake 627 and diverting that water through a diversion channel (photographs 2 and 3) thereby bypassing Lake 626 and moving the flow directly to Lake 625.
 
-<img src="md\attachments/media/image1.jpeg" style="width:5.97778in;height:5.59514in" alt="L626_mapimage" />
+<img src="./attachments/L627_img1.png" style="width:40%">
 
 Figure 1. Lake 627 Watershed and Site location for ELA Water Diversion Experiment (2008 – 20xx).
 
@@ -1675,11 +1653,11 @@ On November 2, 2010, a staff gauge, stilling well and survey benchmark with an a
 
 <u>Photographs:</u>
 
-<img src="md\attachments/media/image2.jpeg" style="width:5.98611in;height:4.48611in" />
+<img src="./attachments/L627_img2.png" style="width:40%">
 
 Photograph 1. L627 Water Level station: stilling well, logger, and gauge board.
 
-<img src="md\attachments/media/image3.jpeg" style="width:6in;height:4.5in" />
+<img src="./attachments/L627_img3.png" style="width:40%">
 
 Photograph 2. Earthen dike blocking flow from L627 into L626 through historical outflow culvert underneath Pine Rd.
 
@@ -1687,7 +1665,7 @@ Photograph 2. Earthen dike blocking flow from L627 into L626 through historical 
 
 Photograph 3. Aerial view of the diversion channel.
 
-<img src="md\attachments/media/image4.jpeg" style="width:6in;height:4.25694in" />
+<img src="./attachments/L627_img4.png" style="width:40%">
 
 Photograph 4. Cross-section of diversion channel lengthwise, indicating overall grade.
 </details>
@@ -1780,39 +1758,39 @@ A bathymetric survey was carried out by the Ontario Ministry of Natural Resource
 
 **Photographs:**
 
-<img src="md\attachments/media/image1.jpeg" style="width:5.98611in;height:4.49306in" />
+<img src="./attachments/L658_img1.png" style="width:40%;">
 
 Photograph 1. Flume in L658 upland portion of watershed.
 
-<img src="md\attachments/media/image2.jpeg" style="width:6in;height:4.63681in" alt="D:\MTTData\METAALICUS\L658\L658 Map Arcview\UP1_Catchment_Ken&amp;Mike.jpg" />
+<img src="./attachments/L658_img2.png" style="width:40%;">
 
 Photograph 2. Upland sub-catchment area (ELA, Beaty; USGS, M. Tate).
 
-<img src="md\attachments/media/image3.jpeg" style="width:5.98611in;height:4.49306in" />
+<img src="./attachments/L658_img3.png" style="width:40%;">
 
 Photograph 3. Flume in wetland portion of L658 watershed.
 
-<img src="md\attachments/media/image4.jpeg" style="width:5.27083in;height:3.95313in" />
+<img src="./attachments/L658_img4.png" style="width:40%;">
 
 Photograph 4. Installing L658 outflow structure. This structure consists of a cradle supporting a 15” pipe. This pipe also had an 8” pipe fitted within it to restrict flow during low flow, in order to increase the quality of the discharge estimates.
 
-<img src="md\attachments/media/image5.jpeg" style="width:6in;height:4.5in" />
+<img src="./attachments/L658_img5.png" style="width:40%;">
 
 Photograph 5. Installing instrumentation and finishing touches on L658 outflow structure.
 
-<img src="md\attachments/media/image6.jpeg" style="width:5.59722in;height:3.70833in" />
+<img src="./attachments/L658_img6.png" style="width:40%;">
 
 Photograph 6. Carrying out dye slug test to calculate flow rates through L658 outflow structure.
 
-<img src="md\attachments/media/image7.jpeg" style="width:5.74306in;height:3.68056in" />
+<img src="./attachments/L658_img7.png" style="width:40%;">
 
 Photograph 7. Dye plume on downstream side of L658 outflow structure.
 
-<img src="md\attachments/media/image8.jpeg" style="width:5.625in;height:4.21875in" />
+<img src="./attachments/L658_img8.png" style="width:40%;">
 
 Photograph 8. Marsh McBirney Flow-Tote flow sensor installed in the L658 outflow structure.
 
-<img src="md\attachments/media/image9.jpeg" style="width:5.27778in;height:4.24543in" />
+<img src="./attachments/L658_img9.png" style="width:40%;">
 
 Photograph 9. Aerial view of L658 watershed.
 
@@ -1951,15 +1929,14 @@ As a requirement of the transfer of the ELA from DFO to IISD-ELA, a major clean-
 
 <u>Photographs</u>
 
-<figure>
-<img src="md\attachments/media/image1.jpeg" />
-<figcaption><p>Figure 1. Lake 979 Outflow Weir located below Lake 979 Dam.</p></figcaption>
-</figure>
+<img src="./attachments/L979_img1.png" style="width:40%;">
 
-<figure>
-<img src="md\attachments/media/image2.jpeg" />
-<figcaption><p>Figure 2. Lake 979 Outflow, stilling well, instrument shelter, and gauge board in weir stilling pond below Lake 979 Dam.</p></figcaption>
-</figure>
+Figure 1. Lake 979 Outflow Weir located below Lake 979 Dam.
+
+<img src="./attachments/L979_img2.png" style="width:40%;">
+
+Figure 2. Lake 979 Outflow, stilling well, instrument shelter, and gauge board in weir stilling pond below Lake 979 Dam.
+
 </details>
 
 ## Data Usage Considerations

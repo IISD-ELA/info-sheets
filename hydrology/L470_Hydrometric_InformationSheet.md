@@ -34,4 +34,4 @@ Construction on the weir occurred during October 2011 to repair leakage that was
 
 Beaty, K.G., and M.E. Lyng. 1989. Hydrometeorological data for the Experimental Lakes Area, northwestern Ontario, 1982 to 1987. Can. Data Rep. Fish. Aquatic. Sci. 759: v + 280 p.
 
-<img src="md\attachments/media/image1.jpeg" style="width:6in;height:8.36806in" />
+<img src="./attachments/L470_img1.png" style="width:40%;">

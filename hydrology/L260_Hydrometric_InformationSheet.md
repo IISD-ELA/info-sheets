@@ -35,5 +35,3 @@ In early May 2017, a staff gauge and Sutron Stage-Discharge Recorder were instal
 <u>Groundwater Seepage</u>
 
 The presence of subsurface flow or groundwater seepage from ELA lakes has generally been assumed to not exist or, at least, be insignificant to the annual water budget. This is likely not the case for L260, as the watershed, shoreline, lake outlet and outflowing stream consist primarily of jumbled boulders above and below water level. The best location for a control structure is a culvert at the end of a wetland downstream of the lake, however seepage has been observed through the road in which the culvert is embedded. No seepage estimates have been carried out.
-
-<u>Photographs</u>

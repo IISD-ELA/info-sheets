@@ -30,7 +30,6 @@ In 1991, a staff gauge and a survey benchmark were installed on Lake 375. From 1
 
 <u>Photographs</u>
 
-<figure>
-<img src="md\attachments/media/image1.jpeg" />
-<figcaption><p>Figure 1. Lake 375 recording lake level station installed June 4, 2002.</p></figcaption>
-</figure>
+<img src="./attachments/L375_img1.png" style="width:40%;">
+
+Figure 1. Lake 375 recording lake level station installed June 4, 2002.

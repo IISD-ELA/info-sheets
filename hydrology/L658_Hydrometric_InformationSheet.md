@@ -49,39 +49,39 @@ A bathymetric survey was carried out by the Ontario Ministry of Natural Resource
 
 **Photographs:**
 
-<img src="md\attachments/media/image1.jpeg" style="width:5.98611in;height:4.49306in" />
+<img src="./attachments/L658_img1.png" style="width:40%;">
 
 Photograph 1. Flume in L658 upland portion of watershed.
 
-<img src="md\attachments/media/image2.jpeg" style="width:6in;height:4.63681in" alt="D:\MTTData\METAALICUS\L658\L658 Map Arcview\UP1_Catchment_Ken&amp;Mike.jpg" />
+<img src="./attachments/L658_img2.png" style="width:40%;">
 
 Photograph 2. Upland sub-catchment area (ELA, Beaty; USGS, M. Tate).
 
-<img src="md\attachments/media/image3.jpeg" style="width:5.98611in;height:4.49306in" />
+<img src="./attachments/L658_img3.png" style="width:40%;">
 
 Photograph 3. Flume in wetland portion of L658 watershed.
 
-<img src="md\attachments/media/image4.jpeg" style="width:5.27083in;height:3.95313in" />
+<img src="./attachments/L658_img4.png" style="width:40%;">
 
 Photograph 4. Installing L658 outflow structure. This structure consists of a cradle supporting a 15” pipe. This pipe also had an 8” pipe fitted within it to restrict flow during low flow, in order to increase the quality of the discharge estimates.
 
-<img src="md\attachments/media/image5.jpeg" style="width:6in;height:4.5in" />
+<img src="./attachments/L658_img5.png" style="width:40%;">
 
 Photograph 5. Installing instrumentation and finishing touches on L658 outflow structure.
 
-<img src="md\attachments/media/image6.jpeg" style="width:5.59722in;height:3.70833in" />
+<img src="./attachments/L658_img6.png" style="width:40%;">
 
 Photograph 6. Carrying out dye slug test to calculate flow rates through L658 outflow structure.
 
-<img src="md\attachments/media/image7.jpeg" style="width:5.74306in;height:3.68056in" />
+<img src="./attachments/L658_img7.png" style="width:40%;">
 
 Photograph 7. Dye plume on downstream side of L658 outflow structure.
 
-<img src="md\attachments/media/image8.jpeg" style="width:5.625in;height:4.21875in" />
+<img src="./attachments/L658_img8.png" style="width:40%;">
 
 Photograph 8. Marsh McBirney Flow-Tote flow sensor installed in the L658 outflow structure.
 
-<img src="md\attachments/media/image9.jpeg" style="width:5.27778in;height:4.24543in" />
+<img src="./attachments/L658_img9.png" style="width:40%;">
 
 Photograph 9. Aerial view of L658 watershed.
 

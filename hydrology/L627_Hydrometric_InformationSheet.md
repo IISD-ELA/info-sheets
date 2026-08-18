@@ -26,7 +26,7 @@ There are two upstream lakes tributary to Lake 627. Lakes 429 and 628 flow into 
 
 On November 23, 2010, the water diversion began by damming off the three lakes at the outlet of Lake 627 and diverting that water through a diversion channel (photographs 2 and 3) thereby bypassing Lake 626 and moving the flow directly to Lake 625.
 
-<img src="md\attachments/media/image1.jpeg" style="width:5.97778in;height:5.59514in" alt="L626_mapimage" />
+<img src="./attachments/L627_img1.png" style="width:40%">
 
 Figure 1. Lake 627 Watershed and Site location for ELA Water Diversion Experiment (2008 – 20xx).
 
@@ -64,11 +64,11 @@ On November 2, 2010, a staff gauge, stilling well and survey benchmark with an a
 
 <u>Photographs:</u>
 
-<img src="md\attachments/media/image2.jpeg" style="width:5.98611in;height:4.48611in" />
+<img src="./attachments/L627_img2.png" style="width:40%">
 
 Photograph 1. L627 Water Level station: stilling well, logger, and gauge board.
 
-<img src="md\attachments/media/image3.jpeg" style="width:6in;height:4.5in" />
+<img src="./attachments/L627_img3.png" style="width:40%">
 
 Photograph 2. Earthen dike blocking flow from L627 into L626 through historical outflow culvert underneath Pine Rd.
 
@@ -76,6 +76,6 @@ Photograph 2. Earthen dike blocking flow from L627 into L626 through historical 
 
 Photograph 3. Aerial view of the diversion channel.
 
-<img src="md\attachments/media/image4.jpeg" style="width:6in;height:4.25694in" />
+<img src="./attachments/L627_img4.png" style="width:40%">
 
 Photograph 4. Cross-section of diversion channel lengthwise, indicating overall grade.
