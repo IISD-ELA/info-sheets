@@ -80,14 +80,14 @@ Figure 6. OTT Thalamedes data logger installation (2004).
 
 Figure 7. Condition of weir during a dry period prior to repair in 2018.
 
-<img src="./attachments/L240_img8.png" style="width:25%">
+<img src="./attachments/L240_img8.png" style="width:40%">
 
 Figure 8. After demolishing all the bad concrete where the v-notch had been, forms were used to pour a new concrete edge to hold the new v-notch section that would be made of 4x4 treated timbers.
 
-<img src="./attachments/L240_img9.png" style="width:25%">
+<img src="./attachments/L240_img9.png" style="width:40%">
 
 Figure 9. Upstream view of almost complete v- notch section in 2018. A layer of plywood was attached on the upstream side for support.
 
-<img src="./attachments/L240_img10.png" style="width:25%">
+<img src="./attachments/L240_img10.png" style="width:40%">
 
 Figure 10. Downstream view of completed weir in October 2018.
