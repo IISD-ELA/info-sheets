@@ -50,60 +50,44 @@ In 2003, a small seepage inflow site was located on the east shore of Lake 240. 
 
 <u>Photographs</u>
 
-<img src="md\attachments/media/image1.jpeg" style="width:3.57222in;height:4.75in" alt="P1010004" />
+<img src="./attachments/L240_img1.png" style="width:3.57222in;height:4.75in">
 
 Figure 1. Location of groundwater seepage into L240.
 
-<figure>
-<img src="md\attachments/media/image2.jpeg" style="width:6in;height:4in" alt="240Q Apr 1974" />
-<figcaption><p>Figure 2. Lake 240 outflow weir at high flow in April 1974.</p></figcaption>
-</figure>
+<img src="./attachments/L240_img2.png" style="width:6in;height:4in">
 
-<figure>
-<img src="md\attachments/media/image3.jpeg" style="width:6in;height:4in" alt="240Q Spring Peak" />
-<figcaption><p>Figure 3. Lake 240 outflow weir at very high stage.</p></figcaption>
-</figure>
+Figure 2. Lake 240 outflow weir at high flow in April 1974.
 
-<img src="md\attachments/media/image4.jpeg" style="width:3.62153in;height:4.4625in" alt="240q3_2002" />
+<img src="./attachments/L240_img3.png" style="width:6in;height:4in">
 
-Lake 240 Outflow
+Figure 3. Lake 240 outflow weir at very high stage.
 
-2003
+<img src="./attachments/L240_img4.png" style="width:3.62153in;height:4.4625in">
 
 Figure 4. Lake 240 outflow weir at low stage in 2003.
 
-<img src="md\attachments/media/image5.jpeg" style="width:4.75625in;height:3.38681in" alt="240q2_2002" />
-
-L240 Weir
-
-2003
-
-At low stage
+<img src="./attachments/L240_img5.png" style="width:4.75625in;height:3.38681in">
 
 Figure 5. Lake 240 outflow weir at low stage in 2003.
 
-<img src="md\attachments/media/image6.jpeg" style="width:5.74792in;height:4.30278in" alt="240q_2002" />
-
-OTT Thalimedes
-
-Data Logger (2004)
+<img src="./attachments/L240_img6.png" style="width:5.74792in;height:4.30278in">
 
 Figure 6. OTT Thalamedes data logger installation (2004).
 
 **<u>Weir repair 2018</u>**
 
-<img src="md\attachments/media/image7.jpeg" style="width:5.60417in;height:4.20507in" alt="IMG_20180823_100340" />
+<img src="./attachments/L240_img7.png" style="width:5.60417in;height:4.20507in">
 
 Figure 7. Condition of weir during a dry period prior to repair in 2018.
 
-<img src="md\attachments/media/image8.jpeg" style="width:4.93438in;height:3.7025in" alt="IMG_20180920_114151" />
+<img src="./attachments/L240_img8.png" style="width:25%">
 
 Figure 8. After demolishing all the bad concrete where the v-notch had been, forms were used to pour a new concrete edge to hold the new v-notch section that would be made of 4x4 treated timbers.
 
-<img src="md\attachments/media/image9.jpeg" style="width:5.1875in;height:3.89423in" alt="240Q_InConstruction_Upstream" />
+<img src="./attachments/L240_img9.png" style="width:25%">
 
 Figure 9. Upstream view of almost complete v- notch section in 2018. A layer of plywood was attached on the upstream side for support.
 
-<img src="md\attachments/media/image10.jpeg" style="width:4.49583in;height:5.99167in" alt="IMG_20181010_163643" />
+<img src="./attachments/L240_img10.png" style="width:25%">
 
 Figure 10. Downstream view of completed weir in October 2018.
