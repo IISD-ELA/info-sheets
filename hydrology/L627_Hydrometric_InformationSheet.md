@@ -1,6 +1,6 @@
 # Lake 627: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-07-15 by chaydata
+**Last Updated:**  2026-08-18 by idiyak
 
 Watershed area (ha): 303.4 ha based on 1985 mapping
 

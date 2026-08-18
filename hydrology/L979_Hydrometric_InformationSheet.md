@@ -1,6 +1,6 @@
 # Lake 979: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-07-15 by chaydata
+**Last Updated:**  2026-08-18 by idiyak
 
 Watershed area (ha): 821 ha based on 1991 mapping
 

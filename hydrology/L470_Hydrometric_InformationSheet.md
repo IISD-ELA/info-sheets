@@ -1,6 +1,6 @@
 # Lake 470: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-07-15 by chaydata
+**Last Updated:**  2026-08-18 by idiyak
 
 Coordinates of control structure (UTM, WGS 84): 15U 447134E 5500838N
 
