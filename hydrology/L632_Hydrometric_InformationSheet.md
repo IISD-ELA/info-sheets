@@ -2,7 +2,7 @@
 **Author:** Paul Fafard  
 **Last Updated:**  2026-08-19 by idiyak
 
-Coordinatesd of outflow weir (UTM, WGS 84): 15U 442854E 5502978N
+Coordinates of outflow weir (UTM, WGS 84): 15U 442854E 5502978N
 
 Watershed area (ha): 40.2 ha based on 1978(?) mapping
 
