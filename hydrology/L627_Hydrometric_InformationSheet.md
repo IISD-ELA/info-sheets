@@ -2,6 +2,10 @@
 **Authors:** Ken Beaty, Paul Fafard  
 **Last Updated:**  2026-07-15 by chaydata
 
+Coordinates of outflow (UTM, WGS 84): 15U 442965E 5511750N
+
+Coordinates of lake level gauge (UTM, NAD 83): 15U 442873E 5512135N
+
 Watershed area (ha): 303.4 ha based on 1985 mapping
 
 XX.X ha based on 2017 DEM\*

@@ -6,6 +6,8 @@ Coordinates of control structure (UTM, WGS 84): 15U 0444917E 5502165N
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 0445257E 5502248N
 
+Coordinates of terrestrial inflow (UTM, WGS 84): 15U 445805E 5502862N
+
 Watershed area (ha): 57.71 ha based on 1972 mapping
 
 XX.XX ha based on 2017 DEM\*

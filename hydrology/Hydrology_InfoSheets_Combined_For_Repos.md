@@ -198,6 +198,8 @@ Coordinates of control structure (UTM, WGS 84): 15U 0444917E 5502165N
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 0445257E 5502248N
 
+Coordinates of terrestrial inflow (UTM, WGS 84): 15U 445805E 5502862N
+
 Watershed area (ha): 57.71 ha based on 1972 mapping
 
 XX.XX ha based on 2017 DEM\*
@@ -275,6 +277,9 @@ Photographs</u>
 ### Lake 120
 <details>
 <summary> Click to show information on the Lake 120 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM WGS 86): 15U 439536E 5500920N
+
 Watershed area (ha): 69.7 ha based on 1972 mapping
 
 XX.XX ha based on 2017 DEM\*
@@ -309,6 +314,11 @@ The operation of a 60<sup>o</sup> sharp crested v-notch weir and water level rec
 ### Lake 223
 <details>
 <summary> Click to show information on the Lake 223 hydrometric station.</summary>
+
+Coordinates of lake level station (UTM WGS 84): 15U 448740E 5505514N
+
+Coordinates of outflow weir (UTM WGS 84): 15U 448540E 5505576N
+
 Watershed area (ha): 259.96 ha based on 1972 mapping
 
 XX.XX ha based on 2017 DEM\*
@@ -354,6 +364,8 @@ Figure 3. Lake 223 lake stage recorder and stilling well.
 <details>
 <summary> Click to show information on the Lake 224 hydrometric station.</summary>
 Coordinates of water level gauge (UTM, WGS 84): 15U 0447881E 5504278N
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 448731E 5504826N
 
 Watershed area (ha): 97.48 ha based on 1972 mapping
 
@@ -436,6 +448,8 @@ Figure 4. Aerial photo of the groundwater seepage location from Lake 224 (upper 
 
 <details>
 <summary> Click to show information on the Lake 225 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 448480E 5504224N
 
 Watershed area (ha): 30.5 ha based on 1972 mapping
 
@@ -561,6 +575,11 @@ Lake 226 outlet after drawdown structure removal and lake restored to historic s
 ### Lake 227
 <details>
 <summary>Click to show information on the Lake 227 hydrometric station.</summary>
+
+Coordinates of lake level gauge (UTM, WGS 84): 15U 450216E 5504197N
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 450200E 5504268N
+
 Watershed area (ha): 34.4 ha based on 1972 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -593,6 +612,9 @@ In April 2014, the responsibility for ownership and operation of the ELA transfe
 ### Lake 230
 <details>
 <summary>Click to show information on the Lake 230 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 454185E 5501760N
+
 Watershed area (ha): 8.89 ha based on 1976 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -703,6 +725,9 @@ L239 watershed and sub-catchments as delineated using 2017 DEM and ground-truthi
 ### Lake 239 - East Upper Weir
 <details>
 <summary>Click here to show information on the Lake 239 (east upper weir) hydrometric station.</summary>
+
+Coordinates of east upper weir (UTM, WGS 84): 15U 449512E 5501476N
+
 <u>The Watershed</u>
 
 Lake 239 East Upper Weir is located halfway up the East Subbasin where the stream conveniently flows over exposed bedrock effectively dividing the subbasin into two almost equal parts. The upper basin has an area of 90.78 ha which is 53% of the East Subbasin.
@@ -1023,6 +1048,9 @@ The presence of subsurface flow or groundwater seepage from ELA lakes has genera
 ### Lake 261
 <details>
 <summary>Click here to show information on the Lake 261 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 449619E 5506899N
+
 Watershed area (ha): 47.58 ha based on 1976 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -1051,6 +1079,9 @@ In April 2014, the responsibility for ownership and operation of the ELA transfe
 ### Lake 265
 <details>
 <summary>Click here to show information on the Lake 265 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 454301E 5508211N
+
 Watershed area (ha): 71.0 ha based on 1976 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -1145,6 +1176,9 @@ Figure 6. Concrete 90<sup>o</sup> v-notch weir constructed in August 1986 at the
 ### Lake 303
 <details>
 <summary>Click here to show information on the Lake 303 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 446318E 5501153N
+
 Watershed area (ha): 54.14 ha based on 1970 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -1340,6 +1374,9 @@ The presence of subsurface flow or groundwater seepage from ELA lakes has genera
 ### Lake 382
 <details>
 <summary>Click here to show information on the Lake 382 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 451006E 5506438N
+
 Watershed area (ha): 203.27 ha based on 1976 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -1591,6 +1628,11 @@ Photograph 10. Southeast wall was installed (new material), and poly was covered
 ### Lake 627
 <details>
 <summary>Click here to show information on the Lake 627 hydrometric station.</summary>
+
+Coordinates of outflow (UTM, WGS 84): 15U 442965E 5511750N
+
+Coordinates of lake level gauge (UTM, NAD 83): 15U 442873E 5512135N
+
 Watershed area (ha): 303.4 ha based on 1985 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -1808,6 +1850,9 @@ The structure would be built in two stages. First, a base of gravel bags would b
 ### Lake 660
 <details>
 <summary>Click here to show information on the Lake 660 hydrometric station.</summary>
+
+Coordinates of lake level gauge (UTM, WGS 84): 15U 447312E 5509519N
+
 Watershed area (ha): 11489 ha based on 1984 MNR mapping 20864.5 ha based on OFAT\*
 
 \*Ontario Flow Assessment Tool (<https://www.ontario.ca/page/watershed-flow-assessment-tool#section-1>)
@@ -1834,6 +1879,9 @@ A bathymetric survey was carried out by the Ontario Ministry of Natural Resource
 ### Lake 661
 <details>
 <summary>Click here to show information on the Lake 661 hydrometric station.</summary>
+
+Coordinates of outflow weir (UTM, WGS 84): 15U 446712E 5501017N
+
 Watershed area (ha): 125.4 ha based on 1985 mapping
 
 XX.X ha based on 2017 DEM\*
@@ -2031,51 +2079,51 @@ Note: UTM coordinates are for Zone 15 U.
 
 | Lake | Station                 | Easting | Northing | Datum |
 |:-----|:------------------------|:--------|:---------|:------|
-| 112  | Lake Level              | 445360  | 5505104  | WGS84
 | 114  | Outflow Weir            | 444917  | 5502165  | NAD83 |
-| 114  | Lake Level              | 445257  | 5502248  | NAD83 |
-| 114  | Terrestrial Inflow      |         |          |       |
-| 120  | Outflow Weir            |         |          |       |
-| 223  | Outflow Weir            |         |          |       |
-| 223  | Lake Level              |         |          |       |
-| 224  | Outflow Weir            |         |          |       |
+| 114  | Lake Level              | 445257  | 5502248  | WGS84 |
+| 114  | Terrestrial Inflow      | 445805  | 5502862  | WGS84 |
+| 120  | Outflow Weir            | 439536  | 5500920  | WGS84 |
+| 223  | Lake Level              | 448740  | 5505514  | WGS84 |
+| 223  | Outflow Weir            | 448540  | 5505576  | WGS84 |
+| 224  | Outflow Weir            | 448731  | 5504826  | WGS84 |
 | 224  | Lake Level              | 447881  | 5504278  | NAD83 |
-| 225  | Outflow Weir            |         |          |       |
+| 225  | Outflow Weir            | 448480  | 5504224  | WGS84 |
 | 226  | Outflow Weir            | 446834  | 5504496  | NAD83 |
 | 226  | Lake Level              | 446824  | 5504507  | NAD83 |
-| 227  | Outflow Weir            |         |          |       |
-| 227  | Lake Level              |         |          |       |
-| 230  | Outflow Weir            |         |          |       |
+| 227  | Outflow Weir            | 450200  | 5504268  | WGS84 |
+| 227  | Lake Level              | 450216  | 5504197  | WGS84 |
+| 230  | Outflow Weir            | 454185  | 5501760  | WGS84 |
 | 239  | Lake Level              | 447540  | 5501165  | NAD83 |
 | 239  | Outflow Flume           | 447564  | 5500960  | NAD83 |
 | 239  | Northeast Inflow        | 448245  | 5501810  | NAD83 |
 | 239  | Northwest Inflow        | 447503  | 5501785  | NAD83 |
 | 239  | East Inflow, lower weir | 448535  | 5501200  | NAD83 |
-| 239  | East Upper Weir         |         |          |       |
+| 239  | East Upper Weir         | 449512  | 5501476  | WGS84 |
 | 240  | Outflow Weir            | 447603  | 5499862  | NAD83 |
-| 261  | Outflow Weir            |         |          |       |
-| 265  | Outflow Weir            |         |          |       |
+| 261  | Outflow Weir            | 449619  | 5506899  | WGS84 |
+| 265  | Outflow Weir            | 454301  | 5508211  | WGS84 |
 | 302  | Outflow Weir            | 445353  | 5503349  | NAD83 |
 | 302  | Lake Level              | 444924  | 5502396  | NAD83 |
 | 302  | Upland Weir             | 444660  | 5502628  | NAD83 |
-| 303  | Outflow Weir            |         |          |       |
+| 303  | Outflow Weir            | 446318  | 5501153  | WGS84 |
 | 303  | Lake Level              | 446367  | 5501246  | NAD83 |
 | 304  | Lake Level              | 445977  | 5500930  | NAD83 |
 | 373  | Outflow Weir            | 442939  | 5510663  | NAD83 |
 | 373  | Lake Level              | 442520  | 5510841  | NAD83 |
 | 375  | Lake Level              | 443365  | 5510654  | NAD83 |
-| 382  | Outflow Weir            |         |          |       |
+| 382  | Outflow Weir            | 451006  | 5506438  | WGS84 |
 | 442  | Lake Level              | 441244  | 5513815  | NAD83 |
 | 470  | Outflow Flume           | 447134  | 5500838  | NAD83 |
 | 626  | Outflow Weir            | 442376  | 5511643  | NAD83 |
 | 626  | Lake Level              | 442931  | 5511730  | NAD83 |
 | 627  | Lake Level              | 442873  | 5512135  | NAD83 |
-| 632  | Outflow Weir            |         |          |       |
+| 627  | Outflow                 | 442965  | 5511750  | WGS84 |
+| 632  | Outflow Weir            | 442854  | 5502978  | WGS84 |
 | 632  | Lake Level              |         |          |       |
 | 658  | Outflow                 | 447307  | 5509500  | NAD83 |
 | 658  | Lake Level              | 447000  | 5509100  | WGS84 |
-| 661  | Outflow Weir            |         |          |       |
-| 661  | Outflow Weir            |         |          |       |
+| 660  | Lake Level              | 447312  | 5509519  | WGS84 |
+| 661  | Outflow Weir            | 446712  | 5501017  | WGS84 |
 | 979  | Outflow Weir            | 447481  | 5499262  | NAD83 |
 | 979  | Lake Level              | 447482  | 5499271  | NAD83 |
 

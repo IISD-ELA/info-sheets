@@ -2,6 +2,10 @@
 **Authors:** Ken Beaty, Paul Fafard  
 **Last Updated:**  2026-07-15 by chaydata
 
+Coordinates of lake level station (UTM WGS 84): 15U 448740E 5505514N
+
+Coordinates of outflow weir (UTM WGS 84): 15U 448540E 5505576N
+
 Watershed area (ha): 259.96 ha based on 1972 mapping
 
 XX.XX ha based on 2017 DEM\*

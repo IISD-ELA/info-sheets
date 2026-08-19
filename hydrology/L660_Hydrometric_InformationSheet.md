@@ -2,6 +2,8 @@
 **Authors:** Ken Beaty, Paul Fafard  
 **Last Updated:**  2026-07-15 by chaydata
 
+Coordinates of lake level gauge (UTM, WGS 84): 15U 447312E 5509519N
+
 Watershed area (ha): 11489 ha based on 1984 MNR mapping 20864.5 ha based on OFAT\*
 
 \*Ontario Flow Assessment Tool (<https://www.ontario.ca/page/watershed-flow-assessment-tool#section-1>)

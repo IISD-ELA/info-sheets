@@ -4,6 +4,8 @@
 
 Coordinates of water level gauge (UTM, WGS 84): 15U 0447881E 5504278N
 
+Coordinates of outflow weir (UTM, WGS 84): 15U 448731E 5504826N
+
 Watershed area (ha): 97.48 ha based on 1972 mapping
 
 XX.X ha based on 2017 DEM\*

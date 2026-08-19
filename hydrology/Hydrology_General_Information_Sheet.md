@@ -206,49 +206,50 @@ Note: UTM coordinates are for Zone 15 U.
 | Lake | Station                 | Easting | Northing | Datum |
 |:-----|:------------------------|:--------|:---------|:------|
 | 114  | Outflow Weir            | 444917  | 5502165  | NAD83 |
-| 114  | Lake Level              | 445257  | 5502248  | NAD83 |
-| 114  | Terrestrial Inflow      |         |          |       |
-| 120  | Outflow Weir            |         |          |       |
-| 223  | Outflow Weir            |         |          |       |
-| 223  | Lake Level              |         |          |       |
-| 224  | Outflow Weir            |         |          |       |
+| 114  | Lake Level              | 445257  | 5502248  | WGS84 |
+| 114  | Terrestrial Inflow      | 445805  | 5502862  | WGS84 |
+| 120  | Outflow Weir            | 439536  | 5500920  | WGS84 |
+| 223  | Lake Level              | 448740  | 5505514  | WGS84 |
+| 223  | Outflow Weir            | 448540  | 5505576  | WGS84 |
+| 224  | Outflow Weir            | 448731  | 5504826  | WGS84 |
 | 224  | Lake Level              | 447881  | 5504278  | NAD83 |
-| 225  | Outflow Weir            |         |          |       |
+| 225  | Outflow Weir            | 448480  | 5504224  | WGS84 |
 | 226  | Outflow Weir            | 446834  | 5504496  | NAD83 |
 | 226  | Lake Level              | 446824  | 5504507  | NAD83 |
-| 227  | Outflow Weir            |         |          |       |
-| 227  | Lake Level              |         |          |       |
-| 230  | Outflow Weir            |         |          |       |
+| 227  | Outflow Weir            | 450200  | 5504268  | WGS84 |
+| 227  | Lake Level              | 450216  | 5504197  | WGS84 |
+| 230  | Outflow Weir            | 454185  | 5501760  | WGS84 |
 | 239  | Lake Level              | 447540  | 5501165  | NAD83 |
 | 239  | Outflow Flume           | 447564  | 5500960  | NAD83 |
 | 239  | Northeast Inflow        | 448245  | 5501810  | NAD83 |
 | 239  | Northwest Inflow        | 447503  | 5501785  | NAD83 |
 | 239  | East Inflow, lower weir | 448535  | 5501200  | NAD83 |
-| 239  | East Upper Weir         |         |          |       |
+| 239  | East Upper Weir         | 449512  | 5501476  | WGS84 |
 | 240  | Outflow Weir            | 447603  | 5499862  | NAD83 |
-| 261  | Outflow Weir            |         |          |       |
-| 265  | Outflow Weir            |         |          |       |
+| 261  | Outflow Weir            | 449619  | 5506899  | WGS84 |
+| 265  | Outflow Weir            | 454301  | 5508211  | WGS84 |
 | 302  | Outflow Weir            | 445353  | 5503349  | NAD83 |
 | 302  | Lake Level              | 444924  | 5502396  | NAD83 |
 | 302  | Upland Weir             | 444660  | 5502628  | NAD83 |
-| 303  | Outflow Weir            |         |          |       |
+| 303  | Outflow Weir            | 446318  | 5501153  | WGS84 |
 | 303  | Lake Level              | 446367  | 5501246  | NAD83 |
 | 304  | Lake Level              | 445977  | 5500930  | NAD83 |
 | 373  | Outflow Weir            | 442939  | 5510663  | NAD83 |
 | 373  | Lake Level              | 442520  | 5510841  | NAD83 |
 | 375  | Lake Level              | 443365  | 5510654  | NAD83 |
-| 382  | Outflow Weir            |         |          |       |
+| 382  | Outflow Weir            | 451006  | 5506438  | WGS84 |
 | 442  | Lake Level              | 441244  | 5513815  | NAD83 |
 | 470  | Outflow Flume           | 447134  | 5500838  | NAD83 |
 | 626  | Outflow Weir            | 442376  | 5511643  | NAD83 |
 | 626  | Lake Level              | 442931  | 5511730  | NAD83 |
 | 627  | Lake Level              | 442873  | 5512135  | NAD83 |
-| 632  | Outflow Weir            |         |          |       |
+| 627  | Outflow                 | 442965  | 5511750  | WGS84 |
+| 632  | Outflow Weir            | 442854  | 5502978  | WGS84 |
 | 632  | Lake Level              |         |          |       |
 | 658  | Outflow                 | 447307  | 5509500  | NAD83 |
-| 658  | Lake Level              |         |          |       |
-| 661  | Outflow Weir            |         |          |       |
-| 661  | Outflow Weir            |         |          |       |
+| 658  | Lake Level              | 447000  | 5509100  | WGS84 |
+| 660  | Lake Level              | 447312  | 5509519  | WGS84 |
+| 661  | Outflow Weir            | 446712  | 5501017  | WGS84 |
 | 979  | Outflow Weir            | 447481  | 5499262  | NAD83 |
 | 979  | Lake Level              | 447482  | 5499271  | NAD83 |
 

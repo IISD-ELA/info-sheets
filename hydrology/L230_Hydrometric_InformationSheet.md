@@ -2,6 +2,8 @@
 **Authors:** Ken Beaty, Paul Fafard  
 **Last Updated:**  2026-07-15 by chaydata
 
+Coordinates of outflow weir (UTM, WGS 84): 15U 454185E 5501760N
+
 Watershed area (ha): 8.89 ha based on 1976 mapping
 
 XX.X ha based on 2017 DEM\*

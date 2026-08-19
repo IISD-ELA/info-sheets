@@ -2,6 +2,8 @@
 **Author:** Ken Beaty  
 **Last Updated:**  2026-07-15 by chaydata
 
+Coordinates of east upper weir (UTM, WGS 84): 15U 449512E 5501476N
+
 <u>The Watershed</u>
 
 Lake 239 East Upper Weir is located halfway up the East Subbasin where the stream conveniently flows over exposed bedrock effectively dividing the subbasin into two almost equal parts. The upper basin has an area of 90.78 ha which is 53% of the East Subbasin.
