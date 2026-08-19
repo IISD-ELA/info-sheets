@@ -1,6 +1,6 @@
 # Lake 261: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-07-15 by chaydata
+**Last Updated:**  2026-08-19 by idiyak
 
 Coordinates of outflow weir (UTM, WGS 84): 15U 449619E 5506899N
 

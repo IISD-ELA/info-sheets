@@ -1,6 +1,6 @@
 # Lake 627: Hydrometric Station Information Sheet
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-08-18 by idiyak
+**Last Updated:**  2026-08-19 by idiyak
 
 Coordinates of outflow (UTM, WGS 84): 15U 442965E 5511750N
 

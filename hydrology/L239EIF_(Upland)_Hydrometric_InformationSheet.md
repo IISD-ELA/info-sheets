@@ -1,6 +1,6 @@
 # Lake 239 East Upper Weir: Hydrometric Station Information Sheet
 **Author:** Ken Beaty  
-**Last Updated:**  2026-07-15 by chaydata
+**Last Updated:**  2026-08-19 by idiyak
 
 Coordinates of east upper weir (UTM, WGS 84): 15U 449512E 5501476N
 
