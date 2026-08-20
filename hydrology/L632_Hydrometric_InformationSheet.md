@@ -4,6 +4,8 @@
 
 Coordinates of outflow weir (UTM, WGS 84): 15U 442854E 5502978N
 
+Coordinates of lake level gauge (UTM, WGS 84): 15U 442766E 5502937N
+
 Watershed area (ha): 40.2 ha based on 1978(?) mapping
 
 XX.X ha based on 2017 DEM\*

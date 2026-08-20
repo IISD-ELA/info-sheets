@@ -245,7 +245,7 @@ Note: UTM coordinates are for Zone 15 U.
 | 627  | Lake Level              | 442873  | 5512135  | NAD83 |
 | 627  | Outflow                 | 442965  | 5511750  | WGS84 |
 | 632  | Outflow Weir            | 442854  | 5502978  | WGS84 |
-| 632  | Lake Level              |         |          |       |
+| 632  | Lake Level              | 442766  | 5502937  | WGS84 |
 | 658  | Outflow                 | 447307  | 5509500  | NAD83 |
 | 658  | Lake Level              | 447000  | 5509100  | WGS84 |
 | 660  | Lake Level              | 447312  | 5509519  | WGS84 |
