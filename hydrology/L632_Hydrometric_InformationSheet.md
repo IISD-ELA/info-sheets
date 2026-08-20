@@ -1,6 +1,6 @@
 # Lake 632: Hydrometric Station Information Sheet
 **Author:** Paul Fafard  
-**Last Updated:**  2026-08-19 by idiyak
+**Last Updated:**  2026-08-20 by idiyak
 
 Coordinates of outflow weir (UTM, WGS 84): 15U 442854E 5502978N
 
