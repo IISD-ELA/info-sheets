@@ -237,6 +237,7 @@ Note: UTM coordinates are for Zone 15 U.
 | 373  | Outflow Weir            | 442939  | 5510663  | NAD83 |
 | 373  | Lake Level              | 442520  | 5510841  | NAD83 |
 | 375  | Lake Level              | 443365  | 5510654  | NAD83 |
+| 378  | Lake Level              | 444274  | 5506812  | WGS84 |
 | 382  | Outflow Weir            | 451006  | 5506438  | WGS84 |
 | 442  | Lake Level              | 441244  | 5513815  | NAD83 |
 | 470  | Outflow Flume           | 447134  | 5500838  | NAD83 |
