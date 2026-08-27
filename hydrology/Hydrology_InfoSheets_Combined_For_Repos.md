@@ -2351,7 +2351,7 @@ Here is a list of columns in the four tables from the IISD-ELA master database, 
 * monitoring_location_name
 * date
 * time (only for hourly datasets)
-* mean_daily_discharge / mean_hourly_discharge / mean_daily_level / mean_hourly_level
+* mean_daily_discharge / mean_hourly_discharge / mean_daily_level / mean_hourly_level / temp_c
 * qualifiers
 * *level_type* (only for level daily)
 * comments
@@ -2368,13 +2368,14 @@ Here is a list of columns in the four tables from the IISD-ELA master database, 
  dataset_name | character varying | N/A | Name of the dataset. A dataset is a collection of data to which several individual data records (rows) belong. Dataset names are useful to distinguish groups of data across different research fields and provide some descriptive context. Directly associated with dataset_code (each code has a different name). | all four 
  date | date | N/A | The calendar or climatological day (YYYY-MM-DD) for the associated record, indicating when the observation, measurement, sample collection, or other recording method happened. All air temperature and precipitation datasets from IISD-ELA are based on the climatological day (at IISD-ELA, 8AM CST is used as the start of the climatological day) using the Meteorological Service of Canada’s definition of climatological day (see the info sheets for more information). Other datasets use regular calendar days. | all four 
  *level_type* (only for level daily) | character varying | N/A | <to be defined> | level daily 
- mean_daily_discharge | numeric | cubic metres per second | <to be defined> | discharge daily 
- mean_daily_level | numeric | metres | <to be defined> | level daily 
- mean_hourly_discharge | numeric | cubic metres per second | <to be defined> | discharge hourly 
- mean_hourly_level | numeric | metres | <to be defined> | level hourly 
+ mean_daily_discharge | numeric | cubic metres per second | Mean daily flow, in cubic metres per second, aggregated from 10-minute-resolution field data. | discharge daily 
+ mean_daily_level | numeric | metres | Mean daily lake level, in metres, aggregated from 10-minute-resolution field data. | level daily 
+ mean_hourly_discharge | numeric | cubic metres per second | Mean hourly flow, in cubic metres per second, aggregated from 10-minute-resolution field data. | discharge hourly 
+ mean_hourly_level | numeric | metres | Mean hourly lake level, in metres, aggregated from 10-minute-resolution field data. | level hourly 
  monitoring_location_name | character varying | N/A | Name of sampled or surveyed geographic location at the IISD Experimental Lakes Area field site. | all four 
  qualifiers | character varying | N/A | Qualifiers conveying specific information about the record. | all four 
  time | character varying / time without time zone | HH:MM:SS | The time the field sampling or surveying activity was carried out to collect the data in the record. | the two hourly datasets 
+ temp_c | character varying | degrees Celsius | Mean hourly stream temperature, in degrees Celsius, aggregated from 10-minute-resolution field data. | hourly stream temperature
  *update_date* | date | N/A | Date as calendar day that the record in the IISD-ELA Postgres Master Database table was uploaded to the database or most recently modified. | all four 
  *version* | numeric | N/A | The version number for a row of data is 1 when it is first added to a table, and increments by 1 every time the row is updated. | all four 
 
