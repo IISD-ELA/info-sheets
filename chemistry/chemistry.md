@@ -10,6 +10,7 @@
   - [Sampling](#sampling)
     - [Integrated Water Sampling](#integrated-water-sampling)
     - [Profile Sampling ](#profile-sampling)
+    - [Stream Sampling](#stream-sampling)
   - [Analysis ](#analysis)
   - [Processing ](#processing)
 - [Instrumentation ](#instrumentation)
@@ -27,7 +28,7 @@
 
 # General Information 
 
-Chemistry data from the Experimental Lakes Area (ELA) has been collected across ELA lakes since May 1968. Water samples are collected and analyzed for a variety of parameters, for both specific research projects and long-term ecological research (LTER), and across manipulated lakes or enclosures and reference lakes.    
+Chemistry data have been collected at the Experimental Lakes Area (ELA) since May 1968 across lakes, streams, precipitation, experimental cosms, and other water bodies used in laboratory studies. Water samples are collected and analyzed for a variety of parameters, for both specific research projects and long-term ecological research (LTER), and across manipulated lakes or enclosures and reference lakes.    
    
 The management of the chemistry dataset has periodically changed since its inception, as would be expected with technological advances over the years. Currently, all chemistry data undergo ETL (extract, transform, load) from source databases into a PostgreSQL master database. This represents a merging of older chemistry data 1968 through 2016 that were compiled into a Microsoft Access database and newer data 2017 to present which are managed in Sample Master (a Laboratory Information Management System). 
 
@@ -56,6 +57,9 @@ Water is pumped from depth using a marked sampling line (Kuri Tec KLEARON food g
 While sampling with the pump, care is taken to ensure that the pump does not introduce air (bubbles) to the sample. The connection between the pump hose and the sampling line is inspected to ensure air is not being introduced, and the out-line of the pump is also inspected for bubbles. If bubbles are present in the out-line but not the in-line, this indicates that the seals on the pump need to be replaced.  
 
 Bottles are rinsed twice with water from the target depth before filling, and when filling a bottle for analysis that is sensitive to air being introduced (e.g. an oxygen bottle) the hose from the pump is inserted to the bottom of the bottle during filling, to reduce air being mixed into the sample. 
+
+## Stream Sampling
+Water samples taken at L239 were collected near flow control structures. For the NWIF (north-west inflow), NEIF (north-east inflow), and outflow, bottles are filled from the pool of water just upstream of the V-notch or flume, where there is sufficient depth to submerge the sample bottle. For the EIF (east inflow), bottles are filled at the end of a catwalk a few metres upstream of the flume. At the NEIF station, sample bottles are filled with water flowing out of the PVC pipe (there is no pond). In all instances, each bottle is rinsed twice before being filled with sample water.
 
 ## Analysis 
 
