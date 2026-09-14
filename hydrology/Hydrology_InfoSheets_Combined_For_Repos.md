@@ -5,6 +5,7 @@
 ## Contents
 - [General information](#general-information)
   * [Background](#background)
+  * [Important Data Usage Caveats](#important-data-usage-caveats)
   * [The Hydrometric Program](#the-hydrometric-program)
     * [Water Survey of Canada station numbers](#water-survey-of-canada-station-numbers)
   * [Hydrometric data](#hydrometric-data)
@@ -90,6 +91,10 @@ Since 1968, there have been several changes in agency structure while the functi
 > WSC: Environment Canada, Atmospheric Monitoring and Water Survey Directorate, Water Survey Monitoring and Operations Branch
 >
 > U of M: University of Manitoba, Department of Civil Engineering and Department of Geology and Earth Sciences
+
+### Important Data Usage Caveats
+
+Lake 442 lake level data should be interpreted with consideration of beaver activity and extreme weather events. Prior to June 2002, a beaver dam actively maintained the lake at an elevated water level. An extreme storm between June 8 and 10, 2002, breached the dam, after which the lake levels returned to the normal range. Lake levels were subsequently affected by beaver activity during the full 2006-2012 seasons, from June 13, 2014 through the end of the 2016 season, and during the full 2024-2025 seasons. During 2024-2025, the beaver dam appeared to be leaky; water levels were generally near the upper end of the normal range but regularly declined during periods without precipitation. Lake levels were considered within the normal range from June 2002 through 2005, during 2013 through June 12, 2014, and during 2017-2023. Additionally, data users should review the qualifiers associated with each record in the hydrology data tables, as these provide important context regarding data quality, conditions, and interpretation.
 
 ### The Hydrometric Program
 
