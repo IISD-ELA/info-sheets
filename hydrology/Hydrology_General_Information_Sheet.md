@@ -485,6 +485,9 @@ Here is a list of columns in the four dataset tables, in the order they appear:
 * update_date
 * version
 
+### Important Note on Aggregated Data
+Please note that values in the `mean_daily_discharge`, `mean_hourly_discharge`, `mean_daily_level`, `mean_hourly_level`, and `temp_c` columns were calculated from raw 10-minute-resolution data using the built-in “mean” computation in Aquarius Time Series (AQTS). For hourly means, values are averaged from the start of one hour to the start of the next (e.g., 08:00:00-09:00:00) and timestamped at the start of the interval (08:00:00). For mean daily data, the interval runs from 00:00:00 to 00:00:00 on the following date.
+
 ### Data dictionary
  **column name (alphabetical)** | **data type** | **unit** | **definition** | **dataset(s)** 
 ---|---|---|---|---
