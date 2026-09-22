@@ -1,6 +1,6 @@
 # Lake Temperature at the Surface and via Strings - Information Sheet
 **Authors:** Ken Beaty; Ken Sandilands; Paul Fafard; Chris Hay  
-**Last Updated:**  2026-08-26 by chaydata
+**Last Updated:**  2026-09-22 by chaydata
 
 
 ## Contents
