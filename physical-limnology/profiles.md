@@ -1,4 +1,4 @@
-# Limnology Profiles – Information Sheet
+# Limnology Profiles (Multiparameter Sondes and Historical Methods) – Information Sheet
 **Authors:** Ken Sandilands; Paul; Chris Hay  
 **Last Updated:**  2026-07-15 by chaydata
 
