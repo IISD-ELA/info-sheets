@@ -94,12 +94,13 @@ Since 1968, there have been several changes in agency structure while the functi
 > U of M: University of Manitoba, Department of Civil Engineering and Department of Geology and Earth Sciences
 
 ### Datasets
-There are several IISD-ELA datasets we consider part of the "hydrology" data collection. Two are covered in this info sheet:
+There are several IISD-ELA datasets we consider part of the "hydrology" data collection. Three are covered in this info sheet:
 * Stream Flows (historically known as "discharge") - rates of flow from streams running in and out of lakes
 * Lake Level - water levels within lakes
+* Stream Temperature - temperature measured in streams. This info sheet is mainly focused on stream flows and lake level, but there is a section on stream temperature instrumentation, and some notes are embedded in individual station information sections.
 
 Additional datasets are described in more detail in other, separate, info sheets:
-* Stream Temperature - see the separate stream temperature info sheet
+
 * Stream Chemistry - see the chemistry info sheet
 
 ### Hydrometric Program History

@@ -28,8 +28,7 @@ Clicking a link below will bring you to the respective infosheet, otherwise feel
 - [Profiles of Lakes (from Multiparameter Sondes and Historical Methods)](physical-limnology/profiles.md)
 
 ### Hydrology
-- [Flows, Levels, and Stations](hydrology/flows-levels-stations.md)
-- [Stream Temperature](hydrology/stream-temp.md)
+- [Stream Flows, Lake Levels, Stream Temperature, and Station Information](hydrology/flows-levels-stations.md)
 
 ### Chemistry
 - [Chemistry](chemistry/chemistry.md)
@@ -64,42 +63,7 @@ Below shows how the repository is set up, with each info sheet found under its c
     │   ├── profiles.md
     │   └── surface-temp.md
     ├── hydrology/
-    │   ├── Hydrology_General_Information_Sheet.md
-    │   ├── Hydrology_Qualifier_Codes_Grades.md
-    │   ├── L112_Hydrometric_InformationSheet.md
-    │   ├── L114_Hydrometric_InformationSheet.md
-    │   ├── L120_Hydrometric_InformationSheet.md
-    │   ├── L223_Hydrometric_InformationSheet.md
-    │   ├── L224_Hydrometric_InformationSheet.md
-    │   ├── L225_Hydrometric_InformationSheet.md
-    │   ├── L226_Hydrometric_InformationSheet.md
-    │   ├── L227_Hydrometric_InformationSheet.md
-    │   ├── L230_Hydrometric_InformationSheet.md
-    │   ├── L239EIF_(Upland)_Hydrometric_InformationSheet.md
-    │   ├── L239EIF_Hydrometric_InformationSheet.md
-    │   ├── L239NEIF_Hydrometric_InformationSheet.md
-    │   ├── L239NWIF_Hydrometric_InformationSheet.md
-    │   ├── L239_Hydrometric_InformationSheet.md
-    │   ├── L240_Hydrometric_InformationSheet.md
-    │   ├── L260_Hydrometric_InformationSheet.md
-    │   ├── L261_Hydrometric_InformationSheet.md
-    │   ├── L265_Hydrometric_InformationSheet.md
-    │   ├── L302_Hydrometric_InformationSheet.md
-    │   ├── L303_Hydrometric_InformationSheet.md
-    │   ├── L304_Hydrometric_InformationSheet.md
-    │   ├── L373_Hydrometric_InformationSheet.md
-    │   ├── L375_Hydrometric_InformationSheet.md
-    │   ├── L378_Hydrometric_InformationSheet.md
-    │   ├── L382_Hydrometric_InformationSheet.md
-    │   ├── L442_Hydrometric_InformationSheet.md
-    │   ├── L470_Hydrometric_InformationSheet.md
-    │   ├── L626_Hydrometric_InformationSheet.md
-    │   ├── L627_Hydrometric_InformationSheet.md
-    │   ├── L632_Hydrometric_InformationSheet.md
-    │   ├── L658_Hydrometric_InformationSheet.md
-    │   ├── L660_Hydrometric_InformationSheet.md
-    │   ├── L661_Hydrometric_InformationSheet.md
-    │   └── L979_Hydrometric_InformationSheet.md
+    │   └── flows-levels-temp-stations.md
     ├── chemistry/
     │   └── chemistry.md   
     └── biology/
