@@ -1,6 +1,6 @@
 # Hydrology Info Sheet – Stream Flows, Lake Levels, Stream Temperature, and Station Information
 **Authors:** Ken Beaty, Paul Fafard  
-**Last Updated:**  2026-09-22 by chaydata
+**Last Updated:**  2026-09-23 by chaydata
 
 ## Contents
 - [General information](#general-information)
