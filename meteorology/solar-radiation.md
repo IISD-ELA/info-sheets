@@ -4,7 +4,6 @@
 
 ## Contents
 - [Meteorology – Solar Radiation – Information Sheet](#meteorology--solar-radiation--information-sheet)
-  - [Contents](#contents)
   - [General information](#general-information)
     - [Datasets](#datasets)
     - [Considerations and Applications](#considerations-and-applications)
@@ -112,14 +111,14 @@ There is no other historical method that was used prior to the current method. T
 
 **PAR**
 
-Over the years there have been several changes in groups collecting PAR at the metsite which has resulted in datasets collected with differing units, intervals, and sensors... The available information about the collection periods is summarized below.  
+Over the years there have been some changes in PAR collection methods. The available information is summarized below.  
 
 <!-- Used non-breaking hyphens (&#8209;) in dates below to prevent line breaks within dates in rendered Markdown tables. -->
-| Date range | Gear used | Team | Time interval collected | Issues / notes |
+| Date range | Gear used | IISD-ELA Team | Time interval collected | Issues / notes |
 | --- | --- | --- | --- | --- |
-| 1973&#8209;04&#8209;15 to 1982 | Unknown; a LICOR sensor paired with a LICOR datalogger is considered likely for the period before 2008&#8209;10&#8209;16. | Unknown | Unknown; the data appear to contain only a daily maximum. See details and diagrams below. | The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. See details and diagrams below. Also, PAR was collected only during daylight hours in open-water seasons. |
-| 1983 to 2005&#8209;12&#8209;07 | Unknown; a LICOR sensor paired with a LICOR datalogger is considered likely for the period before 2008&#8209;10&#8209;16. |  Unknwon and/or Primary Production group (some uncertainty, and a team-transfer date, if any, is unknown.) | Assumed to be 30&#8209;minute values starting in 1983. | The 30-minute interval is only inferred, from the daily plots, where values do not always rise and fall at a constant rate. PAR was collected only during daylight hours in open-water seasons. |
-| 2005&#8209;12&#8209;08 to 2008&#8209;10&#8209;15 | None | None | N/A | Scott Higgins believes, based on institutional knowledge and memory, that this gap is real (no data were collected). He believes the Primary Production group dissolved near the end of 2005, and there may not have been a handover plan or capacity to continue collecting PAR during the gap, until HydroLiM crew resumed later in 2008. |
+| 1973&#8209;04&#8209;15 to 1982 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | Primary Productivity | 30-minute intervals, but they seem to be interpolated based on only max values being actually measured (see figures below). | The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. See details and diagrams below. Also, PAR was collected only during daylight hours in open-water seasons. |
+| 1983 to 2005&#8209;12&#8209;07 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | Primary Productivity | 30-minute intervals; assumed to be true as opposed to interpolated (see figures below). | PAR was collected only during daylight hours in open-water seasons. |
+| 2005&#8209;12&#8209;08 to 2008&#8209;10&#8209;15 | None | None | N/A | There appears to be a data gap here due to the dissolving of the Primary Productivity program near the end of 2005. |
 | 2008&#8209;10&#8209;16 to Present | PAR sensor connected to a CR1000 Campbell Scientific datalogger. | HydroLiM team | 15-minute intervals, continuously year-round, including at night; units are µmol/s/m². | Since this setup, data are more reliable, with no time-shift or unit issues. Still, the data are not immune to other issues (see quality control and corrections section below).|
 
 From 1973 to 1982 it appears that perhaps only a maximum daily PAR value was recorded and the data are fitted equally on each side of the daily maximum, as each day has uniform raise and fall but with differences in peaks between days:  
@@ -150,20 +149,20 @@ The correction was done for each affected dataset using an R script developed fo
 
 Prior to 2008 there are parts of the data where it appears that there have been some time drift problems, which could be due to errors, mismatch between dataloggers and download computers, equipment mistakenly set to DST instead of CST, and time drift of early dataloggers. Parts of these data have been adjusted using the clock drift tool in Aquarius Time Series software in an attempt to line up the data with solar noon for Kenora as provided by NRC for the entire period. These time corrections are tricky as it isn’t possible to line up the peak daily PAR with solar noon on cloudy days, and it is difficult to determine when a block of data needs to be started/ended due to cloudy days. For a list of time corrections made to the data, see table below.
 
-|  | **Category** | **Type** | **Processing priority** | **Comment or Note** | **Start** | **End** | **Created** | **Created by** | **Tags** |
-|----|----|----|----|----|----|----|----|----|----|
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 60:00.‌ End offset: 60:00.‌ | 2004-05-05 16:00:00 | 2004-06-07 19:00:00 | 2023-12-01 10:13:59 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-09-18 06:00:00 | 2003-10-06 17:30:00 | 2023-12-01 10:10:02 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-07-19 04:00:00 | 2003-09-04 18:30:00 | 2023-12-01 10:08:27 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-06-23 03:30:00 | 2003-07-02 20:00:00 | 2023-12-01 10:06:25 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-06-14 03:30:00 | 2003-06-20 18:30:00 | 2023-12-01 10:05:16 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-06-10 03:30:00 | 2003-06-10 20:30:00 | 2023-12-01 10:04:23 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-05-22 04:00:00 | 2003-05-22 20:00:00 | 2023-12-01 10:03:19 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-01-13 07:30:00 | 2003-01-27 16:30:00 | 2023-12-01 09:58:02 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 60:00.‌ End offset: 60:00.‌ | 2003-01-11 07:00:00 | 2003-01-12 16:00:00 | 2023-12-01 09:57:26 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-01-10 07:30:00 | 2003-01-10 16:30:00 | 2023-12-01 09:57:01 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-11-22 07:30:00 | 2002-12-02 16:00:00 | 2023-12-01 09:55:18 | Julie |  |
-|  | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-10-31 07:00:00 | 2002-11-10 16:30:00 | 2023-12-01 09:54:16 | Julie |  |
+| **Category** | **Type** | **Processing priority** | **Comment or Note** | **Start** | **End** | **Created** |
+|----|----|----|----|----|----|----|
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 60:00.‌ End offset: 60:00.‌ | 2004-05-05 16:00:00 | 2004-06-07 19:00:00 | 2023-12-01 10:13:59 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-09-18 06:00:00 | 2003-10-06 17:30:00 | 2023-12-01 10:10:02 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-07-19 04:00:00 | 2003-09-04 18:30:00 | 2023-12-01 10:08:27 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-06-23 03:30:00 | 2003-07-02 20:00:00 | 2023-12-01 10:06:25 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-06-14 03:30:00 | 2003-06-20 18:30:00 | 2023-12-01 10:05:16 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-06-10 03:30:00 | 2003-06-10 20:30:00 | 2023-12-01 10:04:23 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-05-22 04:00:00 | 2003-05-22 20:00:00 | 2023-12-01 10:03:19 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-01-13 07:30:00 | 2003-01-27 16:30:00 | 2023-12-01 09:58:02 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 60:00.‌ End offset: 60:00.‌ | 2003-01-11 07:00:00 | 2003-01-12 16:00:00 | 2023-12-01 09:57:26 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-01-10 07:30:00 | 2003-01-10 16:30:00 | 2023-12-01 09:57:01 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-11-22 07:30:00 | 2002-12-02 16:00:00 | 2023-12-01 09:55:18 |
+| Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-10-31 07:00:00 | 2002-11-10 16:30:00 | 2023-12-01 09:54:16 |
 
 **Additional Quality Control Checks**
 
