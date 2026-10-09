@@ -6,6 +6,7 @@
 - [Meteorology – Solar Radiation – Information Sheet](#meteorology--solar-radiation--information-sheet)
   - [Contents](#contents)
   - [General information](#general-information)
+    - [Datasets](#datasets)
     - [Considerations and Applications](#considerations-and-applications)
   - [Methods](#methods)
     - [Site Location](#site-location)
@@ -18,10 +19,12 @@
 
 ## General information
 
-There are four IISD-ELA solar radiation datasets:
+### Datasets
+
+There are **four** IISD-ELA solar radiation datasets:
 * **Bright sunshine** (rarely also called "sun hours" or "sunshine hours")
 * **Total solar radiation (TSR)**
-* **Photosynthetically Active Radiation (PAR)** — That is, PAR in the air at the meteorological station, vs. PAR profiles collected in lakes, which are part of our limnology datasets.
+* **Photosynthetically Active Radiation (PAR)** — That is, PAR in the air at the meteorological station, vs. PAR profiles collected in lakes, which are part of our limnology datasets. PAR is the wavelengths of light between 400 nm and 700 nm, which is used to determine the amount of solar radiation that is useable by plants and algae for photosynthesis.
 * **UV A B (Ultraviolet A & B)**
 
 ### Considerations and Applications
@@ -69,6 +72,8 @@ DMS Coordinates:
 
 ### Instrumentation (current)
 
+This section describes only the *current* instrumentation for these datasets. For *historical* instrumentation info, see the next, separate, "historical data collection" section in this document.
+
 Solar radiation (in general, across all four datasets) is measured at the IISD-ELA metsite and recorded on a Campbell Scientific CR1000 datalogger. The data logger takes measurements every 5 seconds, calculates averages, and totalizes. Solar radiation is measured continuously year round, however snow buildup on the sensors may affect readings. Snow is cleaned off the sensors daily during the morning metsite check (~ 08:00 CST ± 1 hour).
 
 **PAR** is measured with a Licor quantum sensor (LI-190R) connected to the data logger via a 604 ohm millivolt adapter (2290) and is calibrated every two years by Licor.
@@ -107,38 +112,29 @@ There is no other historical method that was used prior to the current method. T
 
 **PAR**
 
-Over the years there have been several research groups/staff in charge of collecting the PAR data at the metsite, which has resulted in datasets collected with differing units, intervals, and sensors.
+Over the years there have been several changes in groups collecting PAR at the metsite which has resulted in datasets collected with differing units, intervals, and sensors...  
 
-Early metsite PAR data was managed by the ELA group called Primary Production and used a LICOR data logger, beginning on April 18, 1987. A Campbell Scientific 21X logger was installed at the metsite in January 1993 by Environment Canada. 
+Here is a summary table pulling together the information:  
 
-There is data gap in the master database (2005-12-08 to 2008-10-15). Scott H. suspects this may be due to the Primary Production group dissolving near the end of 2005. Maybe there wasn't a handover plan in place, so for about three years, it's possible no one realized the PAR data wasn't being collected. Maybe it wasn't until 2008-10-16 when HydroLiM began collecting PAR data again. Again, as of writing, Scott H. is attempting to find more infromation to back up this theory, but at the moment, it's the best explanation we have for the data gap.
+Metsite PAR data starts on 1973-04-15 and goes to present. Prior to 2008-10-16, it isn’t clear who collected the data or how it was collected. The available information about the collection periods is summarized below.  
 
-As of 2008-10-16 the PAR sensor has been on a CR1000 Campbell Scientific datalogger, and collected consistently at 15 min intervals, continuously (year-round, and during the night), with units of µmol/s/m². Since this setup, the data are more reliable, and there are no time shift issues.
+<!-- Used non-breaking hyphens (&#8209;) in dates below to prevent line breaks within dates in rendered Markdown tables. -->
+| Date range | Gear used | Team | Time interval collected | Issues / notes |
+| --- | --- | --- | --- | --- |
+| 1973&#8209;04&#8209;15 to 1982 | Unknown; a LICOR sensor paired with a LICOR datalogger is considered likely for the period before 2008&#8209;10&#8209;16. | Unknown | Unknown; the data appear to contain only a daily maximum. See details and diagrams below. | The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. See details and diagrams below. Also, PAR was collected only during daylight hours in open-water seasons. |
+| 1983 to 2005&#8209;12&#8209;07 | Unknown; a LICOR sensor paired with a LICOR datalogger is considered likely for the period before 2008&#8209;10&#8209;16. |  Unknwon and/or Primary Production group (some uncertainty, and a team-transfer date, if any, is unknown.) | Assumed to be 30&#8209;minute values starting in 1983. | The 30-minute interval is only inferred, from the daily plots, where values do not always rise and fall at a constant rate. PAR was collected only during daylight hours in open-water seasons. |
+| 2005&#8209;12&#8209;08 to 2008&#8209;10&#8209;15 | None | None | N/A | Scott Higgins believes, based on institutional knowledge and memory, that this gap is real (no data were collected). He believes the Primary Production group dissolved near the end of 2005, and there may not have been a handover plan or capacity to continue collecting PAR during the gap, until HydroLiM crew resumed later in 2008. |
+| 2008&#8209;10&#8209;16 to Present | PAR sensor connected to a CR1000 Campbell Scientific datalogger. | HydroLiM team | 15-minute intervals, continuously year-round, including at night; units are µmol/s/m². | Since this setup, data are more reliable, with no time-shift or unit issues. Still, the data are not immune to other issues (see quality control and corrections section below).|
 
-Prior to 2008-10-16, it isn’t clear who collected the PAR data, and how it was collected. Likely a Licor sensor was used paired with a Licor datalogger. PAR data starts on 1973-04-15 and was only collected during daylight hours during the open water seasons. From 1973 to 1982 it appears that perhaps only a maximum daily PAR value was recorded and the data are fitted equally on each side of the daily maximum, as each day has uniform raise and fall but with differences in peaks between days:
+From 1973 to 1982 it appears that perhaps only a maximum daily PAR value was recorded and the data are fitted equally on each side of the daily maximum, as each day has uniform raise and fall but with differences in peaks between days:  
 
 <img src="./attachments/media/image1.png" style="width:7.08333in;height:3.66667in" />
 
-Starting in 1983, it appears that there are true 30min values since the daily plot of the values is not always raising and falling at a constant rate:
+Starting in 1983, it appears that there are true 30min values since the daily plot of the values is not always raising and falling at a constant rate:  
 
 <img src="./attachments/media/image2.png" style="width:7.08333in;height:2.80208in" />
 
-It is assumed that the 30 min data starts in 1983 as the peaks are no longer uniform and prior to this, the data are only daily maximums.
-
-
-**Archived PAR data**
-
-Additional historical solar/PAR data remain in the legacy `ela4` database, primarily in the `solar_data`, `solar_par`, and `solar_par_30` tables. These include historical dataset codes and collection methods that are no longer represented in the current database.
-
-A migration investigation was completed in August and September of 2026 to determine whether these records associated with the dataset code of M05, M06, and M08 should be migrated to the current master database. Much of the historical M05 data was found to already be represented in the master database. The primary remaining archive only datasets identified with dataset codes of M06 and M08 were found to be associated with RLAK (Rawson Lake).
-
-It was decided to not migrate M06 and M08 as their date ranges overlap periods already represented by M05 in the current database, and daily coverage analysis showed that most of the M06 and M08 period already contains M05 observations. They therefore do not recover any temporal gaps in the existing M05 record. 
-
-In addition, the historical context, instrumentation, units, and transformations required to make the archived M06/M08 measurements comparable with the current PAR data could not be established without significant amount of work. Relationships between values in the archived tables were identified, such as `solar_par` values being exactly 33.33 the PAR values of `solar_par_30`  but the rationale was not able to be confirmed. 
-
-The archived records have therefore been intentionally left in `ela4` rather than migrated. If these data are needed in the future, the 2026 Historical PAR Data Migration Investigation and historical Primary Production documentation should be reviewed before any additional work is performed. 
-
-
+It is assumed that the 30 min data starts in 1983 as the peaks are no longer uniform and prior to this, the data are only daily maximums.  
 
 **UV AB**
 
