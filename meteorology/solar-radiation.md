@@ -112,11 +112,7 @@ There is no other historical method that was used prior to the current method. T
 
 **PAR**
 
-Over the years there have been several changes in groups collecting PAR at the metsite which has resulted in datasets collected with differing units, intervals, and sensors...  
-
-Here is a summary table pulling together the information:  
-
-Metsite PAR data starts on 1973-04-15 and goes to present. Prior to 2008-10-16, it isn’t clear who collected the data or how it was collected. The available information about the collection periods is summarized below.  
+Over the years there have been several changes in groups collecting PAR at the metsite which has resulted in datasets collected with differing units, intervals, and sensors... The available information about the collection periods is summarized below.  
 
 <!-- Used non-breaking hyphens (&#8209;) in dates below to prevent line breaks within dates in rendered Markdown tables. -->
 | Date range | Gear used | Team | Time interval collected | Issues / notes |
