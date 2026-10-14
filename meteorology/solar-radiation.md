@@ -1,6 +1,6 @@
 # Meteorology – Solar Radiation – Information Sheet
 **Authors:** Ken Sandilands, Paul Fafard, Scott Higgins; Edited by Chris Hay and Idil Yaktubay  
-**Last Updated:**  2026-10-09 by chay-iisd-ela
+**Last Updated:**  2026-10-14 by chay-iisd-ela
 
 ## Contents
 - [Meteorology – Solar Radiation – Information Sheet](#meteorology--solar-radiation--information-sheet)
