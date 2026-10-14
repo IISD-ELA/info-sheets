@@ -1,5 +1,5 @@
 # Meteorology – Solar Radiation – Information Sheet
-**Authors:** Ken Sandilands, Paul Fafard; Edited by Chris Hay and Idil Yaktubay  
+**Authors:** Ken Sandilands, Paul Fafard, Scott Higgins; Edited by Chris Hay and Idil Yaktubay  
 **Last Updated:**  2026-10-09 by chay-iisd-ela
 
 ## Contents
@@ -114,12 +114,12 @@ There is no other historical method that was used prior to the current method. T
 Over the years there have been some changes in PAR collection methods. The available information is summarized below.  
 
 <!-- Used non-breaking hyphens (&#8209;) in dates below to prevent line breaks within dates in rendered Markdown tables. -->
-| Date range | Gear used | IISD-ELA Team | Time interval collected | Issues / notes |
-| --- | --- | --- | --- | --- |
-| 1973&#8209;04&#8209;15 to 1982 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | Primary Productivity | 30-minute intervals, but they seem to be interpolated based on only max values being actually measured (see figures below). | The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. See details and diagrams below. Also, PAR was collected only during daylight hours in open-water seasons. |
-| 1983 to 2005&#8209;12&#8209;07 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | Primary Productivity | 30-minute intervals; assumed to be true as opposed to interpolated (see figures below). | PAR was collected only during daylight hours in open-water seasons. |
-| 2005&#8209;12&#8209;08 to 2008&#8209;10&#8209;15 | None | None | N/A | There appears to be a data gap here due to the dissolving of the Primary Productivity program near the end of 2005. |
-| 2008&#8209;10&#8209;16 to Present | PAR sensor connected to a CR1000 Campbell Scientific datalogger. | HydroLiM team | 15-minute intervals, continuously year-round, including at night; units are µmol/s/m². | Since this setup, data are more reliable, with no time-shift or unit issues. Still, the data are not immune to other issues (see quality control and corrections section below).|
+| Date range | Gear used | Time interval collected | Issues / notes |
+| --- | --- | --- | --- |
+| 1973&#8209;04&#8209;15 to 1982 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | 30-minute intervals, but they seem to be interpolated based on only max values being actually measured (see figures below). | The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. See details and diagrams below. Also, PAR was collected only during daylight hours in open-water seasons. |
+| 1983 to 2005&#8209;12&#8209;07 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | 30-minute intervals; assumed to be true as opposed to interpolated (see figures below). | PAR was collected only during daylight hours in open-water seasons. |
+| 2005&#8209;12&#8209;08 to 2008&#8209;10&#8209;15 | None | N/A | There appears to be a data gap here due to the dissolving of the Primary Productivity program near the end of 2005. |
+| 2008&#8209;10&#8209;16 to Present | PAR sensor connected to a CR1000 Campbell Scientific datalogger. | 15-minute intervals, continuously year-round, including at night; units are µmol/s/m². | Since this setup, data are more reliable, with no time-shift or unit issues. Still, the data are not immune to other issues (see quality control and corrections section below).|
 
 From 1973 to 1982 it appears that perhaps only a maximum daily PAR value was recorded and the data are fitted equally on each side of the daily maximum, as each day has uniform raise and fall but with differences in peaks between days:  
 
