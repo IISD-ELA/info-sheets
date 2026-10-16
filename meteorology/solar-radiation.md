@@ -1,6 +1,6 @@
 # Meteorology – Solar Radiation – Information Sheet
 **Authors:** Ken Sandilands, Paul Fafard, Scott Higgins; Edited by Chris Hay and Idil Yaktubay  
-**Last Updated:**  2026-10-14 by chay-iisd-ela
+**Last Updated:**  2026-10-16 by chay-iisd-ela
 
 ## Contents
 - [Meteorology – Solar Radiation – Information Sheet](#meteorology--solar-radiation--information-sheet)
@@ -85,7 +85,7 @@ In this instance, sunshine hours is defined as when the current *global* radiati
 
 This modern method was used starting April 27, 2018, overlapping with the historical method (see below section) for comparison during the 2018 open water season, with the historical method being fully replaced with the modern method after that point.
 
-**UV AB** (ultraviolet A & B) is measured with an on-site UV sensor, however, details regarding the specific gear or logger used to collect UV AB data are currently unavailable and will be added once provided by the IISD-ELA Hydrolim team.
+**UV AB** (ultraviolet A & B) is measured with an on-site UV sensor installed July 2023, however, details regarding the specific gear or logger used to collect UV AB data are currently unavailable and will be added once provided by the IISD-ELA HydroLiM team.
 
 ### Historical Data Collection
 
@@ -107,17 +107,18 @@ This instrument is a duration sunshine recorder only and provides no information
 
 **Total Solar Radiation**
 
-There is no other historical method that was used prior to the current method. Total Solar Radiation data start on 2012-11-09 with the modern method and there are no records prior to this date.
+As of writing, no historical solar radiation data (prior to 2012-11-09) is readily available in our internal database or public repositories, but data records may be added in future.
 
 **PAR**
 
-Over the years there have been some changes in PAR collection methods. The available information is summarized below.  
+Over the years there have been some changes in PAR collection methods. The available information is summarized below. 
 
 <!-- Used non-breaking hyphens (&#8209;) in dates below to prevent line breaks within dates in rendered Markdown tables. -->
 | Date range | Gear used | Time interval collected | Issues / notes |
 | --- | --- | --- | --- |
-| 1973&#8209;04&#8209;15 to 1982 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | 30-minute intervals, but they seem to be interpolated based on only max values being actually measured (see figures below). | The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. See details and diagrams below. Also, PAR was collected only during daylight hours in open-water seasons. |
-| 1983 to 2005&#8209;12&#8209;07 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | 30-minute intervals; assumed to be true as opposed to interpolated (see figures below). | PAR was collected only during daylight hours in open-water seasons. |
+| 1969&#8209;06&#8209;20 to 1973&#8209;04&#8209;14 | An Eppley Precision Spectral *Pyranometer* (a net *pyrradiometer*) installed on the Rawson Lake tower (Chapil 1970). But a technical report by Reid et al. (1975) also confirms use of a *pyrheliometer* to measure total incident solar radiation on a continuous basis at the ELA meteorological site, for the 1969-1973 period. | Unknown | These data records are currently not readily available, but they may be in future. The "Rawson Lake tower" from Chapil 1970 is a tower on lake 239, different from the ELA metsite (but within a few hundred metres) mentioned by Reid et al. 1975. More research is needed summarize relevant details. |
+| 1973&#8209;04&#8209;15 to 1982 | Fee (1980) mentions an Eppley precision pyranometer for 1973-4 and Lambda quantum cell for 1975-6, with previous data calibrated with a quantum cell. | 30-minute intervals, but they seem to be interpolated based on only max values being actually measured (see figures below and issue notes to right). |  PAR was collected only during daylight hours in open-water seasons. The daily values appear to be fitted evenly on either side of the maximum, producing uniform rises and falls within each day but different peaks between days. Fee (1980) says: "Cloudless weather was simulated by fitting a truncated cosine curve to data from cloudless days recorded at ELA. Fee (1977) outlines the procedure." See also the diagrams below for a visual representation. |
+| 1983 to 2005&#8209;12&#8209;07 | LI-COR LI-1000 data logger with a flat-plate quantum sensor. | 30-minute intervals (true, as opposed to interpolated in the previous periods; see figures below). | PAR was collected only during daylight hours in open-water seasons. |
 | 2005&#8209;12&#8209;08 to 2008&#8209;10&#8209;15 | None | N/A | There appears to be a data gap here due to the dissolving of the Primary Productivity program near the end of 2005. |
 | 2008&#8209;10&#8209;16 to Present | PAR sensor connected to a CR1000 Campbell Scientific datalogger. | 15-minute intervals, continuously year-round, including at night; units are µmol/s/m². | Since this setup, data are more reliable, with no time-shift or unit issues. Still, the data are not immune to other issues (see quality control and corrections section below).|
 
@@ -133,13 +134,15 @@ It is assumed that the 30 min data starts in 1983 as the peaks are no longer uni
 
 **UV AB**
 
-There is no other historical method that was used prior to the current method. UV AB data start on 2023-07-14 with the modern method and there are no records prior to this date.
+Current UV AB data start on 2023-07-14 with the modern method. Earlier data records are not readily available at this time but may be in future.
 
 ### Quality Control and Corrections
 
 **Shading issue**
 
-An anemometer tower (to collect wind data) that was installed at the meteorological station late October 2020 was shading the solar sensors slightly each morning on clear days, for part of each year. This resulted in basically an artificial shadow, appearing as a recurring notch in the solar values. Typically this appeared March to September, to varying extends (depending on time of year and sun instensity) within 8:15 to 9:30 CST (a smaller, more specific range within that, depending on time of year).
+This section describes a shading issue that affected all solar datasets (bright sunshine, PAR, total solar radiation, and UV A B) and had to be manually corrected as best as possible.  
+
+An anemometer tower (to collect wind data) that was installed at the meteorological station late October 2020 was shading all the solar sensors slightly each morning on clear days, for part of each year. This resulted in basically an artificial cloud shadow, appearing as a recurring notch in the solar values. Typically this appeared March to September, to varying extends (depending on time of year and sun instensity) within 8:15 to 9:30 CST (a smaller, more specific range within that, depending on time of year).
 
 To resolve the issue, the tower was relocated on July 30, 2025 between 13:00 and 15:00 CST. The affected data records were corrected by removing them and replacing them with linear interpolated values. These can be identified by filtering for comments like "Linear interpolated value, due to accidental shadow over sensor."
 
@@ -163,6 +166,10 @@ Prior to 2008 there are parts of the data where it appears that there have been 
 | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2003-01-10 07:30:00 | 2003-01-10 16:30:00 | 2023-12-01 09:57:01 |
 | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-11-22 07:30:00 | 2002-12-02 16:00:00 | 2023-12-01 09:55:18 |
 | Correction | Override | Normal | Override: Clock Drift‌ Start offset: 30:00.‌ End offset: 30:00.‌ | 2002-10-31 07:00:00 | 2002-11-10 16:30:00 | 2023-12-01 09:54:16 |
+
+**UV A B gap in 2024/5**
+
+There is a data gap from July 2 2024 – May 1 2025 in the UV data. This is because there was a severe lightning storm that knocked the UV sensor senseless, so the UV sensor had to be sent out for repair.
 
 **Additional Quality Control Checks**
 
@@ -194,8 +201,22 @@ Total solar radiation, UV AB, and PAR data are quality-checked for flat-line beh
 
 ## References
 
+If you need help accessing any of the resources listed below, please contact us at eladata@iisd-ela.org.
+
+### Works Cited
+
+* Chapil, R. 1970. Instrumentation for Study of Energy Budget of Rawson Lake. Department of Energy, Mines and Resources, Inland Waters Branch, Technical Bulletin No. 34.
+* Fee, E. J. 1977. A computer program for estimating annual primary production in vertically stratified waterbodies with an incubator technique. Fish. Mar. Serv. Tech. Rep. 741: v + 38 p.
+* Fee, E. J. 1980. Important factors for estimating annual phytoplankton production in the Experimental Lakes Area. Can. J. Fish. Aquat. Sci. 37: 513-522.
+* Reid, R. A., D. W. Schindler, and R. V. Schmidt. 1975. Light Measurements in the Experimental Lakes Area, 1969-73. The 75th Technical Report from the Research and Development Directorate Freshwater Institute Winnipeg, Manitoba. Fish. Mar. Serv. Tech. Rep. 559: 167 pp.
+
+### Additional Resources
+
 Environment Canada public data for IISD Experimental Lakes Area (Rawson Lake (AUT)): [https://tinyurl.com/ELAmetsite](https://tinyurl.com/ELAmetsite)
 
 Sunshine – Manual of Standard Procedures For Obtaining Sunshine Data. January 1974. Environment Canada. Atmospheric Environment Service. U.D.C. 551.508.23
 
 Sunshine Hours – Campbell Scientific Shortcut help menu/ user manual.
+
+
+
